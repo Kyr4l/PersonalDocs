@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+  <bookData>
+    <dpi>300</dpi>
+    <bookId>ecomstation2.1</bookId>
+    <leafCount>6</leafCount>
+  </bookData>
+  <pageData>
+    <page leafNum="0">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+      <bookStart>true</bookStart>
+    </page>
+    <page leafNum="1">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+    </page>
+    <page leafNum="2">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+    </page>
+    <page leafNum="3">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+    </page>
+    <page leafNum="4">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+    </page>
+    <page leafNum="5">
+      <pageType>Normal</pageType>
+      <addToAccessFormats>true</addToAccessFormats>
+      <origWidth>4959</origWidth>
+      <origHeight>7017</origHeight>
+      <cropBox>
+        <x>0</x>
+        <y>0</y>
+        <w>4959</w>
+        <h>7017</h>
+      </cropBox>
+      <ppi>600</ppi>
+    </page>
+  </pageData>
+</book>

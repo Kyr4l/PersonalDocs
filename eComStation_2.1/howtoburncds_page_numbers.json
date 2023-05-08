@@ -1,0 +1,46 @@
+{
+    "pages": [
+        {
+            "leafNum": 1,
+            "pageNumber": "1",
+            "ocr_value": [
+                "5375"
+            ],
+            "confidence": 0
+        },
+        {
+            "leafNum": 2,
+            "pageNumber": "2",
+            "ocr_value": [
+                "i",
+                "CD"
+            ],
+            "confidence": 0
+        },
+        {
+            "leafNum": 3,
+            "pageNumber": "3",
+            "ocr_value": [
+                "2003",
+                "i"
+            ],
+            "confidence": 0
+        },
+        {
+            "leafNum": 4,
+            "pageNumber": "4",
+            "ocr_value": [
+                "cd"
+            ],
+            "confidence": 0
+        },
+        {
+            "leafNum": 5,
+            "pageNumber": "5",
+            "ocr_value": [],
+            "confidence": 0
+        }
+    ],
+    "identifier": "/var/tmp/autoclean/derive/ecomstation2.1/ecomstation 2.1/howtoburncds",
+    "confidence": 0
+}

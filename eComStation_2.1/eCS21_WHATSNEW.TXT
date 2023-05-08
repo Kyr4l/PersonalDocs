@@ -1,0 +1,1628 @@
+==== WHATSNEW for eComStation 2.1 GA Release, since eComStation 2.0 GA ====
+
+New Features:
+
+* Include AiR-BOOT (version 1.0.7 final) to allow installation of multiboot 
+  environments without sacrificing a primary partition (required for most 
+  Windows 7 preloads)
+* Updated ACPIWIZARD to handle APM aware mousedrivers
+* AHCI support, enables installation on AHCI only systems. AHCI controllers 
+  deliver considerably better performance than regular SATA controllers.
+* Added AHCI option to preboot menu (currently required to select manually)
+* Added BOOTDLY driver, which causes a 20 second boot delay so SCSI 
+  controller + disks can properly initialize. Driver is added by OS2CSM and 
+  HWMERGE when a SCSI driver is selected.
+* Replaced preboot disk integrity check with version that runs during the 
+  graphical installation routine. This provides more user interactivity and 
+  feedback. 
+* Updated kernel to 14.105, with fix to prevent PROCDUMP trap.
+* Updated blue/orange wallpapers
+* Updated boot logo
+
+Updated Applications:
+
+* Updated Firefox to version 4.0.1.
+* Add K option to Firefox/Thunderbird object so it will stay active when 
+  started
+* Add Exceptq v7.1 to BASEUTIL (improves traphandling in f.e. Firefox 4)
+* Add Firefox 3.5.3. to CD #2
+* Updated MINILVM to improve backwards compatibility; help updates.
+* Updated Archive Viewer to v2.1
+* Add p7zip and cpio to BASEUTIL (required for ArcView 7z and RPM file 
+  support).
+* Updated InstPDR to v1.11
+* Updated eCo Runtime to version 20101224
+* Updated USBDOCK to version 20110319
+* Updated NeoWPS * USB Widget to build version 2671
+* Updated NETWORK.EXE, MINSTPM.EXE and VIDWZRD.EXE to be eCS 2.1 aware.
+* Updated Lucide to version 1.3.3 GA. 
+* Updated EVFSGUI to version 2.1.1.565 + utils 3.0.37.565
+* Updated EVFSIFS to version 1.0.5.5
+* Updated EVFSPLUGIN to version 2.0.1
+* Updated eStyler to 1.1.93 (support eWP shutdown).
+* Updated LLAECS to 1.01.1002
+* Updated setboot.exe to Fsys version 1.07
+* Updated TIMESET to change default protocol to SNTP
+* Updated WarpIn in BASEUTIL to 1.0.19
+* Updated Workplace Sans fonts to v0.8 with embedded bitmaps
+* Updated DFsee engine to OEM version 10.7
+* Updated 4OS2 to version 3.06 (from 3.04h)
+* Updated GCC4CORE to 1.1.0 (now includes GCC452)
+* Updated preboot menu: autodetect when user supplies DANIS506 driver on 
+  floppy to add DANIATAP.FLT to generated config.sys
+* Updated DATASEEK to version 1.0.1
+* Updated DOSCALL1.DLL to match 14.105 kernel
+* Updated HARDERR.EXE to match kernel 14.105
+
+Updated / added drivers:
+
+* Added AHCI driver 1.12
+* Updated DANIS506.ADD to version 1.8.9. Now AHCI aware.
+* Updated ACPI 3.18 package to support kernel 14.105
+* Updated Uniaud to version 1.9.26
+* Updated e1000e and Nvidia driver to multimac version.
+* Updated hw database to new multimac realtek driver, add broadcom devices.
+* Updated 168c:1014 NIF file in genmac2.wpi - corrected device ID
+* Added detection for 8086:3B56 HDA audio chipset
+* Added detection of 14E4:167B Broadcom NIC (B57.OS2 driver)
+* Added detection of 8086:27DC Intel NIC (E100B.OS2 driver)
+* Removed Genmac support for 8086:104A and 8086:107C, install failed and 
+  chipsets are now covered by native Intel NIC driver.
+* Updated hardware detection database to support new Intel PRO/1000 PCIe 
+  Updated DFsee engine to OEM version 10.7
+* Updated PCIDEVS.TXT to ha_merged, 11 Oct 2010 08:16:43
+* Updated POINTDD.SYS to bldlevel 10.070
+* Updated LVM.DLL to version 20110111,
+* Added LOCK.EXE (from UDF package) to baseutil.
+* Updated UNLOCK.EXE to UDF-enabled version
+* Updated bootable JFS to 1.9.4, including helper and symbol files
+* Updated Bootable JFS files on CD to current 1.9.4 level (was at 1.0.7)
+* Updated OS2DASD.DMD and symbol files to 14.105 (was 14.096)
+* Updated Panorama driver VBE2GRAD.DLL to fix problems with VirtualBox.
+
+Bugfixes since eComStation 2.0 GA release:
+
+* 2500: [installer phase 1] Implement securit/2 interface in guidproc (block)
+* 2825: [other] Unable to install my Lotus Smart Suite 173 (block)
+* 2916: [installer phase 1] Genmac misses file (block)
+* 2873: [other] Genmac wrapper does not support wireless NIC (block)
+* 2874: [other] System sound sounds keep repeating... (block)
+* 2972: [installer phase 1] LVM.DLL in German contains wrong version... 
+        (block)
+* 2910: [installer phase 1] Install fails installing Genac 8086 104a NIC 
+        (crash)
+* 2593: [installer phase 3] ALSA sound driver hangs (crash)
+* 2485: [booting of CD] Dell Latitude D420 laptop hangs on MEMDISK boot... 
+        (crash)
+* 2917: [other] Krnl  trap e  with PROCDUMP ON (crash)
+* 1899: [migration from eCS 1.0 / 1.1 / 1.2] Renaming/Removing ""Previous 
+        Desktop"" after migration breaks eCenter (major)
+* 2799: [other] Digital dwnld dsk 3 installer ""invalid header"" 
+        OO0311-common.wpi, readme's not txt files (major)
+* 2812: [other] Panorama VESA drivers GA do not work in virtualbox 3.2 or 
+        3.0.12 (major)
+* 2788: [other] Problems with using Named Pipes (major)
+* 2919: [other] Copy link location in browser link destroys the address. 
+        (major)
+* 2819: [other] Register Online ??? (major)
+* 2651: [other] ThinkCentre S51 USB does not work (major)
+* 2844: [ACPI] USB issues (major)
+* 2939: [booting of CD] sys02068  PMWP specified on PROTSHELL on line 163 does 
+        not contain a valid program (major)
+* 2932: [Content] USBXHCD disable PS/2 mouse (major)
+* 2950: [other] Programs started with program object have messed up 
+        environment (major)
+* 2763: [Content] Need documentation for formatting large (>2GB) USB data 
+        sticks (major)
+* 1771: [migration from eCS 1.0 / 1.1 / 1.2] Start File & Print Client object 
+        corrupted in Startup Folder (minor)
+* 2095: [migration from eCS 1.0 / 1.1 / 1.2] Volume Manager object not created 
+        on migration from 1.2R to RC4 (minor)
+* 2311: [migration from eCS 1.0 / 1.1 / 1.2] eComCenter/WarpCenter doesn't 
+        come up on bootup after migration (minor)
+* 2586: [other] Supplied md5 not compatible with distributed md5sum.exe 
+        (minor)
+* 2821: [other] APM not installed on T42p although ACPI is deselected (minor)
+* 2852: [other] Netop Host OS/2 release v9.00 (2008093) same but public 
+        without private data (minor)
+* 2817: [other] Report on two eCS 2.0GA installs to a 4GB AMD X2 system with 
+        EIDE &SATA HDDs (minor)
+* 2854: [other] Atheros WLAN NIC detected, but drivers installed and 
+        protocol.ini do not match (minor)
+* 2857: [other] Wrong file size in folder message field on big files (GB) 
+        (minor)
+* 2871: [ACPI] Standard reboot and shut down do not work after installation of 
+        Uniaud 1.9.3/1.9.23 on T60 (minor)
+* 2890: [installer phase 1] Entering registration key problem (minor)
+* 2897: [other] NTFS driver deals wrong with read only drives... ? (minor)
+* 1800: [other] Apply ABIOS patch to OS2LDR (minor)
+* 2798: [ACPI] Native Intel driver exists, but installer suggests Genmac 
+        (minor)
+* 2928: [other] SYSTEM CLOCK NOT IN SYNC WITH THE WORLD (minor)
+* 2889: [other] Add broadcom NIC to hw detect (minor)
+* 2587: [other] DVD-UDF command-line utilities do not appear to be installed 
+        (minor)
+* 2924: [other] WPS problem: bracket in the name (minor)
+* 1675: [installer phase 1] Format dialog in installer not modal (NL) (minor)
+* 2828: [other] System sounds loop repeatedly (minor)
+* 1293: [other] Unregistered Class (minor)
+* 2454: [other] Unable to start Dos Window Session with Panorama on M3A78-CM 
+        Motherboard (minor)
+* 2900: [installer phase 1] Missing Vendor/ID for Intel 10/100MB driver 
+        (E100B.OS2) (tweak)
+* 2899: [installer phase 1] Add vendor/chipset ID's to database for hardware 
+        detection for the e1000e driver. (tweak)
+* 2673: [installer phase 1] Realtek 8139 chipset not detected on Medion laptop 
+        (tweak)
+* 2802: [other] Installation problematic (feature)
+* 2816: [other] No WLan driver installed (feature)
+* 2801: [other] sound not working (feature)
+* 2947: [other] 4os2 - Please use current version 3.06 instead 3.04H (feature)
+* 2977: [installer phase 1] Add detection... (feature)
+
+  6 resolved block bugs.
+  4 resolved crash bugs.
+ 12 resolved major bugs.
+ 22 resolved minor bugs.
+  3 resolved tweak bugs.
+  0 resolved text bugs.
+  0 resolved trivial bugs.
+  5 resolved feature bugs.
+
+Total of: 52 resolved bugs.
+
+Bugfixes since eComStation 1.2R GA release:
+
+== block bugs ==
+
+* 2874: [other] System sound sounds keep repeating... (block)
+* 2873: [other] Genmac wrapper does not support wireless NIC (block)
+* 2916: [installer phase 1] Genmac misses file (block)
+* 2825: [other] Unable to install my Lotus Smart Suite 173 (block)
+* 2730: [installer phase 1] Trap 0003 in OS2LVM when ignoring minilvm 
+        warning... (block)
+* 2500: [installer phase 1] Implement securit/2 interface in guidproc (block)
+* 2758: [booting of CD] Make the default NOT to check the hard disk integrity 
+        (block)
+* 2607: [booting of CD] Hard disk check reports CHS problem with 1,5 TB disk 
+        (block)
+* 2608: [other] eCS is incapable of removing existing disk info (block)
+* 1804: [other] Check licenses of GenMac driver (block)
+* 1217: [other] CVS repository contains incorrect debug kernel versions 
+        (block)
+* 2328: [other] JFS.IFS does not do full chkdsk if + is specified (block)
+* 2680: [other] JFS traps accessing the disk in DASD mode (block)
+* 1690: [other] TRAP in JFS after unplugging the USB MSD devices under certain 
+        conditions (block)
+* 2685: [other] JFS destroys disk LABEL when 19 or more drive letters are in 
+        use. (block)
+* 2398: [other] Selecting to format a volume from Drives object blocks the WPS 
+        (block)
+* 2729: [installer phase 1] PCISCAN.EXE chews up system CPU cycles.. (block)
+* 2630: [booting of CD] Installation is not completed (block)
+* 2568: [other] Silver release  COM-Port not working (block)
+* 2542: [installer phase 1] installation stops while executing hwmerge.cmd 
+        (block)
+* 2287: [ACPI] RC6: shutdown with power off over ACPI stop at ""Releasing 
+        filesystems..."" (block)
+* 2543: [installer phase 1] Installation of RC6a on T30 unsuccessfull (block)
+* 2510: [installer phase 1] Installer stops in phase 1 migrating from RC6a 
+        (block)
+* 1845: [other] Dumpformatter setup in \OS2\PDPSI\PMDF completely useless 
+        (block)
+* 2489: [booting of CD] ECS cannot read CD/DVD RW unit HL-DT-STDVD-RAM 
+        GH22NP20 (block)
+* 1606: [booting of CD] Trace files not match with kernel 104a... (block)
+* 2490: [other] Resetting to standard VGA with SET ENH_SUSPEND=2 in config.sys 
+        traps system... (block)
+* 1824: [other] Snap installation comes up with an invalid monitor mode when 
+        ending phase 3 migration install. (block)
+* 2354: [installer phase 1] Vista gets killed by installing eComStation. 
+        (block)
+* 2218: [installer phase 1] RC5 does not recognise working Vista/Bootit/Ubuntu 
+        partition layout (block)
+* 2465: [booting of CD] T23 with 700 MB crashes with a SYS147 (system out of 
+        resources) when running RSPINST.EXE. (block)
+* 2181: [booting of CD] Installation hang at copying to ramdisk (block)
+* 2031: [Content] USB must be deselect on CF-30 (block)
+* 2041: [other] RC4 - AMD9550, GigaByte GA-MA78GM-S2H (block)
+* 2030: [Content] ACPI blocks installation on CF-30 (block)
+* 2140: [other] The order of IFS drivers (block)
+* 2149: [installer phase 2] RC5 installer hangs when phase 2 starts (block)
+* 2182: [booting of CD] Switch kernel from _W4 to SMP.... 103a and 104a 
+        (block)
+* 2139: [ACPI] eComStation should use UNI or SMP kernel (block)
+* 2290: [installer phase 2] TCPIP Install Failed - Error code 29 (block)
+* 2185: [installer phase 3] Network issues on RC 5 (block)
+* 2202: [booting of CD] Booting from USB cdrom doesn't work (block)
+* 2023: [installer phase 2] Genmac gets copied to the wrong path. (block)
+* 1883: [other] Large SATA Drives cannot format large (180GB) volumes (block)
+* 2109: [installer phase 2] Genmac is installed incorrectly? (block)
+* 2216: [booting of CD] Integration of SMP kernel. (block)
+* 2226: [installer phase 1] RSPINST fails on SMP kernel on SOME Athlon 64 
+        machines and in VMware... (block)
+* 2094: [Content] The program cmd.exe returned the error value 299 (block)
+* 2205: [installer phase 3] Feedback Wizzard is a joke ! (block)
+* 2130: [migration from eCS 1.0 / 1.1 / 1.2] Migration does not work (block)
+* 2099: [installer phase 2] phase 2 loop (block)
+* 2152: [migration from eCS 1.0 / 1.1 / 1.2] Migration from 1.1 HPFS or 2.0B1 
+        both fail. (block)
+* 1966: [installer phase 1] Invalid disk layout, not fixed by disk integrity 
+        check (block)
+* 1894: [installer phase 2] Phase 3 bootup crash (block)
+* 1689: [installer phase 2] TRAP on boot after step 2 when no serial ports 
+        exist (again with RC3) (block)
+* 1651: [installer phase 2] TRAP on boot after step 2 when no serial ports 
+        exist (block)
+* 2022: [installer phase 2] Add ecs\install\WARPIN\install.log to log ZIP file 
+        of installation... (block)
+* 2006: [other] zip.exe included in RC4 is defect (block)
+* 1997: [other] TCP/IP configuration blows up... (block)
+* 1994: [other] Xwlan widget blocks WPS almost complete because of popup... 
+        (block)
+* 1965: [booting of CD] ACPI crashes if selected (block)
+* 1932: [other] NTFS.IFS in CONFIG.SYS (block)
+* 1426: [installer phase 2] Boot after completed phase 1 stops (block)
+* 1569: [other] When plugging the machine into its docking station, it traps 
+        on boot (RC1) (block)
+* 1318: [installer phase 3] Trap 0008 (block)
+* 1748: [booting of CD] Boot stops at point when Snap Device Helper Device is 
+        loaded (block)
+* 1773: [installer phase 2] While migrating from RC1, installer halts at 
+        ""Installing kLIBC Configurator"" (block)
+* 1826: [installer phase 1] Nforce4 NIC not detected (block)
+* 1792: [booting of CD] Unable to boot V20 RC3 iso CD (block)
+* 1572: [installer phase 1] SEINST install failed (block)
+* 1610: [installer phase 1] trap 5 in early stages of installation under VPC 
+        (block)
+* 1659: [booting of CD] Experimential features (block)
+* 1436: [installer phase 2] Phase 1 completes but booting to phase 2 stops 
+        after Snap splash screen (block)
+* 1580: [other] changing video drivers results in an unstartable system 
+        (block)
+* 1427: [booting of CD] Unicode error when before graphic installation of eCS 
+        2.0 beta 3A (block)
+* 1722: [installer phase 2] Trap 000e ThinkPad R61 (block)
+* 1724: [installer phase 1] Due to HW detection order Wireless is put on lan0 
+        (block)
+* 1641: [installer phase 1] Dual Core CPU installs W4 Kernel with ""/SMP"" 
+        option in ACPI.PSD. Result: stop at bootlogo. (block)
+* 1693: [installer phase 2] eCS 2.0 rc3 hangs loading drivers at phase2 
+        (block)
+* 1601: [installer phase 1] RC2 Installer puts ACPI /SMP on MB's with Nvida 3 
+        and  single core CPU's (block)
+* 1658: [other] Theme color for eCS (block)
+* 1554: [installer phase 2] Unable to operate drive message (block)
+* 1449: [installer phase 1] eCS 2.0 Beta3a - Advanced install hangs with 
+        SEINST (returncode: 0x1604) (block)
+* 1316: [installer phase 1] Installing eCS 2.0 over Warp 4 in JFS (block)
+* 1510: [booting of CD] Installation stops before first graphics screen 
+        (block)
+* 1608: [booting of CD] eCS2.0 rc2 stops after showing eCS logo/splash screen 
+        with error message (block)
+* 1323: [other] Battery Power Widget and Power object no longer function 
+        (block)
+* 1395: [installer phase 1] LVMI extremely weak (block)
+* 2972: [installer phase 1] LVM.DLL in German contains wrong version... 
+        (block)
+ 89 resolved block bugs.
+
+== crash bugs ==
+
+* 2917: [other] Krnl  trap e  with PROCDUMP ON (crash)
+* 2593: [installer phase 3] ALSA sound driver hangs (crash)
+* 2485: [booting of CD] Dell Latitude D420 laptop hangs on MEMDISK boot... 
+        (crash)
+* 2910: [installer phase 1] Install fails installing Genac 8086 104a NIC 
+        (crash)
+* 1992: [booting of CD] Disc fingerprint (crash)
+* 1524: [other] JFS Autocheck +* results in machine not booting to WPS (crash)
+* 2775: [other] Trap in JFS while using pmmail - possible CAD related (crash)
+* 2468: [other] FileCommander, Eject Flash disk => system trap (crash)
+* 2750: [other] MiniFSD (OS2BOOT) for JFS TRAPS when pressing CAD (crash)
+* 2652: [booting of CD] Exception in module GRADD when booting from eCS Silver 
+        CD (crash)
+* 2731: [installer phase 2] Firefox 3.5xx crashes on quicktime plugin (crash)
+* 1892: [other] Update the ecs provided OS/2 toolkit (crash)
+* 2697: [migration from eCS 1.0 / 1.1 / 1.2] Instpdr.exe is not the latest 
+        available version in eCS2.0rc7 (crash)
+* 2653: [migration from OS/2] migrate.cmd error attempting to remove sound 
+        (crash)
+* 2578: [other] Trap in UNIAUD16 in VirtualBox (crash)
+* 2574: [installer phase 2] Install failure with error code 29 (crash)
+* 2555: [ACPI] eCS 2.0 crashes after booting (crash)
+* 2270: [other] System rarely traps on shutdown (crash)
+* 2271: [other] Installation crash (crash)
+* 2349: [ACPI] Using the ACPI Wizard causes the machine to hang when rebooted 
+        (crash)
+* 2433: [other] Trap D (crash)
+* 2245: [booting of CD] Start using EARLYMEMINIT=TRUE when ACPI is loaded. 
+        (crash)
+* 2410: [Content] Can not re-install any eCS (1.2R, 2.0 RC4,5) (crash)
+* 2239: [installer phase 3] ACPI wizard should set SMP switch with AMOUSE 
+        (crash)
+* 1916: [other] Trap on boot with SMP and JFS to boot disk (crash)
+* 2353: [other] PC Locks up. (crash)
+* 2308: [installer phase 1] Booting from USB CD-ROM results in trap 000D 
+        SDDHELP (crash)
+* 2250: [installer phase 1] ECS 20RC5 RESOURCE.SYS crashes with VirtualBox 
+        memdisk error during install (crash)
+* 2366: [other] OOo3.1.0.beta spell check crashes Open Office (crash)
+* 1709: [booting of CD] Installing eCS 2.0 RC3 on Dell Inspiron 9400: OS/2 !! 
+        SYS01720 (crash)
+* 2249: [booting of CD] SMP/DBCS NLS install CD crashes during PM 
+        initialization (crash)
+* 1710: [booting of CD] Systems crashes with 4 GB of RAM (crash)
+* 2240: [booting of CD] Sticky flags not correct! (crash)
+* 2061: [booting of CD] Add an option to boot with 0 bytes os2logo (crash)
+* 2219: [other] BackAgain II freezes machine on reading a particular OOo 
+        directory - even TOP won't run! (crash)
+* 1945: [other] TRAP 000E under heavy network load (crash)
+* 1376: [other] APCI fails to boot on Dell Optiplex GX620 (crash)
+* 1843: [installer phase 1] Trap 3 at end of phase 1 install (crash)
+* 1913: [other] two issues: hangs during installation and finnaly unable to 
+        operate the disk (crash)
+* 2159: [other] trying to use usb audio on intel quad motherboar with nvida 
+        chipset (crash)
+* 2025: [other] ACPI wizard must warn when none SMP kernel is installed and 
+        people specifiy /SMP is used. (crash)
+* 1982: [other] TRAP in resource.sys (crash)
+* 2045: [other] Unable to operate Hard Disk after install and boot of eCS 1.2 
+        (crash)
+* 1973: [other] can't boot after installation (crash)
+* 1838: [ACPI] eCS 2.0 RC4 - ACPI v3.05 - Crash with SMP on Athlon64 X2 3800+ 
+        (crash)
+* 1940: [other] Crash with FAT 32 IFS and USB removeable devices, need updated 
+        FAT32 IFS (crash)
+* 1850: [other] install printer freezes system (crash)
+* 1914: [other] Thinkpad T30 traps after suspend/resume (crash)
+* 1942: [other] Crash with SMP enabled (crash)
+* 1876: [other] Enbedded devices (crash)
+* 1884: [other] IBMCOM/MACS Flooded (crash)
+* 1548: [other] ecs 2.0 rc1 crash (crash)
+* 1324: [installer phase 1] Inicial phase of installation (ECS 2 beta 2) 
+        freezes (crash)
+* 1869: [Content] ecs 2.0rc4 crashes (extendfs.exe) (crash)
+* 1888: [other] Innotek Font Engine (crash)
+* 1711: [installer phase 1] System crashes without /!BIOS (crash)
+* 1752: [installer phase 1] Trap E in OS2KRNL on starting install (crash)
+* 1551: [booting of CD] eCS 2.0 RC1 traps on TP T20 (crash)
+* 1599: [other] eCS 2.0 RC2 - ACPI, SMP Kernel, Dell 1400 SC Dual Intel Xeon - 
+        eCS Traps after splash screen disappear (crash)
+* 1571: [migration from eCS 1.0 / 1.1 / 1.2] Trap 0008 during initial install 
+        (crash)
+* 1780: [other] System freezes on focus change (crash)
+* 1685: [other] Network reconf no longer works (crash)
+* 1795: [other] Selective installer for networking destroys system (crash)
+* 1202: [installer phase 1] JFS won't install (crash)
+* 1542: [other] Beta4: Unstable on HP Omnibook (crash)
+* 1366: [installer phase 2] Phase 2 boot stops with os2dasd.dmd ecs 2 beta m2 
+        (crash)
+* 1688: [booting of CD] Install eCS 2.0 RC 3 in Virtual PC (crash)
+* 1602: [installer phase 2] SMP detection in RC 2 finds SMP CPU in phase 1 
+        while _W4 kernel in installed (crash)
+* 1581: [booting of CD] system trapped with 0008 (crash)
+* 1478: [installer phase 2] eCS 2.0 Beta 4 - ACPI, SMP Kernel, Athlon64 X2 - 
+        eCS hangs on first reboot (crash)
+* 1224: [other] Escape GL leaks memory (crash)
+* 1448: [other] eCS 2.0 Beta3a - LVM GUI in advanced install will crash/hang 
+        if you press the 'numlock' key (crash)
+* 1405: [installer phase 1] Unable to install ecs beta2 milestone2 (crash)
+* 1479: [other] eCS 2.0 Beta 4 - EPM missing (crash)
+ 74 resolved crash bugs.
+
+== major bugs ==
+
+* 2950: [other] Programs started with program object have messed up 
+        environment (major)
+* 2932: [Content] USBXHCD disable PS/2 mouse (major)
+* 2939: [booting of CD] sys02068  PMWP specified on PROTSHELL on line 163 does 
+        not contain a valid program (major)
+* 2651: [other] ThinkCentre S51 USB does not work (major)
+* 2844: [ACPI] USB issues (major)
+* 2819: [other] Register Online ??? (major)
+* 2919: [other] Copy link location in browser link destroys the address. 
+        (major)
+* 2788: [other] Problems with using Named Pipes (major)
+* 2812: [other] Panorama VESA drivers GA do not work in virtualbox 3.2 or 
+        3.0.12 (major)
+* 2799: [other] Digital dwnld dsk 3 installer ""invalid header"" 
+        OO0311-common.wpi, readme's not txt files (major)
+* 1899: [migration from eCS 1.0 / 1.1 / 1.2] Renaming/Removing ""Previous 
+        Desktop"" after migration breaks eCenter (major)
+* 1671: [booting of CD] Text in README.TXT of Boot2 menu isn't correct (major)
+* 2190: [installer phase 1] LVM error on 1000GB harddisk (major)
+* 2261: [other] Repository contains broken df_ret.exe for 14.103a retailw4 
+        (major)
+* 2596: [other] Problem with LLAeCS (major)
+* 2107: [other] Requester does not start (major)
+* 2399: [other] JFS (Long) format takes too long time (major)
+* 2306: [Content] eCS 2.0 RC6a detects 0 cpus on a dual Opteron Tyan S2895 
+        board (major)
+* 2582: [other] Very bad video graphic performance. (major)
+* 2301: [other] pmformat cannot UDF format rewriteable discs (major)
+* 2738: [other] Format dialog has JFS radio button disabled (major)
+* 2267: [installer phase 2] FIBASE install failed (eComStation 2.0 Japanese 
+        Preview) (major)
+* 2713: [booting of CD] PMFOMAT no HPFS formatting possible in 2.0 NL-SE 
+        (major)
+* 2722: [other] No NIC Support on Thinkpad T60 (major)
+* 2720: [other] DOS support does not work on RC7 with Intel L440GX+ system 
+        (major)
+* 2727: [installer phase 1] installation hangs ""merging additional driver 
+        selections"" (major)
+* 2602: [installer phase 1] Says: ""Merging Additional Driver Selections"" and 
+        just stays there  -- forever. (major)
+* 1656: [booting of CD] SCSI not detected in preboot (major)
+* 2622: [other] Video Driver Wizard fails to finish the job (major)
+* 2480: [booting of CD] Expand LIBPATH to make it include paths with drive 
+        letters (major)
+* 2690: [other] ecs 2.0 rc7 hangs on bootlogo (major)
+* 2684: [ACPI] Problem with DOS (major)
+* 2597: [installer phase 1] Hangs right after (major)
+* 2014: [other] USB drives not working after install (major)
+* 2683: [other] No Internet when Virtual Switch of VirtualPC 5.1 is installed 
+        (major)
+* 2631: [installer phase 3] eCs Silver runs well after install but..... 
+        (major)
+* 2603: [installer phase 3] VMOUSE MISSING - MOUSE NOT WORKING IN WINOS2 
+        (major)
+* 2627: [installer phase 1] Error! Since you did not format the installation 
+        harddrive... (major)
+* 2675: [ACPI] Installing RC7 without ACPI does not install APM either (major)
+* 2231: [Content] German specific characters are not printed (major)
+* 2674: [other] unable to use mouse in WinOS2 window or full screen (major)
+* 2164: [other] Icon creep is back. (major)
+* 2560: [other] old pcmcia drivers (major)
+* 1928: [other] Cardbus system is not supported. (major)
+* 2640: [other] DOS properties incorrect or missing from properties notebook 
+        (major)
+* 2275: [other] ecs can't open network ports during the booting after exit 
+        from Win-xp (major)
+* 2441: [installer phase 1] os2cdrom.dmd fails to load prior to phase 1 
+        (major)
+* 2475: [other] Screen gets black due to some networking conflict...or? 
+        (major)
+* 2034: [Content] Logical partition FAT16, not recognised after installation 
+        (major)
+* 2558: [other] DOS and Win16 Sessions Properties messed up, probably causes 
+        also no Mouse actions in either type session (major)
+* 2585: [other] Wireless monitor does not configure IP interface (major)
+* 2288: [other] Can't listen mp3 over network (major)
+* 2533: [other] ICON creep is still there! (major)
+* 2534: [ACPI] ACPI docs? (major)
+* 2412: [installer phase 2] ethernet and wireless not detected when install to 
+        Lenovo ThinkPad W500 (major)
+* 2253: [other] After booting 1.2R, RC3 & RC5 fail to boot until RC2 has been 
+        booted (major)
+* 2434: [other] USB Printer Installation (major)
+* 2317: [migration from eCS 1.0 / 1.1 / 1.2] Trap at beginning of installation 
+        phase 3 (major)
+* 2342: [migration from OS/2] Installing eCS 2.0 RC6a over Warp 4 in JFS 
+        (major)
+* 2497: [other] shutdown does not complete - without eWorkplace (major)
+* 1552: [installer phase 1] SCSI Driver selection during Install phase I 
+        (major)
+* 1387: [booting of CD] USB mass storage devices do not work when PCMCIA 
+        support is loaded (major)
+* 1785: [booting of CD] CPQCISS.ADD drivers is required to be first .ADD 
+        driver in config.sys (major)
+* 2491: [installer phase 1] rogue C: drive causing Install Phase 1 to fail 
+        with 0x1 error (major)
+* 2151: [Content] ACPI Wizard (eCS 2.0 RC5) doesn't complete all tasks (major)
+* 1820: [ACPI] ACPI wizzard doesn't do was it shows (major)
+* 2204: [installer phase 3] Can't install a printer (major)
+* 2082: [booting of CD] LSI/Symbios 320 SCSI driver is not present (major)
+* 2382: [other] EPM crashes after a while if two instances are running. 
+        (major)
+* 1828: [other] Maintenance Desktop Unuseable. (major)
+* 1782: [installer phase 1] Is there a 500G limit on HDD size? (major)
+* 2408: [other] TZ data still needs fixing (major)
+* 1734: [installer phase 1] eCS 2.0 RC3 - DOS drivers installed even when 
+        DOS/Win-OS/2 has been deselected (Advanced install) (major)
+* 2134: [booting of CD] Installation on Windows (XP) VPC 2007SP1 fails (major)
+* 2116: [ACPI] with ""power off option"" selected TP42P system freezes at 
+        ""releasing files"".... and>>>> (major)
+* 2318: [installer phase 1] SMP kernel is installed even when ACPI is not 
+        (major)
+* 2184: [other] Virtual VPC blocks requester on RC 5 (major)
+* 2276: [installer phase 3] eCS 2.0 RC6: Respect EARLYMEMINIT setting of the 
+        installer (major)
+* 2457: [migration from eCS 1.0 / 1.1 / 1.2] USB function does not work 
+        totally (major)
+* 2195: [other] XWireless LAN Monitor - signal drops out when accessing 
+        network (major)
+* 2117: [other] Seamonkey crashes when reading mail/newsgroups (major)
+* 2443: [other] PEER/LAN blocks for login on login failure (major)
+* 2229: [installer phase 2] Installation CD drive not recognized after phase 2 
+        (major)
+* 2387: [booting of CD] Cannot install (major)
+* 2348: [other] Shutdown fails to Power Off or display message indicating that 
+        it is safe to do so (major)
+* 2381: [other] APL2 unable to allocate workspace of 256MB with over 700MB 
+        free after system has been up for a while (major)
+* 2396: [ACPI] ACPI hangs at start of phase two of install. (major)
+* 2395: [installer phase 1] Phase 1 aborts with code 0x3; description reads 
+        HWMERGE install failed (major)
+* 2419: [installer phase 2] Deselecting TCP/IP protocol on network 
+        installation leads to abortion of install phase 2 (major)
+* 2411: [installer phase 1] Regression in guidproc instvols.dll results in 
+        rspinst error 906 (major)
+* 2404: [installer phase 2] Bug in install script stops install (major)
+* 1794: [installer phase 1] Install failure Similar to ticket 1294 (major)
+* 2373: [other] Installed OS recogises USB Flash Drive and assigns Letter but 
+        unable to ready from Flash Drive. (major)
+* 2378: [booting of CD] MAKEDISK fails from RC6a CD (major)
+* 2201: [booting of CD] Selecting ""edit config.sys"" in preboot menu prevents 
+        ALT-F2/F4 from working (major)
+* 2347: [other] Update WarpIn to version 1.0.18 (major)
+* 2346: [other] Lack of audio support due to no HDA alternative (major)
+* 2337: [ACPI] Installing ACPI breaks USB (major)
+* 1787: [other] Not possible to select paper layout with LaserJet driver 
+        version 30.827 (major)
+* 2320: [other] USBRESMGR.SYS not in config.sys file (major)
+* 2257: [other] eWP Reboot hangs on Command Windows (i.e. cannot close unless 
+        'skip') (major)
+* 1870: [other] SUBSTP utility no longer works (major)
+* 2010: [Content] Realtek Ethernet Driver fails installing: ""No PCI BIOS 
+        system detected"" (major)
+* 2235: [ACPI] RC2 with ACPI3.11 - DOS/WinOS2 do not work anymore (okay with 
+        3.10) (major)
+* 2093: [other] Strange behavior when huge cache assigned to JFS (major)
+* 2220: [ACPI] Unable to access COM Ports (major)
+* 2115: [installer phase 2] loop starting pmshell.exe on virtual PC (major)
+* 2120: [booting of CD] Boot of installation CD hangs at pcibus.snp (major)
+* 1568: [installer phase 1] System hangs after first stage install (RC1) 
+        (major)
+* 2089: [installer phase 2] Installer Phase 2 startup.cmd error 25? (major)
+* 2142: [installer phase 2] Fail to boot when using JFS boot partition (major)
+* 1697: [installer phase 1] RC3 fails after ""Enter Registration"" before 
+        install (major)
+* 1898: [other] PVCS hangs desktop when run from drive that was mounted with 
+        samba client to network share (major)
+* 2110: [installer phase 1] Installation fails on ABIT IP35 Pro fails (major)
+* 1527: [other] eStyler shutdown erroneously switches to ACPI mode (major)
+* 2113: [installer phase 2] Hangs phase 2 (major)
+* 1938: [installer phase 1] When booting the disc checker reports no problems, 
+        minilvm reports a corrupted partition table. (major)
+* 2272: [other] No support for high end Oki Multifunction Machine (major)
+* 2247: [other] Update artwork for RC6 (major)
+* 1559: [other] Installation of Sound Blaster 16 does not work in VPC (major)
+* 2125: [other] Wrong version of Sound Card driver installed/shipped with eCS 
+        (major)
+* 2262: [installer phase 1] Modify load order of USB host drivers in HWMERGE 
+        (major)
+* 1968: [installer phase 2] Phase 2 does not start with more than 2GB of RAM 
+        (major)
+* 2156: [installer phase 1] Genmac installs incorrectly on T42 (major)
+* 2119: [other] Serial port support installed (major)
+* 1563: [installer phase 1] (eCS 2.0 RC1) USB key seems empty? (major)
+* 2173: [other] GenMAC/XWLAN does not work with non-SMP kernel installed for 
+        Thinkpad T30 (and possibly others) (major)
+* 1702: [installer phase 3] ecs 2.0 it_it rc3: acpi wizard does not install 
+        SMP kernel for Dell notebooks (major)
+* 2170: [installer phase 3] RC5 install installs AMOUSE even when this is 
+        DE-SELECTED from the install. (major)
+* 2063: [installer phase 1] hwmerge should be checked for copy order of files 
+        from memdisc to hard disc. (major)
+* 2078: [ACPI] RC5 on Thinkpad T43 will not power off (major)
+* 2081: [installer phase 2] Invalid order in PATH (major)
+* 1817: [other] Clean up root / (major)
+* 1575: [other] eCS 2.0rc1 - Loosing network connection (peer) to WinXP and 
+        eCS 1.2 computer (major)
+* 1864: [other] EVFS (Samba) appears to corrupt filenames when reading (major)
+* 2112: [other] ESAMBAC.WPI Some Samba client files are outdated (major)
+* 2230: [ACPI] several (probably) ACPI relates problems on an Dell Latitude 
+        D530 (major)
+* 2210: [other] LVM14105 update NOT merged with RC5 installation media (major)
+* 1362: [other] Newer USB mice fail to track properly with USB mouse driver 
+        (major)
+* 1854: [booting of CD] eCS20RC4 runs very slowly with CD and DVD attached 
+        (major)
+* 2137: [other] Network connections die when system warning beeps (major)
+* 2098: [installer phase 1] Can't find OS/2 desktop (major)
+* 2091: [other] ithemes appears to be broke (major)
+* 1812: [installer phase 2] Hangs at boot logo - RC4 (major)
+* 2188: [other] No sound (major)
+* 2169: [installer phase 2] Installer does NOT crate Network Object (major)
+* 2132: [other] High cpu usage from ssesctl.exe with SMP (major)
+* 2189: [ACPI] No PowerOff at Shutdown (major)
+* 2191: [installer phase 3] Installer hangs booting phase 3 (major)
+* 1652: [other] Added a ITB Drive to system and miniLVM doesn't see it (major)
+* 2178: [installer phase 2] The uniaud driver fails to install when selected; 
+        seletive install fails also (major)
+* 2087: [installer phase 1] Uniaud is not installed because of source error 
+        (major)
+* 2167: [other] CFCHECK.EXE may corrupt SET PATH= statement in CONFIG.SYS 
+        (major)
+* 2012: [other] mouse doe not work after install (major)
+* 2123: [other] Objects stay cross-hatched even when the app is closed (major)
+* 2124: [other] Firefox hangs when opening ""Options"" or ""downloads"" 
+        (major)
+* 2118: [other] DOS - it should not be installed (major)
+* 2114: [installer phase 1] install does not include netbios protocol on 
+        virtual PC (major)
+* 2070: [other] RC5 (eDG version): message files not found (major)
+* 1375: [installer phase 2] Failed TCP/IP install due to 4Gb free space bug 
+        (major)
+* 2055: [other] Don't integrate eCoSoft dlls to other packages (major)
+* 1719: [installer phase 3] Trap D in MOUSE$ using AMouse (major)
+* 1844: [other] Selecting wrong driver for NIC (major)
+* 1917: [installer phase 1] Intel 82566MM (PCI ID 8086:1049) not detected 
+        (major)
+* 1891: [installer phase 1] nForce5 NIC not recognised by the installer 
+        (major)
+* 1763: [installer phase 1] Text on NetWare Settings page is completely 
+        incorrect (refers to PEER settings); only two settings available (major)
+* 2024: [other] open office needs a running netwok (major)
+* 2007: [installer phase 1] Continued: Wrong time zone data (after updates) 
+        (major)
+* 2000: [other] eWPS Trash Can strange behavious (major)
+* 1632: [other] Can't open pm windows after running for a period of time. 
+        (major)
+* 1964: [booting of CD] Unable to boot CD (major)
+* 1918: [installer phase 2] Default NET.CFG created in root of boot volume 
+        contains incorrect entries (major)
+* 1958: [other] The Internet Assistant and eCSCoNet don't work with 
+        RTL8139.nif (major)
+* 1827: [installer phase 2] Reboot from phase 1 to phase 2 always reboots to 
+        wrong partition (major)
+* 1730: [booting of CD] CD won't  boot installer with acpi activated and if 
+        disabled, program immediately asks for install cd (major)
+* 1518: [booting of CD] System Hangs on Boot Logo (major)
+* 1954: [installer phase 1] installation problem with SATA DVD (major)
+* 1971: [other] Mouse driver (major)
+* 1696: [installer phase 3] eCS 2.0 rc3 protocol.ini invalid during final boot 
+        (major)
+* 1967: [installer phase 1] At Phase 1, if you try and Alt-F1, F2 to get a 
+        command prompt, ibm1s506.add is used instead of danis506 (major)
+* 1111: [installer phase 1] Disk MBR rewritten, causing loss of alternate boot 
+        manager (major)
+* 1849: [other] DOS Session Window (major)
+* 1924: [other] Power off not completed (major)
+* 1974: [other] a usb falsh disk can be identified but can't be accessed 
+        (major)
+* 1907: [other] evfsgui.exe currently not NLS ready (major)
+* 1861: [Content] RC4 Install Hangs on First Reboot to JFS Part (major)
+* 1815: [other] eComstation won't install on a modern high end machine (major)
+* 1879: [other] PMMail exits sometimes. (major)
+* 1912: [other] Problems with Object Rexx (major)
+* 1848: [installer phase 1] unable to migrate (major)
+* 1915: [other] eStylerLite has lost ""Shutdown"" tab (major)
+* 1822: [other] xwlan assigns unwanted ipaddresses to interfaces (major)
+* 1878: [other] Boot on ThinkPad T41 has problem and then fails... (major)
+* 1875: [other] Network fails with 1.5 and 2GB RAM, 1GB OK (major)
+* 1871: [other] Mapped drive shows no contents in GUI, but contents show in 
+        command line prompt and with FM/2 (major)
+* 1897: [other] Unable to see files in shares located in local machine using 
+        Virtual Filesystem for SMB (major)
+* 1840: [other] Installation of kernel 14.104a causes system to shut down in 
+        less than five minutes (major)
+* 1821: [other] \eCS\klibc\bin utilities is in %PATH% (major)
+* 1867: [other] FT2Lib.DLL is at the 1.40 version, which causes crashes, and 
+        incorrect displays (major)
+* 1835: [installer phase 1] Nforce2 NIC not detected (major)
+* 1565: [installer phase 1] (eCS 2.0 RC1) Disk resize does nothing (major)
+* 1796: [installer phase 2] GenMac needs to be installed completely on HD 
+        (major)
+* 1704: [other] If both GenMAC wirless interface and second inteface have 
+        TCPBuei enabled, Peer will not start (major)
+* 1625: [installer phase 2] eCS 2.0 rc2 error code 85 when USB CD-ROM support 
+        is requested (major)
+* 1700: [installer phase 3] ecs 2.0 it_it rc3: finalization wizard writes USER 
+        variable uppercase (major)
+* 1620: [booting of CD] Icon drift in RC1 and RC2 (major)
+* 1655: [booting of CD] Disk integrity check is confusing (major)
+* 1421: [other] eCS 2.0 Beta 3A - Adapters and Protocols (major)
+* 1654: [other] Programs crash when moving mouse pointer over them (major)
+* 1587: [installer phase 1] Ecomstation 20Rc1 does not install. (major)
+* 1578: [other] cannot share attached printer in 2.0b after successful local 
+        logon (major)
+* 1616: [other] ACPI V3.01 and V3.02, system slows down so much that keyboard 
+        keys are missed (major)
+* 1425: [installer phase 1] Audio Card Not Recognised (major)
+* 1624: [booting of CD] eCS 2.0 rc2 installation CD boots but hungs at 
+        eComStation logo screen (major)
+* 1294: [other] 2.0 Beta1.1 fails to boot to phase 2 even as phase1 completed 
+        successfully (major)
+* 1738: [other] After successful installation, 'Selective Install for 
+        Networking' causes a loop in phase 2 (major)
+* 1628: [other] Firefox exits (major)
+* 1546: [installer phase 1] nForce430 LAN and Audio not recognized by eCS 2.0 
+        RC-1 (major)
+* 1712: [installer phase 2] LAN not working, IBMLVL.INI not readable by 
+        MPTS.exe (Trap) (major)
+* 1382: [booting of CD] Can't Boot Beta2M2 on Dell Inspiron 6400 (major)
+* 1505: [other] GenMac wrapper for Broadcom NetXtreme requires reboot to start 
+        F & P client, if line not available at boot-time! (major)
+* 1402: [installer phase 1] Installer will not start on Compaq 7400 computers 
+        (major)
+* 1726: [ACPI] RC3 won't install (major)
+* 1413: [other] Single Mouse Driver Does not support Compaq Portables (major)
+* 1634: [installer phase 1] GenMac driver v2.0 doesn't work for Intel 3945 
+        a/b/g device (major)
+* 1746: [other] Need to update the Samba client code in the EVFS package 
+        (major)
+* 1392: [installer phase 2] System hangs phase 2 (major)
+* 1442: [installer phase 1] DFSee cannot resize an NTFS partition smaller than 
+        the last sector occupied by system files (major)
+* 1708: [installer phase 2] System hangs (major)
+* 1740: [other] MPTS does not work (major)
+* 1695: [other] MPTS crashes after easy install eCS 2.0 rc3 (major)
+* 1733: [other] ACPI Wizard parameter parsing logic (major)
+* 1517: [booting of CD] Phase 3 - system hangs on boot logo (major)
+* 1455: [other] Genmac driver (major)
+* 1731: [other] RC3 on HP d530 with integrated Broadcom  BCM5782 - driver 
+        refuse to install at boot (major)
+* 1742: [other] Couldn't configure MPTS . (major)
+* 1454: [other] Drivers and Protocol does not work (major)
+* 1684: [other] Scheme Palete doesn't contain a setting for current colors 
+        (major)
+* 1718: [installer phase 2] hang loading BASEDEVs (major)
+* 1638: [installer phase 3] ACPI wizzard doesn't work (major)
+* 1679: [installer phase 1] on NLS edition RSPINST Fails with 1067 on JFS 
+        install (major)
+* 1666: [booting of CD] LSPeerUser and LSPeerWorkstation classes missing from 
+        NL (major)
+* 1649: [installer phase 2] ACPIDAEMON.EXE line is wrong (major)
+* 1637: [installer phase 3] Dual core CPU detected as 1 CPU (major)
+* 1605: [installer phase 2] When GRADD selected LCD screen gives out of SYNC 
+        message... (major)
+* 1531: [booting of CD] System hangs on boot logo (major)
+* 1664: [other] genmac and Marvell yukon chip (major)
+* 1646: [installer phase 2] Locale not set default after install (major)
+* 1660: [installer phase 1] SES as a selection (major)
+* 1657: [installer phase 1] Multimedia unchecked leaves Multimedia Plugin Pack 
+        checked and greyed out (major)
+* 1561: [other] (eCS 2.0 RC1) Mouse is not working (major)
+* 1556: [other] Wrong rc.exe included in eCS 2 rc1 (major)
+* 1490: [installer phase 3] Genmac not installing driver correctly (major)
+* 1441: [installer phase 1] Long format of Bootable JFS takes TOO long (major)
+* 1447: [installer phase 1] Realtek 8101 onboard LAN not recognized; ALC861 
+        audio not recognized (major)
+* 1348: [installer phase 2] Peer does not get installed with easy install path 
+        (major)
+* 1420: [installer phase 3] ACPI eCS 2.0 Beta 3a causing trouble (major)
+* 1391: [other] If APM is selected, the shutdown object is not created and it 
+        is impossible to disable eStyler shutdown (major)
+* 1555: [other] Boot hang on Netbind.exe with Genmac loaded and TP 42P (major)
+* 1422: [booting of CD] OS/2 !! SYS02027 on Dell Inspiron 9400 (eComStation 
+        2.0 beta 3 and 3a) (major)
+* 1437: [installer phase 2] Dialog enhancer updates failing (major)
+* 1047: [installer phase 1] miniLVM gives error and won't continue (major)
+* 1477: [other] Can't install eCS 2 beta4 (major)
+* 1491: [other] LVM destroys JFS installation (major)
+* 1482: [installer phase 3] eCS 2.0 Beta 4 - SmartGuide Error: ""Panel not 
+        found: smpacpi"" (major)
+* 1471: [installer phase 1] Installer puts ACPI snooper on MB's with Nvida 
+        chipsets (major)
+* 1325: [other] Can't Get Sound to Work (major)
+* 2763: [Content] Need documentation for formatting large (>2GB) USB data 
+        sticks (major)
+268 resolved major bugs.
+
+== minor bugs ==
+
+* 2454: [other] Unable to start Dos Window Session with Panorama on M3A78-CM 
+        Motherboard (minor)
+* 1293: [other] Unregistered Class (minor)
+* 2828: [other] System sounds loop repeatedly (minor)
+* 2587: [other] DVD-UDF command-line utilities do not appear to be installed 
+        (minor)
+* 2889: [other] Add broadcom NIC to hw detect (minor)
+* 2798: [ACPI] Native Intel driver exists, but installer suggests Genmac 
+        (minor)
+* 2928: [other] SYSTEM CLOCK NOT IN SYNC WITH THE WORLD (minor)
+* 1800: [other] Apply ABIOS patch to OS2LDR (minor)
+* 2897: [other] NTFS driver deals wrong with read only drives... ? (minor)
+* 2890: [installer phase 1] Entering registration key problem (minor)
+* 2871: [ACPI] Standard reboot and shut down do not work after installation of 
+        Uniaud 1.9.3/1.9.23 on T60 (minor)
+* 2857: [other] Wrong file size in folder message field on big files (GB) 
+        (minor)
+* 2817: [other] Report on two eCS 2.0GA installs to a 4GB AMD X2 system with 
+        EIDE &SATA HDDs (minor)
+* 2854: [other] Atheros WLAN NIC detected, but drivers installed and 
+        protocol.ini do not match (minor)
+* 2821: [other] APM not installed on T42p although ACPI is deselected (minor)
+* 1771: [migration from eCS 1.0 / 1.1 / 1.2] Start File & Print Client object 
+        corrupted in Startup Folder (minor)
+* 2095: [migration from eCS 1.0 / 1.1 / 1.2] Volume Manager object not created 
+        on migration from 1.2R to RC4 (minor)
+* 2311: [migration from eCS 1.0 / 1.1 / 1.2] eComCenter/WarpCenter doesn't 
+        come up on bootup after migration (minor)
+* 2586: [other] Supplied md5 not compatible with distributed md5sum.exe 
+        (minor)
+* 2621: [other] MINSTALL has text error (minor)
+* 2144: [other] Add more system utilities (minor)
+* 2492: [other] Please add DVD Toys to eCS 2.0 CD#2 (minor)
+* 2709: [other] Please add AMP4eCS to CD#2 (minor)
+* 2551: [other] Text in BOOT OPTIONS: Keys Help (minor)
+* 2787: [other] WIN-OS2 (minor)
+* 2528: [other] DHCP settings and long time. (minor)
+* 1694: [installer phase 1] eCS 2.0 rc3 easy install does not detect WiFi 
+        (minor)
+* 2077: [other] A very old DOS game TRAPs my RC4 (every time) :-) bootable JFS 
+        (minor)
+* 2626: [other] Bootable JFS (eCS 2) and eCS 1.2M (minor)
+* 2773: [installer phase 1] Add vendor add chipset ID's to hardware database 
+        (minor)
+* 2765: [installer phase 1] Updated hardware database (minor)
+* 2619: [installer phase 3] When installer switches to SMP kernel the 
+        corresponding trace and dump facility files aren't installed (minor)
+* 2692: [other] Selecting Help from printer port properties opens help in 
+        background (modal) (minor)
+* 2717: [other] XWLan widget problems (minor)
+* 2507: [other] Shut down will not complete with Animation turned on (with 
+        ACPI) (minor)
+* 2370: [ACPI] Shutdown + Power off with APM or ACPI induces Exception in 
+        OS2KRNL (minor)
+* 2707: [other] Z! didn't continue (minor)
+* 2745: [other] Widget not functioning properly (minor)
+* 2761: [other] DOS box issues (minor)
+* 1818: [other] Panorama log to root dir (minor)
+* 2755: [other] Video is slow as a dog. (minor)
+* 2743: [other] Documentation files from UDF 2.01 package should be included 
+        (minor)
+* 2693: [other] \ECS\INSTALL\NETWORK.EXE still has ""old"" NetWare 
+        configuration panel (minor)
+* 2228: [other] WPIRTL.DLL installed to directory on the LIBPATH (minor)
+* 1951: [migration from eCS 1.0 / 1.1 / 1.2] eComStation shutdown folder 
+        (minor)
+* 1970: [other] MMOS2 not installed (minor)
+* 2646: [ACPI] Legacy APM is installed in Phase 1 even if ACPI is selected 
+        (minor)
+* 2547: [Look & Feel] networking help files (minor)
+* 2645: [other] Problem with initial WPS archive created during installation 
+        (minor)
+* 2330: [other] Mispositioned desktop (minor)
+* 2344: [booting of CD] Wrong Adaptec driver listed - driver list inconsistent 
+        ? (minor)
+* 2588: [installer phase 1] In the first phase the system hangs during 
+        ""Merging additional drivers selections (minor)
+* 2546: [Content] WLAN (minor)
+* 2304: [installer phase 1] Update FAT32 driver to version 0.9.13 (minor)
+* 2153: [other] Installation hints for use with Parallels VM (minor)
+* 2647: [other] Video Wizard, Panarama - to - Snap - back to - Panarama Fails 
+        (minor)
+* 2460: [booting of CD] SOCKETSK.SYS not found on CD (minor)
+* 2600: [installer phase 1] Fails to detect serial port. (minor)
+* 2638: [ACPI] pscom.sys should be present before usbcom.sys in config.sys 
+        (minor)
+* 2686: [other] PSCOM does not appear in eCS Kernel (minor)
+* 2689: [other] Update components from eCo Software (minor)
+* 2643: [other] Missing disk images for makedisk from CD. (minor)
+* 2171: [installer phase 3] A repeat of issue 0002147 - Missing file... 
+        (minor)
+* 2386: [other] POPUPLOG.OS2 file is slowly growing... (minor)
+* 2639: [installer phase 1] Installer fails to include mouse drivers for dos 
+        sessions (minor)
+* 2613: [other] End drag system sound missing with eWP installed (minor)
+* 2592: [other] Conflict with hotkeys in folders context menu (minor)
+* 2655: [other] config.sys DPATH entry missing (minor)
+* 1516: [other] AHA-152X.ADD will not load without /R:500 switch on PCMCIA.SYS 
+        (minor)
+* 2628: [installer phase 1] Update Help-Tools on CD (Management console) 
+        (minor)
+* 2654: [installer phase 1] Make sure easy install defaults match preselected 
+        settings in advanced install (minor)
+* 2601: [other] BeerBattery widget is installed in the default eCenter. 
+        (minor)
+* 2591: [other] Post-Installation Tasks: USER (minor)
+* 2572: [other] rebooting eCS 2.0 (minor)
+* 2618: [other] InnoTek Font Engine for OS/2 (minor)
+* 2594: [other] SBLive, problems (minor)
+* 2431: [other] Shutdown button in ecenter does not work on first attempt. 
+        (minor)
+* 2605: [other] Feedback wizard has garbled object name (minor)
+* 2609: [installer phase 1] HPFS is offered as filesystem for too large 
+        volumes (minor)
+* 2576: [other] EVFSGUI when connecting to a complete server, the workgroup is 
+        lost during the connecting process (minor)
+* 2575: [other] EVFSGUI error in profile script parsing logic (minor)
+* 2388: [other] eComStation Kernel Object - Drivers page missing 2nd driver 
+        instance. (minor)
+* 2522: [other] Add help button under ACPI WIZARD (minor)
+* 2407: [other] The contents of SMPFILES.ZIP seem to be higher levels, than 
+        what is installed. (minor)
+* 2514: [other] Cannot deselect USB Mouse, Keyboard, MSD from Pre-Boot Menu, 
+        Cannot deselect USB Printer anywhere (minor)
+* 2557: [other] EVFSGUI cannot restore connections attached to a volumes root 
+        directory (minor)
+* 2394: [installer phase 1] No help available from within Create volume window 
+        in Installation Volume Manager (minor)
+* 2537: [ACPI] Power does reboot ! (minor)
+* 2506: [other] Video Driver Wizard - not allowed to change video driver 
+        (minor)
+* 767: [installer phase 1] Locale object help broken (minor)
+* 2297: [other] Several post-install tasks fail (minor)
+* 2545: [other] RWS dll's are installed in two different versions (minor)
+* 2516: [ACPI] Log file locations (minor)
+* 2532: [installer phase 1] PSCOM.sys & vcom.sys files not on HD after Phase 1 
+        install (minor)
+* 2509: [ACPI] Improve ACPI setup (minor)
+* 2529: [ACPI] Bad ACPIxxx.WPI installation in RC7 (minor)
+* 2541: [ACPI] SILVER: ACPIDAEMON detects hardware incorrectly (minor)
+* 2539: [installer phase 2] Fails install trying to install TCP/IP (minor)
+* 2525: [other] Wizard video driver between panorama and SNAP . (minor)
+* 2502: [other] SILVER - Feedback wizard rejects valid e-mail address (minor)
+* 2192: [other] tcpcfg reboots to wrong partition (minor)
+* 2062: [ACPI] Does the ACPI wizard take into account /F switch with com.sys ? 
+        (minor)
+* 2459: [booting of CD] Recent pre-boot menu: text issues (minor)
+* 2385: [other] Installing InJoy (minor)
+* 2307: [booting of CD] After succesful USB Boot, first selection (agree 
+        button etc.) out of reach for mouse pointer (minor)
+* 2251: [other] Panarama (minor)
+* 2414: [other] Shutdown fails to power off system (minor)
+* 2453: [other] After running TCP/IP configure, the JAVA Window does not close 
+        and cannot be killed. (minor)
+* 2168: [other] Add NeoWPS widgets (minor)
+* 2494: [other] General issues with handling huge (4.5GB) file(s) (minor)
+* 1220: [other] Shipped AICU320 Adaptec Driver slow (minor)
+* 2003: [other] Uninstalling Amouse will add lines to config.sys that may 
+        already be there (minor)
+* 1874: [migration from eCS 1.0 / 1.1 / 1.2] LogOn Command, i need for DB2, 
+        without existing  net (minor)
+* 1550: [booting of CD] ecs 2.0 rc1 pcmcia does not work on t30 (minor)
+* 2032: [Content] When LBA value <> CHS value :  partition can not be created 
+        (minor)
+* 1257: [other] USB MSD conflicts with PCcard drivers (minor)
+* 2196: [other] No mouse selected during install results in IBM mouse driver 
+        being installed. (minor)
+* 2217: [booting of CD] Multiple version of the kernel files into CVS (minor)
+* 1598: [installer phase 2] Installation on scsi-disk terminates in phase 2 
+        (minor)
+* 1594: [migration from eCS 1.0 / 1.1 / 1.2] Problem in minilvm (minor)
+* 2282: [other] FFST dump utility crashes (minor)
+* 2221: [other] Debug version of bvscall.dll (minor)
+* 2020: [other] WIth amouse installed (minor)
+* 1852: [installer phase 1] Sound and NIC are not detected on Compaq Presario 
+        laptop (minor)
+* 2215: [ACPI] ACPI for eComStation RC6 (minor)
+* 2452: [other] MPTS sometimes ends without allowing you to enter anything. 
+        (minor)
+* 1500: [other] Epson printer object (EPOMNI4) not created (minor)
+* 1831: [other] AMOUSE -> no scrolling on a Thinkpad T42p trackpoint (minor)
+* 2046: [other] TEDIT / CD boot / Console Mode (minor)
+* 1788: [other] sound problem with CD Audio (minor)
+* 2436: [other] Shutdown does not switch power-off (minor)
+* 2146: [other] Shutdown, eComStation 2.0 RC5 is broken (minor)
+* 1739: [ACPI] Choosing shutdown causes reboot (minor)
+* 1714: [other] Dragging an object with the mouse causes system to freeze 
+        (minor)
+* 1717: [installer phase 1] SNAP resolution incorrect (and GENGRADD) (minor)
+* 1969: [installer phase 1] Network cards (GenMac) not detected although 
+        drivers are supplied. (minor)
+* 1593: [booting of CD] eCS 2.0 RC2 (minor)
+* 2336: [other] BootMgr Menu discrepancies (minor)
+* 1692: [other] Missing the Wireless Lan Monitor widget automatically enabled 
+        after the installation (minor)
+* 2340: [other] Updated components from eCo Software (december) (minor)
+* 2450: [other] Update of NewView not completed (minor)
+* 2274: [other] Update dejavu-fonts (minor)
+* 1960: [other] CADH troubles on Bootable JFS (minor)
+* 2430: [other] Duplicated entries in Drive Folder properties for Background 
+        image. (minor)
+* 2212: [other] Dying network connection problem (minor)
+* 2424: [other] USB device is visible under ECS 1.1 but not RC6A. (minor)
+* 2138: [installer phase 1] select customer pathes faulty (minor)
+* 2423: [other] Firefox and Thuinderbird are sensitive to the case of their 
+        file names. (minor)
+* 2406: [installer phase 2] Can't install eCS 2.0 RC6a to NVidia chipset 
+        (minor)
+* 2415: [installer phase 2] Conexant high definition SmartAudio 221 on 
+        ThinkPad W500 not detected (minor)
+* 2397: [booting of CD] Incorrect disk controller reported (minor)
+* 2341: [other] netbios over ip, for both adapters - wrong (minor)
+* 2296: [other] Post install; screen resolution doesn't work (minor)
+* 2299: [installer phase 1] installer does not see existing boot manager - 
+        must delete existing one (minor)
+* 2289: [other] Audio Adapter not detected by installer (minor)
+* 2033: [Content] Reboot on HD during installation eCS20rc4 (minor)
+* 2390: [other] if boot with usb flash plugged in, device displays as hard 
+        disk, no ""eject disk"" (minor)
+* 2043: [other] Open Office Install 1.1.5. does not work (minor)
+* 2375: [other] Shutdown fails to complete abuot 50% of the time. (minor)
+* 2376: [other] Utility USB DOCK always reports ""No Attached devices"" even 
+        when there are USB devices working. (minor)
+* 2371: [other] eCS 2.0 Beta's fail to dispay PM correctly on Various 
+        motherboards. (minor)
+* 2358: [other] Old version of TAR.EXE is not capable. (minor)
+* 2360: [other] Some applications not respecting custom application dir 
+        (minor)
+* 1772: [other] Warpcenter (eComCenter) loses the original contents during 
+        migration. (minor)
+* 1713: [other] Panorama doesn't pick up or deal with LANG variabele (minor)
+* 2057: [other] SMB - copy via Workshell not possible, via command line ok 
+        (minor)
+* 2141: [other] Clock update does'nt work (minor)
+* 2203: [other] Install of Xwlan widget on a T42 T43p results in properties 
+        menu item being grayed out for all widgets (minor)
+* 2148: [other] ACPI wizard detects 2 CPU's on single CPU mainboard (minor)
+* 2256: [other] Updated components from eCo Software (november) (minor)
+* 2279: [other] hangs on boot have to unplug my usp IOGEAR 4 port KBM switch 
+        to get it to continue to boot. (minor)
+* 2155: [migration from OS/2] migprep.cmd and/or migrate.cmd will fail if 
+        netwdrv != instdrv (minor)
+* 1644: [booting of CD] TRAP on boot (minor)
+* 2172: [installer phase 3] System bootup sounds plays continuously (minor)
+* 2225: [other] EFSGUI Not Restoring drives properly at boot time (minor)
+* 2090: [other] pscom.sys error on bootup (minor)
+* 2232: [other] SED.EXE needs updating in eCS (minor)
+* 2165: [other] Install SDL on every PC (minor)
+* 2145: [other] Suspend/resume, eComStation 2.0 RC5 is broken (minor)
+* 2074: [other] No online help for Clock Synchronization. (minor)
+* 2064: [booting of CD] Clean up hwmerge.cmd (minor)
+* 2236: [other] add source of evfs gui to eCS CVS (minor)
+* 2160: [other] USB mouse/keyboard unrecognized after KVM switching (minor)
+* 1900: [migration from eCS 1.0 / 1.1 / 1.2] Duplicate objects in Templates 
+        folder and in Installl/Remove folder after migration (minor)
+* 2197: [installer phase 3] Lack of inserting usbmodem.sys in config.sys 
+        (minor)
+* 2150: [other] deselecting USB keyboard driver doesn't (minor)
+* 2080: [other] Lan Manager shared drive not showing all folders (minor)
+* 2234: [other] Amouse driver (minor)
+* 1972: [other] Can't install PSCRIPT Printer Driver (minor)
+* 2187: [installer phase 2] Missing EVFS in ""Lokaal Netwerk"" folder of NL_NL 
+        rc5 installation (minor)
+* 2083: [booting of CD] DANIS506.ADD is at level 1.8.4 (minor)
+* 2163: [other] Feedback wizard doesn't recognize Internet connection (minor)
+* 2122: [other] Wrong feedback wizard directory (minor)
+* 832: [eWorkPlace user manual is missing in help center]  (minor)
+* 1830: [installer phase 3] Freeze at boot for phase 3 befor WPS load (hard 
+        reset) (minor)
+* 2214: [other] Files bigger than 2GB report wrong filesize (minor)
+* 2097: [other] Installation Feedback only gives one chance before allowing 
+        testing. (minor)
+* 2183: [installer phase 1] Printer dialog updates are still in 
+        \CID\SERVER\ECSPKG\DIALOG.ZIP (minor)
+* 1691: [other] weird behavior of the Battery widget (minor)
+* 1880: [other] Grafic problems (minor)
+* 1851: [installer phase 1] Nvidia sound and NIC are not detected by installed 
+        on Asus M2N-E motherboard (minor)
+* 2193: [other] EPM Alt-1 does not work in eCS (minor)
+* 2086: [installer phase 2] InfoZIP ZIP.EXE is at the 2.3.1 level (minor)
+* 2154: [other] EPM: icon text on toolbar cannot be disabled (minor)
+* 1560: [other] Changed Partitionname kills extended Shutdown (minor)
+* 2084: [installer phase 2] Time zone update for Java 1.4.2 2008B has not been 
+        applied (minor)
+* 1999: [other] eCS 1.2MR breaks eCS 2.0 rc4 when JFS volume used (minor)
+* 2039: [other] mptn.msg missing (minor)
+* 2158: [other] XWLAN widget, no network after restart of eCenter (minor)
+* 1262: [other] Booting from diskettes impossible (minor)
+* 2157: [other] HD Audio almost work with ALC888 (minor)
+* 2101: [other] No ; on PATH with OpenSSH (minor)
+* 2129: [other] T23 - no sound (minor)
+* 2128: [ACPI] T23 and power management ? (minor)
+* 2135: [other] Timezone is wrong for UK (minor)
+* 2106: [other] POPUPLOG.OS2 is gone (minor)
+* 2096: [other] MiniLVM/LVMGUI report partition table corrupt for Disk #1 
+        (minor)
+* 1247: [other] Bootable JFS does not work with Air Boot (minor)
+* 2075: [installer phase 1] setboot.exe update from Jan (minor)
+* 1931: [other] Missing UNIAUD.DLL (minor)
+* 1618: [other] eWorkplace contains bugs fixed in xWorkplace (minor)
+* 2035: [other] COMMON\ECS\INSTALL\NLS\EN\MMECS.TPL - syntax (and other) 
+        errors (minor)
+* 1825: [other] Network install does not detect Broadcom 5702X NIC. (minor)
+* 2036: [other] Programmatically deleting objects to the trashcan no longer 
+        works corretly as in ecS 1.2 (minor)
+* 1813: [other] RC4 does not add OS2ASPI to Config.sys (minor)
+* 1933: [other] SMP-safe Unicode dll (minor)
+* 2044: [other] EVFS Help file missing (minor)
+* 2040: [other] CVS - NLS - COMMON\ESC\INSTALL\NLS\EN\RECONF.GPS (minor)
+* 1833: [other] Virtual Filesystem for SMB does not save mounted resources 
+        across reboot. (minor)
+* 1996: [other] ecom virtual drive front end maps printers as drives when map 
+        all drives on a remote machine is selected (minor)
+* 1566: [installer phase 1] (eCS 2.0 RC1) Can't use disk resize feature 
+        without mouse (minor)
+* 2026: [other] can't re-install networking without CD (minor)
+* 1908: [other] No EVFS stuff if you don't install peer to peer (minor)
+* 1979: [migration from eCS 1.0 / 1.1 / 1.2] When migrating from eCS 1.2 old 
+        revision of WPIRTL.DLL is in libpath (minor)
+* 1981: [other] Old version of eCo Software runtime installed (in several 
+        places) (minor)
+* 2004: [other] DSSaver does not provide enough security (minor)
+* 2005: [other] User reports problem with configuring supplied Tame 1.0.5 
+        (minor)
+* 1986: [migration from eCS 1.0 / 1.1 / 1.2] eCSconect need to receive new 
+        1.14 from Christian Langank German, Dutch and Italian. (minor)
+* 1961: [installer phase 1] Text for VPN and NFS client in network installer 
+        from IBM (minor)
+* 1755: [installer phase 1] Resizing Tool text should be corrected (minor)
+* 1946: [installer phase 1] Resizing tool needs to provide better feedback to 
+        the user during operations (minor)
+* 1687: [booting of CD] Disc resizer bug (minor)
+* 1950: [other] Time setting via Internet not possible (minor)
+* 1978: [other] Still (apparently) need a time sync module for eCS 2.0 (minor)
+* 1936: [other] Missing utility: InstPDR (minor)
+* 2009: [other] MyIP misses it's config file in the %etc% dir (minor)
+* 1810: [Content] USB conflicts (minor)
+* 2008: [other] Object Context ""Lock in place"" doesn't work right (minor)
+* 1998: [other] No help in 'Top' (minor)
+* 2001: [other] Installation process forgets installation partition at reboot 
+        (minor)
+* 1995: [other] HPFS.ifs is installed on system with no HPFS partitions 
+        (minor)
+* 1312: [migration from eCS 1.0 / 1.1 /1.2] Migration of config.sys ignores % 
+        values (minor)
+* 1756: [installer phase 1] Canceling the Resizing Tool leaves a window 
+        running in the background and a wait pointer in foreground (minor)
+* 1753: [installer phase 1] Incorrect selection of Volume Resize Tool does not 
+        result in appropriate error message (minor)
+* 1466: [other] Volume Format shows incorrect information (minor)
+* 1859: [other] WIRED VS. WIRELESS VIA GENMAC (minor)
+* 1977: [other] LIBPATH length limitation (all versions of os/2 and eCS) 
+        (minor)
+* 1857: [other] Installation of FF en THB in their own dirs failed (minor)
+* 1770: [other] Mouse Object lost EAs so not useable. (minor)
+* 1424: [installer phase 1] B3 Installation Ignores Options (minor)
+* 1238: [other] Keyboard Device in Config.sys (minor)
+* 1976: [other] Wireless N does not work with GenMac for Intel 4965a/g/n 
+        (minor)
+* 1906: [other] EN in NL 'Lokaal Netwerk' (minor)
+* 1943: [ACPI] ACPI Enabled and SCSI AICU160 driver does not recognize HDDs 
+        (minor)
+* 1952: [ACPI] acpi-log (minor)
+* 1956: [migration from eCS 1.0 / 1.1 / 1.2] Migration of eCS1.2 to eCS 2.0 
+        failed (minor)
+* 1920: [Bug] EPM traps with new HELPMGR.DLL (minor)
+* 1939: [other] Grep is missing from coreutil (minor)
+* 1846: [other] Migrating JFS boot partition from RC3 to RC4 (minor)
+* 1856: [other] Archive Viewer won't extract... (minor)
+* 1865: [other] Lotus organizer problem (minor)
+* 1836: [other] FAT32-Support on USB-Storage-Devices (minor)
+* 1890: [installer phase 2] When installing AMouse on non EN system, EN 
+        resources remain around (minor)
+* 1847: [installer phase 1] Installer detects card, but fails to install 
+        driver for SB Live. (minor)
+* 1819: [ACPI] ACPI log to root dir (minor)
+* 1895: [installer phase 1] LSIMPT.ADD is detected automatically on MEMDISK 
+        boot menu, but not in installer (minor)
+* 1902: [other] SNAP does not support ATI Radeon  X1950 Pro (minor)
+* 1872: [booting of CD] On Inspiron9300 read errors after F10 (SYS02025 and 
+        27) (minor)
+* 1650: [booting of CD] starting the disk resizer shows a CMD screen with all 
+        sorts of debug info (minor)
+* 1806: [other] SAMBA SYS0065 Network Access Denied (minor)
+* 1882: [installer phase 1] No boot with USB flash media attached (minor)
+* 1686: [installer phase 2] Problem with OBJECT ID of mouse object (minor)
+* 1630: [installer phase 1] harddisk pre install integrity check issues 
+        (dutch) (minor)
+* 1807: [ACPI] Sound system with SBlive! not usable in SMP mode (minor)
+* 1583: [other] Included versions of archiving utilities like tar, gzip, bzip2 
+        are not the latest versions (minor)
+* 1797: [other] CVS write access for French language (minor)
+* 1617: [other] Xwlan widget refuses to see tcp/ip (minor)
+* 1793: [other] CVS write access for German language (minor)
+* 1543: [booting of CD] LVM Fingerprint-Error with multiple Disks (minor)
+* 1473: [booting of CD] ECS 2.0 Beta 3a stops installl after boot process 
+        (minor)
+* 1474: [booting of CD] ECS 2.0 Beta 4 (minor)
+* 1330: [other] No Sound with ThinkPad A30p (2653-66U) (minor)
+* 1256: [other] Bootable JFS does not cooperate with HPFS386 (minor)
+* 1672: [other] Shutdown menu (estyler) does nothing if no selection is made 
+        (minor)
+* 1586: [other] Shutdown of eCS 2.1 RC1 (minor)
+* 1549: [other] ecs 2.0 rc1 USB Cardreader not recognized (minor)
+* 1760: [installer phase 1] Deselcting SMB/NetBIOS does not deselct IBM 
+        NetBIOS over TCP/IP on adapters & protocols page (minor)
+* 1607: [installer phase 1] Broadcom 10/100 network adapter not present in 
+        macs listing. (minor)
+* 1270: [other] Detecting device SIS900 (minor)
+* 1263: [other] No route to host on beta1b (minor)
+* 1259: [other] config.sys not cleaned up after installation of eCS 2.0 beta 1 
+        (minor)
+* 1261: [other] USB keyboard does not work (minor)
+* 1255: [other] TCP/IP notebook doesn't save settings (minor)
+* 1564: [other] (eCS 2.0 RC1) WPSEXTS missing (minor)
+* 1331: [other] File & Print Services,  Manage Access Dialog (minor)
+* 1329: [other] disk resizing option in maintenance console does not work 
+        (minor)
+* 1251: [other] Bootable JFS will fail after chkdsk from other (non 2.0) eCS 
+        volume (minor)
+* 1781: [other] wpsh.ir is down level. (minor)
+* 1669: [other] Amouse needs /SMP switch in SMP mode (minor)
+* 1789: [other] JUNE.LNG misses texts and one sentence needs modification. 
+        (minor)
+* 1423: [other] sans condensed normal, serif condensed normal & ExtraLight 
+        DejaVu fonts missing (minor)
+* 1504: [other] On this system V2.0B4 using GenMac for Broadcom NetXtreme NIC 
+        failed to install ANY copy of mptn.msg (minor)
+* 1631: [other] mptn.msg missing (minor)
+* 1715: [other] Unknown Fonts (minor)
+* 1677: [other] Some texts state 'Install local printer' while it also refers 
+        to network printers. (minor)
+* 1720: [other] Missing menuitems: Create another.., Create program object 
+        (minor)
+* 1699: [installer phase 2] ecs 2.0 it_it rc3: amouse nls files are placed in 
+        wrong place (minor)
+* 1520: [other] 3 instances of LPRPORTD (minor)
+* 1749: [installer phase 1] install did not detect a dual ATHLON on TYAN K7 
+        Thunder MB (minor)
+* 1779: [other] WinOS2 apps lost during migration. (minor)
+* 1784: [other] Firewall NLS (minor)
+* 1774: [other] User created directories under x:\ecs deleted during 
+        migration. (minor)
+* 1705: [installer phase 2] /APIC not filtered from ACPI.PSD line in phase2 
+        (causing hang) (minor)
+* 1706: [other] x:\ibmcom\macs contains too many NIF files, causing MPTS to 
+        fail (minor)
+* 1721: [other] Multimediaclasses for plyaing ogg, mp3 and so on (minor)
+* 1716: [other] FLAC and OGG IOProcs not installed (minor)
+* 1363: [installer phase 1] Applying dialog enhancements fail when C: drive is 
+        NTFS (minor)
+* 1433: [other] WPS doesnt like Western Digital Netowork drives. (minor)
+* 1776: [other] UCLIP locations (minor)
+* 1728: [installer phase 1] Mention of wrong version of SB Live driver in MM 
+        support list (minor)
+* 1754: [installer phase 1] Language on resistration info page should be 
+        modified (minor)
+* 1761: [installer phase 1] When adding IPX, it is only available for binding 
+        to the first NIC (minor)
+* 1751: [other] Unix-like commands in ecs\klibc (coreutils) (minor)
+* 1662: [other] Unable to authenticate to SAMBA share (minor)
+* 1745: [other] eWPS trashcan behaviour (minor)
+* 1744: [other] NL texts in EC2.0EN-rc3 installation when chosen for The 
+        Netherlands as Locale for CADH (minor)
+* 1762: [installer phase 1] No option to change network adapter binding order 
+        (minor)
+* 1735: [other] Mantis update (minor)
+* 1743: [other] stopping the boot (minor)
+* 1562: [installer phase 1] (eCS 2.0 RC1) UNIAUD - On board sound of nForce 5 
+        does not work (minor)
+* 1741: [other] No sound for Via VT8235 (minor)
+* 1643: [installer phase 2] Installation of MPTSWRAP fails when no network is 
+        installed (minor)
+* 1609: [other] USBRESMG.SYS driver missing in config.sys (minor)
+* 1703: [other] Default locale is still not correctly set during install. 
+        (minor)
+* 1729: [ACPI] System cannot detect presence of second CPU (minor)
+* 1667: [installer phase 3] Configuration folder opened behind sguide in NL 
+        (minor)
+* 1661: [other] Add comparison ewps <-> xwps document (minor)
+* 1538: [other] SMP Feature doesn't work with Epox EP-3VA / 2 * PIII 866MHz 
+        (minor)
+* 1253: [other] com.sys loaded although no physical serial port available 
+        (minor)
+* 1668: [other] Create Another in Folder contextmenu is incorrect and should 
+        be disabled by default. (minor)
+* 1670: [installer phase 3] Installing printer asks for Diskette A: for 
+        included drivers (NL) (minor)
+* 1446: [installer phase 1] Boot Manager displays incorrect/odd data (minor)
+* 1489: [booting of CD] ACPI 2.18 causing high IRQ usuage. (minor)
+* 817: [HOME directory cannot be choosen from all available drives]  (minor)
+* 1663: [booting of CD] WIC doesn't show usefull messages in install logs in 
+        phase1 (minor)
+* 1653: [other] Old version of eCo Software runtime installed (in several 
+        places) (minor)
+* 1619: [booting of CD] Preboot Disk integrity check issues (minor)
+* 1647: [booting of CD] eCS 2.0 rc2: LIBC DLL not found when calling ZIP.EXE 
+        from CD (minor)
+* 1645: [other] MPTSWRAP will remove mptstart.cmd line from config.sys in 
+        certain cases (minor)
+* 1498: [other] MPTS Configuration program stops working after SVISTA is 
+        installed (minor)
+* 1397: [other] Error Message: ""eComStation unable to create eShutdown Folder 
+        on the Desktop."" (minor)
+* 1428: [installer phase 2] eCS 2.0 Beta3 - boot in phase 2 stops on 
+        ACPISNP.SNP (minor)
+* 1475: [installer phase 1] Choosing ""Local and ******* security features"" 
+        halts install (minor)
+* 1306: [other] Mozilla plugin install (minor)
+* 1092: [other] RTL8029 NIC is not properly identified in SVista system. 
+        (minor)
+* 1450: [other] chkdsk on JFS does a timeout and stops (minor)
+* 1438: [installer phase 1] \ECS\AE.EXE and \OS2\E.EXE are different modules 
+        (minor)
+* 1612: [installer phase 2] Protocol and other issues with second NIC eCS 
+        2.0RC2 install (minor)
+* 1604: [booting of CD] Lock ecenter does work when clicked on. (minor)
+* 1611: [other] eWPS level not 1.0.8 (eCS 2.0 RC2) (minor)
+* 1597: [other] Netware installation on SNAP (minor)
+* 1525: [other] Empty Program Objects for Firefox and Thunderbird (minor)
+* 1596: [installer phase 2] Ethernet Controller Driver not installed (minor)
+* 1589: [booting of CD] With easy install thunderbird did not get installed. 
+        (minor)
+* 1590: [booting of CD] Acrobat 4 reported failed installation in log files 
+        (minor)
+* 1592: [other] Incorrect detected VIA NIC (minor)
+* 1254: [other] Minstall can not install driver from cdrom (minor)
+* 1338: [other] Post installation of soundcard with minstall asks for 
+        eComStation 1.2R CD (minor)
+* 1585: [other] Dialog enhancements are applied even when disabled (minor)
+* 1431: [other] eCS 2.0 Beta3 - ""System Setup"" -> ""Keyboard OEM Keys"" does 
+        not work when you install eSchemes (minor)
+* 1452: [other] Overview Beta3 installation (minor)
+* 1419: [other] Lucide (Beta4) can't open pdf file (minor)
+* 1394: [other] Selective Install for Networking doesn't work (minor)
+* 1515: [other] eCS 2.0 Beta4 - Selective Install causes beeps (minor)
+* 1249: [other] SNAP issues on eCS 2.0 beta 1 (minor)
+* 1486: [other] Update InfoZips Zip from version 2.31 to 2.32 (minor)
+* 1389: [other] Bootmanager failes to detect Monitor resolution (minor)
+* 1429: [other] Help file not found (minor)
+* 1480: [other] eCS 2.0 Beta 4 - 4OS/2 do not create a new window by default 
+        (minor)
+* 1443: [booting of CD] Disk integrity check text needs to be reformatted to 
+        better fit the screen (minor)
+* 1470: [booting of CD] Poweroff in eCS 2 betas does not work! (minor)
+* 1434: [other] NFS Client should be a default install option (minor)
+* 1430: [other] eCS 2.0 Beta3 - boot after installation tries to load 
+        usbresmg.sys on a box with no USB (minor)
+* 1485: [installer phase 1] Desktop Productivity Tools is now worded 
+        incorrectly (minor)
+* 1511: [other] Selecting shutdown -> shutdown only on beta 4 resets desktop 
+        (minor)
+* 1440: [installer phase 1] Cosmetic: Daylight Saving Time typo (minor)
+* 1445: [installer phase 1] USB Mass Storage drive description text 
+        grammatical error (minor)
+* 1266: [other] Printer installation issues on beta1b (minor)
+* 2924: [other] WPS problem: bracket in the name (minor)
+* 1675: [installer phase 1] Format dialog in installer not modal (NL) (minor)
+* 2852: [other] Netop Host OS/2 release v9.00 (2008093) same but public 
+        without private data (minor)
+* 2625: [other] Format disk... and Option LONG (minor)
+* 2048: [migration from eCS 1.0 / 1.1 / 1.2] Migrate does not capture existing 
+        tcp/ip settings. (minor)
+403 resolved minor bugs.
+
+== tweak bugs ==
+
+* 2673: [installer phase 1] Realtek 8139 chipset not detected on Medion laptop 
+        (tweak)
+* 2900: [installer phase 1] Missing Vendor/ID for Intel 10/100MB driver 
+        (E100B.OS2) (tweak)
+* 2899: [installer phase 1] Add vendor/chipset ID's to database for hardware 
+        detection for the e1000e driver. (tweak)
+* 2550: [installer phase 3] Clean out empty logfiles at the end of 
+        installation (tweak)
+* 2016: [other] Improving EPM's GUI resources (tweak)
+* 2732: [migration from OS/2] Can the old CD player title database be 
+        preserved when performing migration? (tweak)
+* 2695: [other] After running Selective Install for Networking and *not* 
+        rebooting, the maintenance console remains at the top of the screen (tweak)
+* 2656: [installer phase 1] Installer restores default if you return to an 
+        item (tweak)
+* 1944: [migration from eCS 1.0 / 1.1 / 1.2] Disable DS Saver during 
+        installation (tweak)
+* 2577: [booting of CD] Initial menu is not clear enough (tweak)
+* 1727: [installer phase 1] Booting after fase 2 from wrong partition (tweak)
+* 2246: [installer phase 3] IBM APM widget and beer widget get installed. 
+        (tweak)
+* 2544: [installer phase 1] Audio cards not in database... (tweak)
+* 2508: [booting of CD] SILVER - Disk integrity fails (tweak)
+* 2496: [other] DHCP Requests not getting through firewall (tweak)
+* 2495: [installer phase 1] SNAP installation inadvertedly always reports 
+        error (tweak)
+* 2487: [installer phase 1] It is possible to deselect Innotek Runtime in the 
+        installer (tweak)
+* 2486: [installer phase 1] It is possible to deselect EMX in the installer 
+        (tweak)
+* 2066: [other] Update mpts_wrapper. (tweak)
+* 2461: [other] Standard battery widget that comes with eCenter sometimes 
+        returns E87 (tweak)
+* 1083: [other] ADVACCT,ADVCUST,ADVREG and ADVUSER class registration (tweak)
+* 2363: [other] Add IAIUtil to installation (tweak)
+* 1903: [other] xcopy.exe broken with Bootable JFS (tweak)
+* 2162: [other] Unable to create eShutdown folder on Desktop (tweak)
+* 2435: [installer phase 2] Set home directory for Java... (tweak)
+* 2213: [other] Screen saver properties notebook page is too large for screen 
+        on 640x480 (tweak)
+* 2325: [installer phase 1] Update pnp database for following items. (tweak)
+* 2242: [other] ZIP ecsinst.zip add the end of each install phase. (tweak)
+* 2365: [other] Cannot start OO3.1.0.beta (tweak)
+* 2176: [installer phase 1] Phase 1 complete message appears 50 seconds before 
+        reboot box appears (tweak)
+* 2286: [migration from eCS 1.0 / 1.1 / 1.2] ECS2.0RC5 silence (no sound) 
+        after installation (tweak)
+* 2136: [other] EVFS Gui issues (tweak)
+* 2067: [booting of CD] Include FAT 32 on the boot CD (tweak)
+* 2042: [installer phase 1] Wrong NIF file in databas (tweak)
+* 2068: [installer phase 3] Clean up rsp_boot cleanup code in finish (tweak)
+* 2059: [ACPI] Update bldlevel of resource.sys (tweak)
+* 1768: [other] No (visible) way to add XWLAN 3.0 after initial install 
+        (tweak)
+* 1993: [booting of CD] New Danis506 (tweak)
+* 1985: [other] eclock.zip still in CVS (tweak)
+* 1975: [ACPI] ACPI & APM don't work well as the APM function in ECS1.2 on the 
+        Thinkpad-X32 (tweak)
+* 1823: [other] Duplicate Paths in LIBPATH and PATH (tweak)
+* 1909: [installer phase 2] When Panorama is installed, then SNAP installation 
+        fails to update properties panels (tweak)
+* 1889: [other] System Setup -> Workplace Shell -> Menu -> Desktop (tweak)
+* 1896: [installer phase 1] When presented with option to install IBM 
+        Networking, there is no option to install SAMBA instead (tweak)
+* 1775: [other] en_us\ecs\install\install.zip contains a duplicate of itself 
+        (tweak)
+* 1814: [other] No ; on path with 4OS2, RC4 (tweak)
+* 1648: [other] Java windows much too small (tweak)
+* 1707: [other] selecting panorama causes finish.cmd to want to run 
+        makewps.cmd from snap (tweak)
+* 1198: [other] Do not run CFGSORT on (network) reconfiguration (tweak)
+* 1750: [other] FAT 32 IFS (tweak)
+* 1767: [other] Selective install *still* has OS/2 Warp 4 background and 
+        titlebar (tweak)
+* 1698: [other] Using VIA VT6102 Rhine II NIC with SMP (tweak)
+* 1674: [installer phase 1] Netware protocol not added... (tweak)
+* 1073: [installer phase 1] installer lan/peer selections (tweak)
+* 1409: [other] Accelerator collisions in IB.EXE (tweak)
+* 1541: [other] Advanced-button on ""Screen"" does not work any more (tweak)
+* 1058: [other] CD Player skips (tweak)
+* 1614: [booting of CD] Unable to boot installation CD under Parallels (tweak)
+ 58 resolved tweak bugs.
+
+== text bugs ==
+
+* 2699: [other] eCS Kernel - Driver - Uniaud (text)
+* 2612: [installer phase 1] MiniLVM help lacks info about Partition Resizing 
+        tool (text)
+* 2511: [other] Video Driver Wizard - small bug in texts (text)
+* 2521: [other] Bad 1004,850 codepage use result. (text)
+* 2519: [other] Some incorrect texts in Alt-F1 menu (text)
+* 2252: [ACPI] ACPI-SMP-DRV.doc needs to corrected. (text)
+* 2127: [installer phase 1] Some textual errors in adv_vols.gps (text)
+* 1842: [other] Add description of file systems (text)
+* 1927: [installer phase 1] Included Uniaud is release candidate 4, not 3 
+        (text)
+* 1863: [other] Firewall documentation object points to wrong path (text)
+* 1777: [installer phase 1] LVM fingerprint check text needs fixing (text)
+* 1758: [installer phase 1] Configure Network page references ""Netware"" 
+        instead of ""NetWare"" and needs additional fixes (text)
+* 1759: [installer phase 1] Network types text needs cleaning and consistency 
+        (text)
+* 1765: [installer phase 2] Disk inactivity warning text (text)
+* 1757: [installer phase 1] Registration screen text needs more polish (text)
+* 1764: [installer phase 1] Grammar in text while files are being copied is 
+        improper (text)
+ 16 resolved text bugs.
+
+== trivial bugs ==
+
+* 2420: [other] Remove FFST from installation (trivial)
+* 2633: [other] ECS20BGO file (trivial)
+* 2505: [other] Text bug in USB stick holder Widget (trivial)
+* 2554: [other] File and Directory Connections (Samba) is not saving the 
+        profile(s) correctly (trivial)
+* 2211: [other] Debug kernels are of varying levels on CD; none match retail 
+        versions (trivial)
+* 2456: [ACPI] System don't starts when reboot after ACPI wizard (trivial)
+* 1635: [installer phase 1] Broadcom NIC not deteted (trivial)
+* 2126: [other] ACPI Wizard left in startup folder even though ACPI has been 
+        removed (trivial)
+* 2175: [booting of CD] Boot manager screen either black screen or corupted 
+        boot to harddrive/boot to CD dialog (trivial)
+* 1811: [other] Battery widget on eCenter (trivial)
+* 2174: [booting of CD] It takes 8 seconds for the boot to hard drive/Boot to 
+        CD dialog to respond to keyboard input (trivial)
+* 2143: [other] no more icon crawling (trivial)
+* 1904: [other] UniAud fails to load in 10% of boots (trivial)
+* 1801: [other] Icons in the Configuration folder are changing when switching 
+        resolutions (EN version for sure) (trivial)
+* 1626: [booting of CD] XUL disc resizer (trivial)
+* 1834: [installer phase 3] Firefox wouldn't be installed (trivial)
+* 1919: [installer phase 2] GenMAC folder does not belong on new system 
+        desktop (trivial)
+* 1603: [installer phase 2] Wrong timezone for Western Europe (trivial)
+* 1947: [other] Template properties (trivial)
+* 1937: [other] Clean out unused BMP files from \ecs\install on install CD 
+        (trivial)
+* 1922: [other] message error before boot menu (trivial)
+* 1911: [other] Copy ecs_inst.flg from to \var\log (trivial)
+* 1877: [other] Outdated Cairo Version (trivial)
+* 1798: [other] Amouse Object says OS= OS/2 Warp 4.5 (trivial)
+* 1464: [other] Major eCs Hangups/Traps (trivial)
+* 1732: [other] NIC not detected on HP compaq NC6320 (trivial)
+* 1499: [installer phase 1] Some RTL8169 based cards not detected correctly, 
+        also the driver level is outdated (trivial)
+* 1574: [installer phase 1] migration' to blank partition (trivial)
+* 1481: [installer phase 3] eCS 2.0 Beta 4 - There are two lines with 
+        ""BREAK=OFF"" after the installation is complete (trivial)
+* 1476: [booting of CD] Graphical installer will not start from CD-ROM 2 
+        (trivial)
+* 1588: [installer phase 2] Flash 5 not installed with Easy install (trivial)
+* 1411: [other] Deldir in Autoexec.bat (trivial)
+* 1577: [other] eCS 2.0 rc1 - Update 4OS2 to latest version (trivial)
+* 1492: [other] Unexplained eShutdown/JFS behaviour (trivial)
+* 1514: [other] libc wpi runtime is different from netlabs.org distribution 
+        (trivial)
+* 1493: [other] Trivial error with b3b4 diff file readme (trivial)
+* 1472: [installer phase 3] Final task ""Screen"" dialog displays incorrect 
+        finformation (trivial)
+ 37 resolved trivial bugs.
+
+== feature bugs ==
+
+* 2947: [other] 4os2 - Please use current version 3.06 instead 3.04H (feature)
+* 2801: [other] sound not working (feature)
+* 2816: [other] No WLan driver installed (feature)
+* 2802: [other] Installation problematic (feature)
+* 2069: [other] aaaa.exe seems to get installed (feature)
+* 2710: [other] Enhance OS2.KEY (feature)
+* 2624: [installer phase 1] FAT32 and EA-support (feature)
+* 1054: [migration from OS/2] Add option to wipe instead of move directories 
+        (feature)
+* 2682: [installer phase 1] Add checkbox for NTP synchronization to installer 
+        screen (feature)
+* 2636: [other] eschemes as an option on GA release (feature)
+* 2637: [other] EVFS and NDFS interaction (feature)
+* 1723: [other] Can't use digital transfer with Medial player (feature)
+* 2513: [booting of CD] Include backup/restore for maintenance console 
+        (feature)
+* 2504: [ACPI] ACPI utilities missing + path not set (feature)
+* 1435: [installer phase 1] Report on eCS 2.0b3a install experiences (feature)
+* 2208: [other] Updated components from eCo Software (september) (feature)
+* 2429: [other] Samba Server inoperable. (feature)
+* 2049: [installer phase 1] Record additional pci.exe output for support 
+        (feature)
+* 2103: [other] Copy Docs on CD to Hard drive (feature)
+* 1567: [other] Mminstall doesn't work (feature)
+* 2278: [other] MINILVM should be able to create a new Volume at end of 
+        freespace (feature)
+* 2426: [other] To add MPTS applets (helper applications) to distribution 
+        (feature)
+* 2269: [other] Trap on Suspend (feature)
+* 2418: [other] RUN! in RC6a is old version (feature)
+* 2053: [other] Rework assocs for <WP_EPM> (feature)
+* 2200: [other] RFE: Install SDDHELP.SYS for Panorama video driver (feature)
+* 2085: [installer phase 1] No easy way to select which LAN interface is to be 
+        primary (feature)
+* 2331: [other] Install Flash 7 (feature)
+* 2237: [other] Icon Themes problem (feature)
+* 2243: [installer phase 1] PScom.sys does get installed but there is no 
+        com.sys in the config.sys !? (feature)
+* 2088: [other] ACPI Wizard change kernel? (feature)
+* 2166: [other] Add updated NewView version 1.9.3 (feature)
+* 2027: [other] Please provide DejaVu fonts 2.23 or later with eCS 2 final 
+        (feature)
+* 2121: [ACPI] ACPI, SMP works great! (feature)
+* 2079: [ACPI] Upgrade ACPI wizard to send data of installation to eCS server. 
+        (feature)
+* 1264: [other] Driver for D-Link DGE-528T Gigabit-Card (feature)
+* 2015: [other] Can't access or read Compact flash (feature)
+* 1265: [other] install via usb cdrom - no internal CD (feature)
+* 1991: [other] Second S-ATA Burner not visible (feature)
+* 1701: [installer phase 3] ecs 2.0 it_it rc3: finalization wizard should 
+        handle HOME variable (feature)
+* 1803: [other] eCSMT is not installed (feature)
+* 1962: [migration from eCS 1.0 / 1.1 / 1.2] Faxworks does not work at all 
+        (feature)
+* 1008: [Content] Can't compile on drive mounted by NetDrive/Samba (feature)
+* 1935: [other] Old version of SDL runtime (feature)
+* 1886: [other] CW-Multimedia Classes (feature)
+* 997: [other] Duplication of files from installation of eCS (feature)
+* 1075: [other] Loading registration key from flash drive (feature)
+* 1786: [installer phase 1] Make it a bit easier to find the reg key. 
+        (feature)
+* 1736: [other] Media player does not have a setting for digital transfer 
+        (feature)
+* 1673: [booting of CD] Add REXX support to the Management Console (feature)
+* 1377: [installer phase 1] Add broadcom (B57) drivers to install disk 
+        (feature)
+* 1205: [other] include APsoft PCMCIA drivers (feature)
+* 1623: [other] Enable screensaver checkbox not visible in desktop properties 
+        (feature)
+* 1622: [booting of CD] Bootable JFS is never the default IFS format (feature)
+* 1512: [other] ACPI driver installation (feature)
+* 1494: [other] SMP and Opteron does not work ? (feature)
+* 1211: [other] Add epomni* drivers (feature)
+* 1152: [other] Req: Update Info-Zip to latest version (feature)
+* 2977: [installer phase 1] Add detection... (feature)
+* 1799: [other] Font that should be added to as a standard (feature)
+ 60 resolved feature bugs.
+
+statistics:
+
+ 89 resolved block bugs.
+ 74 resolved crash bugs.
+268 resolved major bugs.
+403 resolved minor bugs.
+ 58 resolved tweak bugs.
+ 16 resolved text bugs.
+ 37 resolved trivial bugs.
+ 60 resolved feature bugs.
+
+Total of: 1005 resolved bugs.
+
+[eof]

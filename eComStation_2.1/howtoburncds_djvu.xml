@@ -1,0 +1,2881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DjVuXML>
+<DjVuXML>
+ <BODY>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0000.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0000.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="479,565,620,496" x-confidence="93">The</WORD>
+        <WORD coords="651,566,1162,497" x-confidence="59">eComStation</WORD>
+        <WORD coords="1195,565,1642,496" x-confidence="95">installation</WORD>
+        <WORD coords="1679,566,1808,497" x-confidence="95">CD</WORD>
+        <WORD coords="1838,565,2172,499" x-confidence="96">contains</WORD>
+        <WORD coords="2201,585,2415,520" x-confidence="96">many</WORD>
+        <WORD coords="2442,565,2872,496" x-confidence="96">directories</WORD>
+        <WORD coords="2901,565,3052,496" x-confidence="96">and</WORD>
+        <WORD coords="3059,585,3238,496" x-confidence="96">files</WORD>
+        <WORD coords="3269,565,3423,496" x-confidence="96">that</WORD>
+        <WORD coords="3450,565,3587,520" x-confidence="96">can</WORD>
+        <WORD coords="3617,565,3706,496" x-confidence="96">be</WORD>
+        <WORD coords="3737,566,4227,496" x-confidence="96">downloaded</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="477,706,869,617" x-confidence="96">(digitally)</WORD>
+        <WORD coords="900,686,985,641" x-confidence="96">as</WORD>
+        <WORD coords="1014,686,1109,641" x-confidence="96">an</WORD>
+        <WORD coords="1136,687,1290,618" x-confidence="95">ISO</WORD>
+        <WORD coords="1302,706,1441,617" x-confidence="96">file</WORD>
+        <WORD coords="1474,686,1627,617" x-confidence="96">that</WORD>
+        <WORD coords="1653,686,1792,641" x-confidence="96">can</WORD>
+        <WORD coords="1824,686,1989,617" x-confidence="96">then</WORD>
+        <WORD coords="2019,686,2108,617" x-confidence="95">be</WORD>
+        <WORD coords="2139,686,2400,617" x-confidence="96">turned</WORD>
+        <WORD coords="2427,686,2575,620" x-confidence="96">into</WORD>
+        <WORD coords="2605,686,2700,641" x-confidence="95">an</WORD>
+        <WORD coords="2730,686,2978,617" x-confidence="95">actual</WORD>
+        <WORD coords="3010,687,3140,618" x-confidence="95">CD</WORD>
+        <WORD coords="3170,706,3353,641" x-confidence="95">copy</WORD>
+        <WORD coords="3383,706,3472,617" x-confidence="96">of</WORD>
+        <WORD coords="3487,686,3601,617" x-confidence="96">the</WORD>
+        <WORD coords="3615,706,3763,617" x-confidence="96">full</WORD>
+        <WORD coords="3781,706,4114,617" x-confidence="95">product.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1315,1088,1726,983" x-confidence="96">Burning</WORD>
+        <WORD coords="1762,1088,1992,1009" x-confidence="92">your</WORD>
+        <WORD coords="2026,1066,2671,983" x-confidence="91">eComStation</WORD>
+        <WORD coords="2705,1066,2979,983" x-confidence="92">ISO's</WORD>
+        <WORD coords="3016,1066,3135,1009" x-confidence="95">on</WORD>
+        <WORD coords="3172,1066,3329,983" x-confidence="95">CD</WORD>
+        <WORD coords="3366,1066,3645,983" x-confidence="95">ROM</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="473,1412,709,1343" x-confidence="96">When</WORD>
+        <WORD coords="736,1433,883,1365" x-confidence="96">you</WORD>
+        <WORD coords="912,1433,1269,1343" x-confidence="96">normally</WORD>
+        <WORD coords="1299,1412,1518,1343" x-confidence="92">insert</WORD>
+        <WORD coords="1574,1412,1588,1365" x-confidence="92">a</WORD>
+        <WORD coords="1616,1412,1748,1343" x-confidence="94">CD</WORD>
+        <WORD coords="1779,1412,2001,1343" x-confidence="96">ROM</WORD>
+        <WORD coords="2034,1412,2173,1343" x-confidence="96">and</WORD>
+        <WORD coords="2201,1412,2389,1343" x-confidence="96">view</WORD>
+        <WORD coords="2419,1412,2537,1343" x-confidence="95">the</WORD>
+        <WORD coords="2568,1412,2894,1353" x-confidence="96">contents</WORD>
+        <WORD coords="2925,1412,3099,1343" x-confidence="95">with</WORD>
+        <WORD coords="3129,1412,3169,1365" x-confidence="96">a</WORD>
+        <WORD coords="3197,1412,3325,1343" x-confidence="95">file</WORD>
+        <WORD coords="3353,1412,3673,1343" x-confidence="96">browser</WORD>
+        <WORD coords="3700,1433,3847,1365" x-confidence="96">you</WORD>
+        <WORD coords="3877,1412,4011,1365" x-confidence="96">can</WORD>
+        <WORD coords="4042,1412,4162,1365" x-confidence="96">see</WORD>
+        <WORD coords="4190,1412,4308,1343" x-confidence="95">the</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,1533,890,1464" x-confidence="96">directories</WORD>
+        <WORD coords="923,1533,1062,1464" x-confidence="96">and</WORD>
+        <WORD coords="1089,1533,1207,1464" x-confidence="96">the</WORD>
+        <WORD coords="1237,1533,1403,1464" x-confidence="95">files</WORD>
+        <WORD coords="1435,1533,1531,1486" x-confidence="95">on</WORD>
+        <WORD coords="1558,1533,1677,1464" x-confidence="95">the</WORD>
+        <WORD coords="1707,1533,1838,1464" x-confidence="95">CD</WORD>
+        <WORD coords="1870,1533,2113,1464" x-confidence="95">ROM.</WORD>
+        <WORD coords="2172,1533,2324,1464" x-confidence="95">The</WORD>
+        <WORD coords="2352,1533,2672,1464" x-confidence="95">location</WORD>
+        <WORD coords="2701,1533,2786,1464" x-confidence="96">of</WORD>
+        <WORD coords="2806,1533,2925,1464" x-confidence="96">the</WORD>
+        <WORD coords="2955,1533,3120,1464" x-confidence="96">files</WORD>
+        <WORD coords="3152,1533,3248,1486" x-confidence="96">on</WORD>
+        <WORD coords="3275,1533,3395,1464" x-confidence="96">the</WORD>
+        <WORD coords="3425,1533,3557,1464" x-confidence="96">CD</WORD>
+        <WORD coords="3587,1533,3810,1464" x-confidence="95">ROM</WORD>
+        <WORD coords="3843,1533,3982,1464" x-confidence="96">and</WORD>
+        <WORD coords="4009,1533,4127,1464" x-confidence="96">the</WORD>
+        <WORD coords="4156,1533,4405,1486" x-confidence="96">names</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,1654,561,1585" x-confidence="96">of</WORD>
+        <WORD coords="584,1654,998,1585" x-confidence="96">directories</WORD>
+        <WORD coords="1031,1654,1169,1585" x-confidence="96">and</WORD>
+        <WORD coords="1197,1654,1364,1585" x-confidence="96">files</WORD>
+        <WORD coords="1397,1654,1512,1607" x-confidence="95">are</WORD>
+        <WORD coords="1544,1654,1782,1585" x-confidence="95">stored</WORD>
+        <WORD coords="1810,1653,1884,1585" x-confidence="93">in</WORD>
+        <WORD coords="1901,1679,1934,1581" x-confidence="96">a</WORD>
+        <WORD coords="1982,1654,2111,1585" x-confidence="95">file</WORD>
+        <WORD coords="2143,1675,2433,1595" x-confidence="96">system.</WORD>
+        <WORD coords="2467,1654,2618,1585" x-confidence="96">The</WORD>
+        <WORD coords="2647,1654,2777,1585" x-confidence="96">file</WORD>
+        <WORD coords="2809,1675,3082,1595" x-confidence="95">system</WORD>
+        <WORD coords="3108,1654,3257,1585" x-confidence="95">that</WORD>
+        <WORD coords="3284,1654,3345,1585" x-confidence="96">is</WORD>
+        <WORD coords="3375,1654,3556,1585" x-confidence="96">used</WORD>
+        <WORD coords="3584,1675,3757,1607" x-confidence="96">very</WORD>
+        <WORD coords="3787,1654,3988,1585" x-confidence="96">often</WORD>
+        <WORD coords="4017,1654,4113,1607" x-confidence="92">on</WORD>
+        <WORD coords="4142,1654,4306,1585" x-confidence="92">CD-</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,1775,698,1706" x-confidence="95">ROM</WORD>
+        <WORD coords="727,1775,789,1706" x-confidence="91">is</WORD>
+        <WORD coords="821,1775,1054,1706" x-confidence="95">called</WORD>
+        <WORD coords="1082,1775,1239,1706" x-confidence="95">ISO</WORD>
+        <WORD coords="1270,1776,1485,1706" x-confidence="96">9660.</WORD>
+        <WORD coords="1520,1775,1743,1706" x-confidence="96">Other</WORD>
+        <WORD coords="1771,1775,1939,1706" x-confidence="95">well</WORD>
+        <WORD coords="1966,1775,2237,1706" x-confidence="96">known</WORD>
+        <WORD coords="2265,1775,2393,1706" x-confidence="96">file</WORD>
+        <WORD coords="2425,1796,2734,1716" x-confidence="96">systems</WORD>
+        <WORD coords="2767,1775,2882,1728" x-confidence="92">are</WORD>
+        <WORD coords="2911,1788,3167,1706" x-confidence="96">HPFS,</WORD>
+        <WORD coords="3200,1788,3368,1706" x-confidence="96">JFS,</WORD>
+        <WORD coords="3401,1774,3587,1707" x-confidence="96">FAT</WORD>
+        <WORD coords="3618,1775,3757,1706" x-confidence="96">and</WORD>
+        <WORD coords="3784,1775,4045,1706" x-confidence="95">NTFS.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,2115,594,2048" x-confidence="96">An</WORD>
+        <WORD coords="622,2116,778,2047" x-confidence="96">ISO</WORD>
+        <WORD coords="807,2116,937,2047" x-confidence="96">file</WORD>
+        <WORD coords="966,2116,1027,2047" x-confidence="96">is</WORD>
+        <WORD coords="1055,2137,1408,2047" x-confidence="96">basically</WORD>
+        <WORD coords="1439,2116,1529,2069" x-confidence="96">an</WORD>
+        <WORD coords="1557,2116,1880,2047" x-confidence="95">IMAGE</WORD>
+        <WORD coords="1909,2116,2037,2047" x-confidence="96">file</WORD>
+        <WORD coords="2066,2116,2215,2047" x-confidence="96">that</WORD>
+        <WORD coords="2243,2116,2569,2047" x-confidence="95">contains</WORD>
+        <WORD coords="2602,2116,2696,2047" x-confidence="96">all</WORD>
+        <WORD coords="2726,2116,3140,2047" x-confidence="96">directories</WORD>
+        <WORD coords="3173,2116,3312,2047" x-confidence="96">and</WORD>
+        <WORD coords="3340,2116,3505,2047" x-confidence="96">files</WORD>
+        <WORD coords="3536,2137,3683,2069" x-confidence="95">you</WORD>
+        <WORD coords="3711,2116,4274,2047" x-confidence="96">NORMALLY</WORD>
+        <WORD coords="4305,2116,4425,2069" x-confidence="96">see</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,2236,549,2168" x-confidence="96">in</WORD>
+        <WORD coords="576,2237,695,2168" x-confidence="96">the</WORD>
+        <WORD coords="725,2237,854,2168" x-confidence="95">file</WORD>
+        <WORD coords="882,2258,1149,2168" x-confidence="96">listing.</WORD>
+        <WORD coords="1183,2237,1320,2170" x-confidence="96">For</WORD>
+        <WORD coords="1346,2237,1486,2168" x-confidence="96">this</WORD>
+        <WORD coords="1515,2237,1774,2190" x-confidence="95">reason</WORD>
+        <WORD coords="1801,2258,1948,2190" x-confidence="96">you</WORD>
+        <WORD coords="1977,2237,2170,2178" x-confidence="95">must</WORD>
+        <WORD coords="2195,2237,2378,2168" x-confidence="96">burn</WORD>
+        <WORD coords="2406,2237,2460,2168" x-confidence="96">it</WORD>
+        <WORD coords="2486,2237,2560,2178" x-confidence="89">to</WORD>
+        <WORD coords="2616,2237,2632,2190" x-confidence="89">a</WORD>
+        <WORD coords="2660,2237,2793,2168" x-confidence="92">CD</WORD>
+        <WORD coords="2822,2236,2898,2168" x-confidence="94">in</WORD>
+        <WORD coords="2932,2237,3231,2168" x-confidence="73">&quot;RAW&quot;</WORD>
+        <WORD coords="3267,2237,3347,2190" x-confidence="95">or</WORD>
+        <WORD coords="3374,2258,3619,2170" x-confidence="96">Image</WORD>
+        <WORD coords="3647,2237,3886,2168" x-confidence="96">mode.</WORD>
+        <WORD coords="3918,2237,4054,2170" x-confidence="96">We</WORD>
+        <WORD coords="4083,2237,4218,2190" x-confidence="95">can</WORD>
+        <WORD coords="4246,2237,4372,2178" x-confidence="96">not</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,2379,642,2289" x-confidence="96">give</WORD>
+        <WORD coords="672,2358,1133,2289" x-confidence="96">instructions</WORD>
+        <WORD coords="1164,2358,1278,2289" x-confidence="96">for</WORD>
+        <WORD coords="1306,2379,1522,2311" x-confidence="96">every</WORD>
+        <WORD coords="1552,2358,1683,2289" x-confidence="95">CD</WORD>
+        <WORD coords="1715,2358,1938,2289" x-confidence="95">ROM</WORD>
+        <WORD coords="1965,2358,2148,2289" x-confidence="96">burn</WORD>
+        <WORD coords="2174,2379,2497,2289" x-confidence="96">package</WORD>
+        <WORD coords="2527,2358,2623,2311" x-confidence="96">on</WORD>
+        <WORD coords="2650,2358,2770,2289" x-confidence="96">the</WORD>
+        <WORD coords="2799,2371,3093,2289" x-confidence="96">market,</WORD>
+        <WORD coords="3129,2358,3326,2289" x-confidence="96">since</WORD>
+        <WORD coords="3356,2358,3482,2299" x-confidence="96">not</WORD>
+        <WORD coords="3510,2379,3726,2311" x-confidence="96">every</WORD>
+        <WORD coords="3753,2379,4076,2289" x-confidence="95">package</WORD>
+        <WORD coords="4105,2358,4272,2311" x-confidence="95">uses</WORD>
+        <WORD coords="4301,2358,4420,2289" x-confidence="96">the</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="478,2479,675,2432" x-confidence="95">same</WORD>
+        <WORD coords="704,2500,1209,2410" x-confidence="95">terminology.</WORD>
+        <WORD coords="1242,2479,1441,2410" x-confidence="95">With</WORD>
+        <WORD coords="1469,2479,1662,2420" x-confidence="95">most</WORD>
+        <WORD coords="1690,2479,1822,2410" x-confidence="96">CD</WORD>
+        <WORD coords="1852,2479,2076,2410" x-confidence="96">ROM</WORD>
+        <WORD coords="2104,2479,2286,2410" x-confidence="95">burn</WORD>
+        <WORD coords="2317,2479,2652,2410" x-confidence="95">software</WORD>
+        <WORD coords="2681,2500,2828,2432" x-confidence="96">you</WORD>
+        <WORD coords="2857,2479,2992,2432" x-confidence="95">can</WORD>
+        <WORD coords="3021,2479,3292,2410" x-confidence="95">choose</WORD>
+        <WORD coords="3321,2479,3395,2420" x-confidence="95">to</WORD>
+        <WORD coords="3425,2479,3650,2410" x-confidence="95">either</WORD>
+        <WORD coords="3679,2500,3924,2410" x-confidence="96">assign</WORD>
+        <WORD coords="3939,2505,3972,2406" x-confidence="95">a</WORD>
+        <WORD coords="4022,2479,4222,2410" x-confidence="95">drive</WORD>
+        <WORD coords="4251,2479,4453,2410" x-confidence="96">letter</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,2600,547,2541" x-confidence="96">to</WORD>
+        <WORD coords="576,2621,758,2553" x-confidence="96">your</WORD>
+        <WORD coords="787,2600,918,2531" x-confidence="96">CD</WORD>
+        <WORD coords="948,2600,1208,2531" x-confidence="96">burner</WORD>
+        <WORD coords="1236,2600,1316,2553" x-confidence="96">or</WORD>
+        <WORD coords="1342,2600,1543,2531" x-confidence="96">write</WORD>
+        <WORD coords="1574,2600,1664,2553" x-confidence="96">an</WORD>
+        <WORD coords="1692,2600,1848,2531" x-confidence="91">ISO</WORD>
+        <WORD coords="1877,2600,2007,2531" x-confidence="96">file</WORD>
+        <WORD coords="2035,2600,2109,2541" x-confidence="96">to</WORD>
+        <WORD coords="2166,2600,2181,2553" x-confidence="94">a</WORD>
+        <WORD coords="2208,2600,2341,2531" x-confidence="95">CD</WORD>
+        <WORD coords="2372,2600,2616,2531" x-confidence="95">ROM.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,2771,582,2704" x-confidence="96">To</WORD>
+        <WORD coords="610,2792,945,2702" x-confidence="95">properly</WORD>
+        <WORD coords="975,2771,1207,2712" x-confidence="96">create</WORD>
+        <WORD coords="1235,2771,1354,2702" x-confidence="96">the</WORD>
+        <WORD coords="1382,2771,1591,2712" x-confidence="96">exact</WORD>
+        <WORD coords="1617,2792,1807,2724" x-confidence="96">copy</WORD>
+        <WORD coords="1838,2771,1923,2702" x-confidence="95">of</WORD>
+        <WORD coords="1944,2771,2062,2702" x-confidence="95">the</WORD>
+        <WORD coords="2093,2792,2399,2702" x-confidence="96">original</WORD>
+        <WORD coords="2428,2771,2561,2702" x-confidence="96">CD</WORD>
+        <WORD coords="2592,2771,2783,2702" x-confidence="95">from</WORD>
+        <WORD coords="2810,2771,2929,2702" x-confidence="91">the</WORD>
+        <WORD coords="2962,2771,3139,2702" x-confidence="92">.ISO</WORD>
+        <WORD coords="3169,2784,3318,2702" x-confidence="96">file,</WORD>
+        <WORD coords="3351,2771,3529,2702" x-confidence="96">look</WORD>
+        <WORD coords="3555,2771,3668,2702" x-confidence="96">for</WORD>
+        <WORD coords="3698,2771,3787,2724" x-confidence="96">an</WORD>
+        <WORD coords="3816,2792,4068,2702" x-confidence="96">option</WORD>
+        <WORD coords="4096,2770,4170,2702" x-confidence="94">in</WORD>
+        <WORD coords="4198,2792,4380,2724" x-confidence="96">your</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,2891,609,2822" x-confidence="96">CD</WORD>
+        <WORD coords="637,2912,945,2822" x-confidence="96">burning</WORD>
+        <WORD coords="978,2891,1314,2822" x-confidence="96">software</WORD>
+        <WORD coords="1341,2891,1491,2822" x-confidence="96">that</WORD>
+        <WORD coords="1515,2891,1722,2822" x-confidence="96">reads</WORD>
+        <WORD coords="1755,2912,2164,2822" x-confidence="96">something</WORD>
+        <WORD coords="2197,2912,2412,2822" x-confidence="95">along</WORD>
+        <WORD coords="2441,2891,2559,2822" x-confidence="95">the</WORD>
+        <WORD coords="2589,2891,2772,2822" x-confidence="96">lines</WORD>
+        <WORD coords="2803,2891,2888,2822" x-confidence="95">of</WORD>
+        <WORD coords="2917,2891,3149,2822" x-confidence="95">&quot;Burn</WORD>
+        <WORD coords="3177,2912,3458,2822" x-confidence="95">Image&quot;</WORD>
+        <WORD coords="3493,2891,3573,2844" x-confidence="96">or</WORD>
+        <WORD coords="3606,2891,3897,2822" x-confidence="96">&quot;Create</WORD>
+        <WORD coords="3928,2891,3968,2844" x-confidence="95">a</WORD>
+        <WORD coords="3996,2891,4129,2822" x-confidence="95">CD</WORD>
+        <WORD coords="4159,2891,4351,2822" x-confidence="96">from</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3012,693,2943" x-confidence="93">ISO&quot;.</WORD>
+        <WORD coords="752,3012,954,2943" x-confidence="94">Then</WORD>
+        <WORD coords="982,3012,1216,2943" x-confidence="95">locate</WORD>
+        <WORD coords="1244,3012,1362,2943" x-confidence="91">the</WORD>
+        <WORD coords="1397,3012,1572,2943" x-confidence="81">.[SO</WORD>
+        <WORD coords="1602,3012,1732,2943" x-confidence="96">file</WORD>
+        <WORD coords="1760,3012,1908,2943" x-confidence="96">that</WORD>
+        <WORD coords="1935,3033,2082,2965" x-confidence="96">you</WORD>
+        <WORD coords="2110,3012,2295,2943" x-confidence="96">have</WORD>
+        <WORD coords="2325,3012,2809,2943" x-confidence="96">downloaded</WORD>
+        <WORD coords="2839,3012,2978,2943" x-confidence="96">and</WORD>
+        <WORD coords="3004,3012,3186,2943" x-confidence="95">burn</WORD>
+        <WORD coords="3213,3012,3332,2943" x-confidence="95">the</WORD>
+        <WORD coords="3361,3033,3600,2943" x-confidence="96">image</WORD>
+        <WORD coords="3631,3012,3802,2953" x-confidence="95">onto</WORD>
+        <WORD coords="3834,3012,3874,2965" x-confidence="95">a</WORD>
+        <WORD coords="3903,3012,4057,2943" x-confidence="95">CD.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="473,3354,709,3285" x-confidence="96">When</WORD>
+        <WORD coords="736,3375,883,3307" x-confidence="96">you</WORD>
+        <WORD coords="912,3375,1269,3285" x-confidence="95">normally</WORD>
+        <WORD coords="1300,3375,1488,3307" x-confidence="95">copy</WORD>
+        <WORD coords="1517,3354,1684,3285" x-confidence="96">files</WORD>
+        <WORD coords="1715,3354,1907,3285" x-confidence="95">from</WORD>
+        <WORD coords="1933,3354,2108,3285" x-confidence="96">hard</WORD>
+        <WORD coords="2137,3354,2301,3285" x-confidence="95">disk</WORD>
+        <WORD coords="2326,3354,2401,3295" x-confidence="93">to</WORD>
+        <WORD coords="2465,3354,2473,3307" x-confidence="93">a</WORD>
+        <WORD coords="2501,3354,2633,3285" x-confidence="96">CD</WORD>
+        <WORD coords="2664,3354,2886,3285" x-confidence="96">ROM</WORD>
+        <WORD coords="2916,3375,3063,3307" x-confidence="96">you</WORD>
+        <WORD coords="3093,3375,3282,3307" x-confidence="95">copy</WORD>
+        <WORD coords="3311,3354,3477,3285" x-confidence="96">files</WORD>
+        <WORD coords="3509,3354,3760,3285" x-confidence="96">and/or</WORD>
+        <WORD coords="3788,3354,4203,3285" x-confidence="96">directories</WORD>
+        <WORD coords="4233,3354,4307,3295" x-confidence="96">to</WORD>
+        <WORD coords="4336,3354,4454,3285" x-confidence="96">the</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,3475,609,3406" x-confidence="95">CD</WORD>
+        <WORD coords="639,3475,882,3406" x-confidence="95">ROM.</WORD>
+        <WORD coords="915,3474,1036,3407" x-confidence="95">An</WORD>
+        <WORD coords="1064,3475,1219,3406" x-confidence="95">ISO</WORD>
+        <WORD coords="1250,3475,1379,3406" x-confidence="96">file</WORD>
+        <WORD coords="1406,3475,1748,3406" x-confidence="95">however</WORD>
+        <WORD coords="1777,3475,1911,3428" x-confidence="95">can</WORD>
+        <WORD coords="1939,3475,2075,3411" x-confidence="96">not</WORD>
+        <WORD coords="2094,3496,2246,3406" x-confidence="94">just</WORD>
+        <WORD coords="2271,3475,2362,3406" x-confidence="96">be</WORD>
+        <WORD coords="2393,3496,2655,3406" x-confidence="96">copied</WORD>
+        <WORD coords="2682,3475,2756,3416" x-confidence="93">to</WORD>
+        <WORD coords="2815,3475,2829,3428" x-confidence="93">a</WORD>
+        <WORD coords="2856,3475,2989,3406" x-confidence="94">CD</WORD>
+        <WORD coords="3019,3475,3242,3406" x-confidence="94">ROM</WORD>
+        <WORD coords="3274,3475,3350,3428" x-confidence="95">as</WORD>
+        <WORD coords="3382,3475,3422,3428" x-confidence="96">a</WORD>
+        <WORD coords="3449,3475,3728,3406" x-confidence="95">normal</WORD>
+        <WORD coords="3757,3475,3886,3406" x-confidence="95">file</WORD>
+        <WORD coords="3915,3475,4107,3406" x-confidence="95">from</WORD>
+        <WORD coords="4136,3475,4176,3428" x-confidence="95">a</WORD>
+        <WORD coords="4202,3475,4377,3406" x-confidence="95">hard</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,3596,658,3527" x-confidence="96">disk.</WORD>
+        <WORD coords="692,3595,761,3527" x-confidence="96">If</WORD>
+        <WORD coords="781,3617,928,3549" x-confidence="96">you</WORD>
+        <WORD coords="957,3596,1204,3527" x-confidence="96">would</WORD>
+        <WORD coords="1233,3596,1327,3527" x-confidence="96">do</WORD>
+        <WORD coords="1356,3596,1506,3527" x-confidence="95">that</WORD>
+        <WORD coords="1531,3617,1678,3549" x-confidence="95">you</WORD>
+        <WORD coords="1707,3596,1954,3527" x-confidence="96">would</WORD>
+        <WORD coords="1983,3596,2124,3527" x-confidence="96">end</WORD>
+        <WORD coords="2152,3596,2327,3527" x-confidence="96">with</WORD>
+        <WORD coords="2386,3596,2397,3549" x-confidence="96">a</WORD>
+        <WORD coords="2425,3596,2556,3527" x-confidence="94">CD</WORD>
+        <WORD coords="2587,3596,2811,3527" x-confidence="95">ROM</WORD>
+        <WORD coords="2841,3596,3016,3527" x-confidence="96">with</WORD>
+        <WORD coords="3045,3617,3218,3527" x-confidence="96">only</WORD>
+        <WORD coords="3246,3596,3395,3527" x-confidence="96">that</WORD>
+        <WORD coords="3425,3617,3657,3527" x-confidence="96">single</WORD>
+        <WORD coords="3686,3596,3842,3527" x-confidence="96">ISO</WORD>
+        <WORD coords="3872,3596,4000,3527" x-confidence="96">file</WORD>
+        <WORD coords="4030,3596,4292,3527" x-confidence="96">visible</WORD>
+        <WORD coords="4322,3595,4397,3527" x-confidence="94">in</WORD>
+        <WORD coords="4427,3596,4467,3549" x-confidence="94">a</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3716,604,3647" x-confidence="96">file</WORD>
+        <WORD coords="632,3737,899,3647" x-confidence="96">listing.</WORD>
+        <WORD coords="934,3715,1014,3649" x-confidence="96">In</WORD>
+        <WORD coords="1044,3716,1366,3647" x-confidence="96">addition</WORD>
+        <WORD coords="1393,3716,1467,3657" x-confidence="95">to</WORD>
+        <WORD coords="1498,3716,1913,3647" x-confidence="95">directories</WORD>
+        <WORD coords="1946,3716,2084,3647" x-confidence="96">and</WORD>
+        <WORD coords="2112,3729,2301,3647" x-confidence="96">files,</WORD>
+        <WORD coords="2335,3716,2468,3647" x-confidence="96">CD</WORD>
+        <WORD coords="2499,3737,2775,3647" x-confidence="96">images</WORD>
+        <WORD coords="2809,3716,2962,3647" x-confidence="96">also</WORD>
+        <WORD coords="2993,3716,3284,3647" x-confidence="95">contain</WORD>
+        <WORD coords="3312,3716,3781,3647" x-confidence="95">information</WORD>
+        <WORD coords="3811,3716,4028,3647" x-confidence="95">about</WORD>
+        <WORD coords="4055,3716,4174,3647" x-confidence="96">the</WORD>
+        <WORD coords="4200,3716,4378,3647" x-confidence="96">boot</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="478,3837,710,3778" x-confidence="96">sector</WORD>
+        <WORD coords="740,3858,1037,3769" x-confidence="96">(among</WORD>
+        <WORD coords="1068,3837,1270,3768" x-confidence="96">other</WORD>
+        <WORD coords="1297,3853,1893,3768" x-confidence="96">characteristics)</WORD>
+        <WORD coords="1927,3837,2012,3768" x-confidence="96">of</WORD>
+        <WORD coords="2033,3837,2152,3768" x-confidence="96">the</WORD>
+        <WORD coords="2182,3837,2314,3768" x-confidence="96">CD</WORD>
+        <WORD coords="2344,3837,2493,3768" x-confidence="96">that</WORD>
+        <WORD coords="2520,3837,2573,3768" x-confidence="95">it</WORD>
+        <WORD coords="2601,3837,2661,3768" x-confidence="95">is</WORD>
+        <WORD coords="2693,3858,3008,3768" x-confidence="96">cloning.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,4179,758,4110" x-confidence="96">NOTE:</WORD>
+        <WORD coords="794,4179,1022,4110" x-confidence="95">There</WORD>
+        <WORD coords="1053,4179,1167,4132" x-confidence="95">are</WORD>
+        <WORD coords="1198,4179,1400,4110" x-confidence="96">other</WORD>
+        <WORD coords="1426,4200,1632,4120" x-confidence="96">types</WORD>
+        <WORD coords="1663,4179,1748,4110" x-confidence="96">of</WORD>
+        <WORD coords="1772,4179,1904,4110" x-confidence="96">CD</WORD>
+        <WORD coords="1935,4200,2212,4110" x-confidence="96">images</WORD>
+        <WORD coords="2244,4192,2619,4110" x-confidence="96">available,</WORD>
+        <WORD coords="2655,4179,2833,4110" x-confidence="96">such</WORD>
+        <WORD coords="2863,4179,2938,4132" x-confidence="96">as</WORD>
+        <WORD coords="2968,4179,3162,4112" x-confidence="93">Nero</WORD>
+        <WORD coords="3195,4200,3410,4111" x-confidence="91">(.nrg)</WORD>
+        <WORD coords="3444,4179,3583,4110" x-confidence="94">and</WORD>
+        <WORD coords="3612,4179,3808,4110" x-confidence="94">CUE</WORD>
+        <WORD coords="3839,4179,4074,4110" x-confidence="92">sheets</WORD>
+        <WORD coords="4108,4195,4297,4111" x-confidence="91">(.cue</WORD>
+        <WORD coords="4341,4179,4374,4110" x-confidence="91">&amp;</WORD>
+        <WORD coords="4434,4179,4445,4168" x-confidence="84">.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,4316,653,4231" x-confidence="95">bin),</WORD>
+        <WORD coords="686,4300,843,4231" x-confidence="94">RSJ</WORD>
+        <WORD coords="871,4300,1039,4253" x-confidence="94">uses</WORD>
+        <WORD coords="1069,4300,1187,4231" x-confidence="93">the</WORD>
+        <WORD coords="1222,4300,1351,4231" x-confidence="93">.trk</WORD>
+        <WORD coords="1378,4300,1777,4231" x-confidence="96">extension.</WORD>
+        <WORD coords="1810,4299,1935,4231" x-confidence="95">All</WORD>
+        <WORD coords="1963,4300,2165,4231" x-confidence="96">these</WORD>
+        <WORD coords="2194,4300,2360,4231" x-confidence="95">files</WORD>
+        <WORD coords="2392,4300,2526,4253" x-confidence="96">can</WORD>
+        <WORD coords="2552,4300,2644,4231" x-confidence="96">be</WORD>
+        <WORD coords="2671,4300,2941,4231" x-confidence="96">treated</WORD>
+        <WORD coords="2971,4300,3046,4253" x-confidence="96">as</WORD>
+        <WORD coords="3077,4300,3232,4231" x-confidence="95">ISO</WORD>
+        <WORD coords="3253,4321,3405,4231" x-confidence="95">just</WORD>
+        <WORD coords="3431,4300,3550,4231" x-confidence="96">the</WORD>
+        <WORD coords="3583,4300,3801,4253" x-confidence="96">same.</WORD>
+        <WORD coords="3835,4300,3990,4231" x-confidence="96">ISO</WORD>
+        <WORD coords="4021,4300,4081,4231" x-confidence="93">is</WORD>
+        <WORD coords="4114,4300,4154,4253" x-confidence="95">a</WORD>
+        <WORD coords="4182,4321,4450,4231" x-confidence="95">widely</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,4421,654,4352" x-confidence="96">used</WORD>
+        <WORD coords="682,4421,948,4352" x-confidence="96">format</WORD>
+        <WORD coords="976,4421,1114,4352" x-confidence="94">and</WORD>
+        <WORD coords="1142,4421,1204,4352" x-confidence="91">is</WORD>
+        <WORD coords="1237,4421,1391,4352" x-confidence="96">also</WORD>
+        <WORD coords="1420,4421,1601,4352" x-confidence="96">used</WORD>
+        <WORD coords="1628,4421,1702,4362" x-confidence="96">to</WORD>
+        <WORD coords="1733,4421,1965,4362" x-confidence="96">create</WORD>
+        <WORD coords="1993,4421,2112,4352" x-confidence="93">the</WORD>
+        <WORD coords="2141,4421,2660,4352" x-confidence="91">eComStation</WORD>
+        <WORD coords="2689,4421,3136,4352" x-confidence="96">Installation</WORD>
+        <WORD coords="3165,4421,3357,4352" x-confidence="96">CDs.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1933,4763,2128,4692" x-confidence="96">Save</WORD>
+        <WORD coords="2157,4781,2505,4692" x-confidence="96">yourself</WORD>
+        <WORD coords="2527,4762,2573,4714" x-confidence="96">a</WORD>
+        <WORD coords="2601,4762,2710,4693" x-confidence="95">lot</WORD>
+        <WORD coords="2738,4762,2823,4692" x-confidence="96">of</WORD>
+        <WORD coords="2845,4762,3029,4692" x-confidence="96">time</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,4933,672,4866" x-confidence="95">Burn</WORD>
+        <WORD coords="699,4933,817,4864" x-confidence="96">the</WORD>
+        <WORD coords="848,4933,1037,4864" x-confidence="96">CD's</WORD>
+        <WORD coords="1069,4933,1138,4874" x-confidence="96">at</WORD>
+        <WORD coords="1163,4944,1213,4863" x-confidence="96">4</WORD>
+        <WORD coords="1243,4954,1484,4864" x-confidence="96">speed,</WORD>
+        <WORD coords="1517,4933,1643,4874" x-confidence="96">not</WORD>
+        <WORD coords="1670,4946,1908,4864" x-confidence="96">faster,</WORD>
+        <WORD coords="1940,4933,2080,4864" x-confidence="96">this</WORD>
+        <WORD coords="2111,4954,2277,4886" x-confidence="96">may</WORD>
+        <WORD coords="2305,4933,2528,4864" x-confidence="96">result</WORD>
+        <WORD coords="2555,4932,2629,4864" x-confidence="96">in</WORD>
+        <WORD coords="2655,4954,3024,4864" x-confidence="96">problems</WORD>
+        <WORD coords="3055,4933,3229,4864" x-confidence="93">with</WORD>
+        <WORD coords="3285,4954,3577,4864" x-confidence="93">starting</WORD>
+        <WORD coords="3607,4933,3800,4864" x-confidence="93">from</WORD>
+        <WORD coords="3828,4933,3960,4864" x-confidence="95">CD</WORD>
+        <WORD coords="3991,4933,4213,4864" x-confidence="96">ROM</WORD>
+        <WORD coords="4245,4933,4325,4886" x-confidence="96">or</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,5075,842,4985" x-confidence="95">installing</WORD>
+        <WORD coords="875,5054,1212,4985" x-confidence="96">software</WORD>
+        <WORD coords="1241,5054,1433,4985" x-confidence="95">from</WORD>
+        <WORD coords="1461,5054,1593,4985" x-confidence="95">CD</WORD>
+        <WORD coords="1624,5054,1874,4985" x-confidence="95">ROM!</WORD>
+        <WORD coords="1935,5053,2003,4985" x-confidence="96">If</WORD>
+        <WORD coords="2025,5075,2207,5007" x-confidence="95">your</WORD>
+        <WORD coords="2235,5054,2367,4985" x-confidence="95">CD</WORD>
+        <WORD coords="2395,5054,2728,4985" x-confidence="95">recorder</WORD>
+        <WORD coords="2755,5054,2931,4985" x-confidence="96">does</WORD>
+        <WORD coords="2962,5054,3088,4995" x-confidence="96">not</WORD>
+        <WORD coords="3118,5075,3537,4985" x-confidence="96">supporting</WORD>
+        <WORD coords="3565,5075,3945,4985" x-confidence="96">recording</WORD>
+        <WORD coords="3977,5054,4017,5007" x-confidence="96">a</WORD>
+        <WORD coords="4045,5054,4177,4985" x-confidence="96">CD</WORD>
+        <WORD coords="4209,5054,4277,4995" x-confidence="95">at</WORD>
+        <WORD coords="4304,5053,4350,4985" x-confidence="97">4</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="478,5196,719,5106" x-confidence="96">speed,</WORD>
+        <WORD coords="751,5175,921,5106" x-confidence="96">then</WORD>
+        <WORD coords="949,5175,1222,5106" x-confidence="96">choose</WORD>
+        <WORD coords="1250,5175,1368,5106" x-confidence="96">the</WORD>
+        <WORD coords="1397,5175,1657,5106" x-confidence="96">lowest</WORD>
+        <WORD coords="1682,5175,1864,5106" x-confidence="96">burn</WORD>
+        <WORD coords="1895,5196,2116,5106" x-confidence="94">speed</WORD>
+        <WORD coords="2143,5196,2290,5128" x-confidence="96">you</WORD>
+        <WORD coords="2319,5175,2454,5128" x-confidence="96">can</WORD>
+        <WORD coords="2485,5175,2725,5106" x-confidence="95">select.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,5516,931,5447" x-confidence="96">Download:</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,5687,656,5618" x-confidence="95">First</WORD>
+        <WORD coords="683,5708,830,5640" x-confidence="96">you</WORD>
+        <WORD coords="859,5687,1044,5618" x-confidence="96">need</WORD>
+        <WORD coords="1071,5687,1145,5628" x-confidence="95">to</WORD>
+        <WORD coords="1176,5687,1566,5618" x-confidence="95">download</WORD>
+        <WORD coords="1593,5687,1712,5618" x-confidence="96">the</WORD>
+        <WORD coords="1740,5686,1887,5620" x-confidence="95">ZIP</WORD>
+        <WORD coords="1916,5687,2082,5618" x-confidence="96">files</WORD>
+        <WORD coords="2113,5708,2530,5618" x-confidence="95">containing</WORD>
+        <WORD coords="2559,5687,2677,5618" x-confidence="93">the</WORD>
+        <WORD coords="2707,5687,3226,5618" x-confidence="90">eComStation</WORD>
+        <WORD coords="3280,5687,3436,5618" x-confidence="95">ISO</WORD>
+        <WORD coords="3466,5687,3653,5618" x-confidence="96">files.</WORD>
+        <WORD coords="3687,5687,3922,5618" x-confidence="96">These</WORD>
+        <WORD coords="3953,5687,4067,5640" x-confidence="96">are</WORD>
+        <WORD coords="4099,5687,4452,5618" x-confidence="96">available</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,5808,588,5739" x-confidence="96">for</WORD>
+        <WORD coords="614,5829,1006,5739" x-confidence="96">registered</WORD>
+        <WORD coords="1035,5808,1433,5749" x-confidence="96">customers</WORD>
+        <WORD coords="1466,5808,1604,5739" x-confidence="96">and</WORD>
+        <WORD coords="1633,5808,1769,5761" x-confidence="96">can</WORD>
+        <WORD coords="1794,5808,1886,5739" x-confidence="96">be</WORD>
+        <WORD coords="1916,5808,2399,5739" x-confidence="96">downloaded</WORD>
+        <WORD coords="2429,5808,2505,5761" x-confidence="96">as</WORD>
+        <WORD coords="2539,5829,2742,5740" x-confidence="96">(very</WORD>
+        <WORD coords="2771,5829,2996,5739" x-confidence="93">large)</WORD>
+        <WORD coords="3028,5829,3337,5739" x-confidence="92">zipfiles.</WORD>
+        <WORD coords="3371,5808,3431,5741" x-confidence="76">It</WORD>
+        <WORD coords="3457,5808,3519,5739" x-confidence="76">is</WORD>
+        <WORD coords="3548,5808,3708,5739" x-confidence="96">best</WORD>
+        <WORD coords="3735,5808,3809,5749" x-confidence="95">to</WORD>
+        <WORD coords="3838,5808,3967,5761" x-confidence="96">use</WORD>
+        <WORD coords="4023,5808,4038,5761" x-confidence="96">a</WORD>
+        <WORD coords="4066,5808,4478,5739" x-confidence="96">Download</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,5950,828,5862" x-confidence="96">Manager</WORD>
+        <WORD coords="853,5929,1003,5860" x-confidence="96">that</WORD>
+        <WORD coords="1028,5950,1175,5882" x-confidence="96">you</WORD>
+        <WORD coords="1206,5929,1322,5882" x-confidence="96">are</WORD>
+        <WORD coords="1350,5929,1663,5860" x-confidence="96">familiar</WORD>
+        <WORD coords="1691,5942,1886,5860" x-confidence="96">with,</WORD>
+        <WORD coords="1922,5929,2002,5882" x-confidence="96">so</WORD>
+        <WORD coords="2031,5929,2181,5860" x-confidence="96">that</WORD>
+        <WORD coords="2206,5929,2325,5860" x-confidence="95">the</WORD>
+        <WORD coords="2356,5929,2746,5860" x-confidence="96">download</WORD>
+        <WORD coords="2775,5929,2909,5882" x-confidence="96">can</WORD>
+        <WORD coords="2935,5929,3027,5860" x-confidence="96">be</WORD>
+        <WORD coords="3054,5929,3391,5860" x-confidence="96">resumed</WORD>
+        <WORD coords="3419,5928,3483,5860" x-confidence="96">if</WORD>
+        <WORD coords="3504,5929,3622,5860" x-confidence="96">the</WORD>
+        <WORD coords="3653,5929,4086,5860" x-confidence="96">connection</WORD>
+        <WORD coords="4116,5950,4353,5860" x-confidence="96">drops.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,6050,647,5981" x-confidence="94">This</WORD>
+        <WORD coords="677,6050,830,5981" x-confidence="96">will</WORD>
+        <WORD coords="858,6071,1026,5981" x-confidence="96">help</WORD>
+        <WORD coords="1055,6050,1129,5991" x-confidence="96">to</WORD>
+        <WORD coords="1160,6050,1415,6003" x-confidence="96">ensure</WORD>
+        <WORD coords="1443,6050,1592,5981" x-confidence="96">that</WORD>
+        <WORD coords="1618,6050,1737,5981" x-confidence="96">the</WORD>
+        <WORD coords="1766,6050,1895,5981" x-confidence="96">file</WORD>
+        <WORD coords="1924,6050,1985,5981" x-confidence="95">1s</WORD>
+        <WORD coords="2014,6050,2367,5981" x-confidence="96">retrieved</WORD>
+        <WORD coords="2395,6071,2580,5981" x-confidence="96">fully</WORD>
+        <WORD coords="2609,6050,2847,5981" x-confidence="96">intact.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="586,6341,727,6272" x-confidence="96">The</WORD>
+        <WORD coords="740,6361,1130,6272" x-confidence="95">following</WORD>
+        <WORD coords="1153,6361,1391,6296" x-confidence="96">pages</WORD>
+        <WORD coords="1418,6341,1751,6272" x-confidence="96">describe</WORD>
+        <WORD coords="1782,6361,2094,6272" x-confidence="96">burning</WORD>
+        <WORD coords="2126,6341,2241,6272" x-confidence="96">the</WORD>
+        <WORD coords="2269,6342,2422,6273" x-confidence="96">ISO</WORD>
+        <WORD coords="2453,6341,2685,6272" x-confidence="91">under</WORD>
+        <WORD coords="2710,6342,3221,6273" x-confidence="91">eComStation</WORD>
+        <WORD coords="3253,6358,3373,6273" x-confidence="92">(or</WORD>
+        <WORD coords="3402,6358,3624,6272" x-confidence="90">OS/2)</WORD>
+        <WORD coords="3657,6341,3808,6272" x-confidence="96">and</WORD>
+        <WORD coords="3837,6342,4194,6272" x-confidence="96">Windows</WORD>
+        <WORD coords="4223,6341,4374,6272" x-confidence="96">and</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1486,6462,1775,6417" x-confidence="96">assume</WORD>
+        <WORD coords="1801,6482,1944,6417" x-confidence="96">you</WORD>
+        <WORD coords="1974,6482,2408,6393" x-confidence="95">succesfully</WORD>
+        <WORD coords="2437,6463,2926,6393" x-confidence="95">downloaded</WORD>
+        <WORD coords="2953,6462,3068,6393" x-confidence="96">the</WORD>
+        <WORD coords="3094,6463,3248,6394" x-confidence="95">ISO</WORD>
+        <WORD coords="3260,6482,3456,6393" x-confidence="96">files.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0000.djvu"/>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0001.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0001.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="716,604,1151,499" x-confidence="92">Creating</WORD>
+        <WORD coords="1185,582,1830,499" x-confidence="92">eComStation</WORD>
+        <WORD coords="1864,582,2165,499" x-confidence="96">install</WORD>
+        <WORD coords="2206,582,2442,499" x-confidence="95">CD's</WORD>
+        <WORD coords="2477,582,2772,501" x-confidence="93">under</WORD>
+        <WORD coords="2807,582,3048,499" x-confidence="91">OS/2</WORD>
+        <WORD coords="3077,582,3761,499" x-confidence="91">/eComStation</WORD>
+        <WORD coords="3796,582,4011,499" x-confidence="96">with</WORD>
+        <WORD coords="4046,591,4248,499" x-confidence="96">RSJ</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,757,742,688" x-confidence="96">Before</WORD>
+        <WORD coords="770,778,917,710" x-confidence="96">you</WORD>
+        <WORD coords="949,757,1116,698" x-confidence="96">start</WORD>
+        <WORD coords="1141,757,1261,688" x-confidence="96">the</WORD>
+        <WORD coords="1291,757,1681,688" x-confidence="95">download</WORD>
+        <WORD coords="1710,757,1795,688" x-confidence="95">of</WORD>
+        <WORD coords="1816,757,1934,688" x-confidence="92">the</WORD>
+        <WORD coords="1964,758,2483,688" x-confidence="90">eComStation</WORD>
+        <WORD coords="2511,778,2790,688" x-confidence="96">images</WORD>
+        <WORD coords="2819,757,3032,688" x-confidence="96">make</WORD>
+        <WORD coords="3061,757,3329,688" x-confidence="96">certain</WORD>
+        <WORD coords="3356,778,3503,710" x-confidence="96">you</WORD>
+        <WORD coords="3531,757,3716,688" x-confidence="96">have</WORD>
+        <WORD coords="3745,778,4036,688" x-confidence="96">enough</WORD>
+        <WORD coords="4065,778,4468,688" x-confidence="96">diskspace.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,878,671,809" x-confidence="96">Each</WORD>
+        <WORD coords="698,877,845,811" x-confidence="96">ZIP</WORD>
+        <WORD coords="874,878,1002,809" x-confidence="96">file</WORD>
+        <WORD coords="1030,899,1347,809" x-confidence="96">requires</WORD>
+        <WORD coords="1375,878,1707,809" x-confidence="95">between</WORD>
+        <WORD coords="1734,879,1881,809" x-confidence="95">400</WORD>
+        <WORD coords="1909,878,1982,819" x-confidence="95">to</WORD>
+        <WORD coords="2013,879,2158,808" x-confidence="96">550</WORD>
+        <WORD coords="2186,877,2334,811" x-confidence="96">MB</WORD>
+        <WORD coords="2370,878,2455,809" x-confidence="96">of</WORD>
+        <WORD coords="2478,899,2881,809" x-confidence="96">diskspace.</WORD>
+        <WORD coords="2915,877,2994,811" x-confidence="96">In</WORD>
+        <WORD coords="3024,891,3368,809" x-confidence="96">addition,</WORD>
+        <WORD coords="3400,878,3518,809" x-confidence="96">the</WORD>
+        <WORD coords="3547,879,3704,809" x-confidence="96">ISO</WORD>
+        <WORD coords="3734,878,3862,809" x-confidence="96">file</WORD>
+        <WORD coords="3894,878,4047,809" x-confidence="96">also</WORD>
+        <WORD coords="4076,878,4299,809" x-confidence="96">needs</WORD>
+        <WORD coords="4329,878,4402,819" x-confidence="96">to</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,999,565,930" x-confidence="95">be</WORD>
+        <WORD coords="594,1020,976,930" x-confidence="96">unzipped.</WORD>
+        <WORD coords="1038,1016,1187,930" x-confidence="94">(An</WORD>
+        <WORD coords="1215,1000,1370,930" x-confidence="94">ISO</WORD>
+        <WORD coords="1401,999,1529,930" x-confidence="96">file</WORD>
+        <WORD coords="1559,999,1674,930" x-confidence="94">for</WORD>
+        <WORD coords="1702,999,1742,952" x-confidence="94">a</WORD>
+        <WORD coords="1770,1000,1903,930" x-confidence="95">CD</WORD>
+        <WORD coords="1931,999,2060,930" x-confidence="96">has</WORD>
+        <WORD coords="2093,999,2133,952" x-confidence="95">a</WORD>
+        <WORD coords="2159,999,2563,930" x-confidence="96">maximum</WORD>
+        <WORD coords="2594,999,2742,930" x-confidence="96">size</WORD>
+        <WORD coords="2772,999,2857,930" x-confidence="96">of</WORD>
+        <WORD coords="2880,1000,3025,929" x-confidence="96">650</WORD>
+        <WORD coords="3053,1015,3258,931" x-confidence="93">MB).</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,1170,625,1101" x-confidence="95">The</WORD>
+        <WORD coords="655,1191,1038,1101" x-confidence="95">following</WORD>
+        <WORD coords="1068,1170,1530,1101" x-confidence="96">instructions</WORD>
+        <WORD coords="1563,1191,1778,1101" x-confidence="96">apply</WORD>
+        <WORD coords="1808,1191,1982,1101" x-confidence="96">only</WORD>
+        <WORD coords="2010,1169,2075,1101" x-confidence="96">if</WORD>
+        <WORD coords="2096,1191,2243,1123" x-confidence="96">you</WORD>
+        <WORD coords="2271,1171,2455,1101" x-confidence="96">have</WORD>
+        <WORD coords="2484,1170,2821,1101" x-confidence="96">installed</WORD>
+        <WORD coords="2848,1170,2967,1101" x-confidence="95">the</WORD>
+        <WORD coords="2996,1170,3463,1101" x-confidence="96">commercial</WORD>
+        <WORD coords="3493,1171,3626,1101" x-confidence="94">CD</WORD>
+        <WORD coords="3655,1171,3878,1101" x-confidence="94">ROM</WORD>
+        <WORD coords="3907,1170,4089,1101" x-confidence="96">burn</WORD>
+        <WORD coords="4120,1171,4455,1101" x-confidence="96">software</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,1291,632,1221" x-confidence="95">RSJ</WORD>
+        <WORD coords="662,1290,776,1221" x-confidence="92">for</WORD>
+        <WORD coords="803,1291,1556,1221" x-confidence="89">OS/2/eComStation</WORD>
+        <WORD coords="1588,1306,1756,1221" x-confidence="95">(this</WORD>
+        <WORD coords="1786,1290,1848,1221" x-confidence="95">is</WORD>
+        <WORD coords="1882,1291,2236,1221" x-confidence="96">available</WORD>
+        <WORD coords="2265,1290,2457,1221" x-confidence="92">from</WORD>
+        <WORD coords="2484,1311,2971,1221" x-confidence="50">www.rs].de)</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,1632,690,1565" x-confidence="96">From</WORD>
+        <WORD coords="716,1653,899,1585" x-confidence="96">your</WORD>
+        <WORD coords="924,1653,1252,1563" x-confidence="95">Desktop</WORD>
+        <WORD coords="1283,1653,1474,1585" x-confidence="96">open</WORD>
+        <WORD coords="1501,1632,1620,1563" x-confidence="96">the</WORD>
+        <WORD coords="1649,1632,1886,1563" x-confidence="96">folder</WORD>
+        <WORD coords="1914,1632,2179,1563" x-confidence="92">“Local</WORD>
+        <WORD coords="2209,1653,2540,1563" x-confidence="83">System”</WORD>
+        <WORD coords="2574,1632,2713,1563" x-confidence="93">and</WORD>
+        <WORD coords="2743,1645,3113,1563" x-confidence="60">“Drives”,</WORD>
+        <WORD coords="3148,1632,3370,1563" x-confidence="96">select</WORD>
+        <WORD coords="3396,1632,3515,1563" x-confidence="96">the</WORD>
+        <WORD coords="3542,1653,3804,1585" x-confidence="96">proper</WORD>
+        <WORD coords="3831,1633,4095,1563" x-confidence="92">“Drive</WORD>
+        <WORD coords="4130,1632,4207,1563" x-confidence="69">?”</WORD>
+        <WORD coords="4239,1632,4379,1563" x-confidence="96">and</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,1753,592,1684" x-confidence="96">the</WORD>
+        <WORD coords="622,1753,858,1684" x-confidence="96">folder</WORD>
+        <WORD coords="888,1774,1304,1684" x-confidence="96">(directory)</WORD>
+        <WORD coords="1335,1753,1483,1684" x-confidence="96">that</WORD>
+        <WORD coords="1511,1753,1838,1684" x-confidence="96">contains</WORD>
+        <WORD coords="1868,1753,1987,1684" x-confidence="96">the</WORD>
+        <WORD coords="2016,1754,2172,1684" x-confidence="96">ISO</WORD>
+        <WORD coords="2201,1774,2501,1684" x-confidence="95">images.</WORD>
+        <WORD coords="2538,1770,2687,1684" x-confidence="96">(On</WORD>
+        <WORD coords="2717,1753,2806,1706" x-confidence="93">an</WORD>
+        <WORD coords="2835,1754,3034,1684" x-confidence="92">OS/2</WORD>
+        <WORD coords="3067,1774,3358,1684" x-confidence="96">System</WORD>
+        <WORD coords="3384,1753,3502,1684" x-confidence="96">the</WORD>
+        <WORD coords="3532,1753,3769,1684" x-confidence="96">folder</WORD>
+        <WORD coords="3794,1753,4018,1684" x-confidence="96">Local</WORD>
+        <WORD coords="4049,1774,4340,1684" x-confidence="96">System</WORD>
+        <WORD coords="4366,1753,4427,1684" x-confidence="72">1s</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,1874,709,1805" x-confidence="93">called</WORD>
+        <WORD coords="739,1875,982,1805" x-confidence="91">“OS/2</WORD>
+        <WORD coords="1014,1895,1368,1805" x-confidence="95">System”.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1119,2126,1255,2078" x-confidence="72">Folder</WORD>
+        <WORD coords="1313,2126,1398,2078" x-confidence="84">Edit</WORD>
+        <WORD coords="1450,2126,1559,2078" x-confidence="81">View</WORD>
+        <WORD coords="1617,2200,1797,2053" x-confidence="3">seine</WORD>
+        <WORD coords="1860,2126,1959,2078" x-confidence="96">Help</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1114,2301,1240,2177" x-confidence="77">=</WORD>
+        <WORD coords="1266,2279,1455,2219" x-confidence="93">Command</WORD>
+        <WORD coords="1469,2315,1618,2222" x-confidence="36">a</WORD>
+        <WORD coords="1769,2282,1911,2193" x-confidence="16">Tae</WORD>
+        <WORD coords="2047,2282,2129,2193" x-confidence="39">cic</WORD>
+        <WORD coords="2281,2280,2289,2272" x-confidence="32">:</WORD>
+        <WORD coords="2392,2286,2407,2274" x-confidence="64">2</WORD>
+        <WORD coords="3255,2294,3274,2278" x-confidence="13">=</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="2157,2348,2175,2332" x-confidence="48">$</WORD>
+        <WORD coords="2463,2373,2514,2311" x-confidence="55">=.</WORD>
+        <WORD coords="3013,2355,3053,2313" x-confidence="59">al</WORD>
+        <WORD coords="3334,2353,3366,2326" x-confidence="23">ey</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1103,2580,1667,2292" x-confidence="76">—</WORD>
+        <WORD coords="1679,2540,1972,2266" x-confidence="71">Bare</WORD>
+        <WORD coords="2104,2429,2139,2383" x-confidence="26">i</WORD>
+        <WORD coords="2967,2426,2996,2391" x-confidence="18">i</WORD>
+        <WORD coords="3348,2386,3355,2380" x-confidence="47">o</WORD>
+        <WORD coords="3476,2416,3564,2389" x-confidence="47">e</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="2329,2571,2472,2520" x-confidence="49">Drives,</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1119,2642,1161,2513" x-confidence="19">A</WORD>
+        <WORD coords="1217,2637,1282,2593" x-confidence="56">er</WORD>
+        <WORD coords="1340,2642,1425,2579" x-confidence="82">Edit</WORD>
+        <WORD coords="1483,2643,1586,2593" x-confidence="45">View</WORD>
+        <WORD coords="1644,2647,1842,2567" x-confidence="59">Selected.</WORD>
+        <WORD coords="1887,2642,2010,2546" x-confidence="33">REISI</WORD>
+        <WORD coords="3104,2600,3256,2550" x-confidence="64">Drives</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="2561,2678,2697,2630" x-confidence="73">Folder</WORD>
+        <WORD coords="2755,2678,2840,2630" x-confidence="73">Edit</WORD>
+        <WORD coords="2898,2678,3001,2606" x-confidence="90">View</WORD>
+        <WORD coords="3059,2683,3242,2602" x-confidence="95">Selected</WORD>
+        <WORD coords="3303,2678,3416,2613" x-confidence="35">Help</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="1152,2818,1290,2695" x-confidence="61">fy</WORD>
+        <WORD coords="1322,2820,1461,2695" x-confidence="52">fy</WORD>
+        <WORD coords="1493,2833,1628,2722" x-confidence="7">ay</WORD>
+        <WORD coords="1666,2822,1811,2724" x-confidence="32">ay</WORD>
+        <WORD coords="1840,2828,1975,2709" x-confidence="27">ay</WORD>
+        <WORD coords="2003,2826,2102,2718" x-confidence="22">ED</WORD>
+        <WORD coords="2129,2820,2138,2772" x-confidence="70">|</WORD>
+        <WORD coords="2172,2827,2314,2723" x-confidence="65">&amp;</WORD>
+        <WORD coords="2335,2830,2515,2681" x-confidence="80">g</WORD>
+        <WORD coords="2555,2808,2577,2722" x-confidence="11">i</WORD>
+        <WORD coords="2602,2808,2714,2721" x-confidence="27">Aig</WORD>
+        <WORD coords="2705,2762,2833,2721" x-confidence="41">„424KB</WORD>
+        <WORD coords="2852,2762,2937,2718" x-confidence="95">free,</WORD>
+        <WORD coords="2963,2762,3301,2719" x-confidence="95">4,097,488</WORD>
+        <WORD coords="3160,2771,3198,2709" x-confidence="95">KB</WORD>
+        <WORD coords="3212,2756,3301,2719" x-confidence="95">total</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1151,2882,1297,2842" x-confidence="49">DriveA</WORD>
+        <WORD coords="1318,2881,1457,2838" x-confidence="90">DriveB</WORD>
+        <WORD coords="1495,2882,1627,2833" x-confidence="90">DriveC</WORD>
+        <WORD coords="1655,2882,1808,2835" x-confidence="88">DriveD</WORD>
+        <WORD coords="1842,2882,1972,2840" x-confidence="86">DriveE</WORD>
+        <WORD coords="2009,2882,2150,2840" x-confidence="18">Driver</WORD>
+        <WORD coords="2176,2882,2322,2837" x-confidence="65">DriveG</WORD>
+        <WORD coords="2623,2928,2696,2850" x-confidence="57">4</WORD>
+        <WORD coords="2729,2932,2857,2830" x-confidence="33">orm</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1178,3029,1229,2919" x-confidence="42">k</WORD>
+        <WORD coords="1234,3028,1289,2919" x-confidence="79">A</WORD>
+        <WORD coords="2702,3007,2764,2941" x-confidence="36">Ca)</WORD>
+        <WORD coords="2786,2997,3034,2957" x-confidence="91">SEINST_REXX</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1152,3113,1305,3018" x-confidence="67">Victripm</WORD>
+        <WORD coords="2702,3092,2764,3025" x-confidence="39">CS)</WORD>
+        <WORD coords="2790,3076,2861,3042" x-confidence="78">Mcp</WORD>
+        <WORD coords="2876,3076,3184,3042" x-confidence="64">1FIXPAK3NLBETA</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="2702,3181,2769,3106" x-confidence="39">R)</WORD>
+        <WORD coords="2786,3161,3048,3123" x-confidence="86">mmecsbuilder</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1142,3207,1235,3169" x-confidence="96">Drive</WORD>
+        <WORD coords="1249,3211,1255,3172" x-confidence="94">|</WORD>
+        <WORD coords="1271,3213,1396,3165" x-confidence="94">(3,922</WORD>
+        <WORD coords="1409,3215,1445,3168" x-confidence="96">of</WORD>
+        <WORD coords="1456,3221,1556,3172" x-confidence="82">4,001</WORD>
+        <WORD coords="1573,3221,1630,3172" x-confidence="96">MB</WORD>
+        <WORD coords="1639,3213,1733,3165" x-confidence="96">free)</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,3827,690,3760" x-confidence="96">From</WORD>
+        <WORD coords="716,3848,899,3780" x-confidence="96">your</WORD>
+        <WORD coords="924,3848,1275,3758" x-confidence="95">Desktop,</WORD>
+        <WORD coords="1308,3848,1499,3780" x-confidence="94">open</WORD>
+        <WORD coords="1526,3827,1645,3758" x-confidence="94">the</WORD>
+        <WORD coords="1674,3827,1911,3758" x-confidence="95">folder</WORD>
+        <WORD coords="1936,3827,2085,3758" x-confidence="95">that</WORD>
+        <WORD coords="2111,3828,2269,3758" x-confidence="95">RSJ</WORD>
+        <WORD coords="2299,3827,2602,3758" x-confidence="96">created.</WORD>
+        <WORD coords="2637,3848,2849,3758" x-confidence="95">Open</WORD>
+        <WORD coords="2876,3827,2995,3758" x-confidence="95">the</WORD>
+        <WORD coords="3026,3828,3202,3758" x-confidence="96">“CD</WORD>
+        <WORD coords="3231,3827,3530,3758" x-confidence="95">VIEW”</WORD>
+        <WORD coords="3561,3827,3798,3758" x-confidence="95">folder</WORD>
+        <WORD coords="3826,3827,3964,3758" x-confidence="96">and</WORD>
+        <WORD coords="3991,3827,4162,3758" x-confidence="96">then</WORD>
+        <WORD coords="4191,3848,4381,3780" x-confidence="96">open</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="477,3949,653,3879" x-confidence="94">“CD</WORD>
+        <WORD coords="680,3948,1073,3879" x-confidence="87">recorder”.</WORD>
+        <WORD coords="1106,3969,1302,3881" x-confidence="96">Drag</WORD>
+        <WORD coords="1334,3948,1473,3879" x-confidence="96">and</WORD>
+        <WORD coords="1500,3969,1701,3881" x-confidence="96">Drop</WORD>
+        <WORD coords="1730,3948,1849,3879" x-confidence="96">the</WORD>
+        <WORD coords="1877,3949,2034,3879" x-confidence="95">ISO</WORD>
+        <WORD coords="2064,3948,2192,3879" x-confidence="94">file</WORD>
+        <WORD coords="2221,3947,2297,3879" x-confidence="95">in</WORD>
+        <WORD coords="2324,3948,2442,3879" x-confidence="96">the</WORD>
+        <WORD coords="2474,3949,2649,3879" x-confidence="94">“CD</WORD>
+        <WORD coords="2679,3948,2937,3881" x-confidence="96">VIEW</WORD>
+        <WORD coords="2966,3949,3209,3879" x-confidence="89">CDR”</WORD>
+        <WORD coords="3240,3949,3577,3879" x-confidence="96">window.</WORD>
+        <WORD coords="3610,3969,3806,3881" x-confidence="96">Drag</WORD>
+        <WORD coords="3838,3948,3977,3879" x-confidence="96">and</WORD>
+        <WORD coords="4006,3969,4182,3879" x-confidence="96">drop</WORD>
+        <WORD coords="4211,3948,4462,3901" x-confidence="96">means</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,4069,623,4000" x-confidence="96">that</WORD>
+        <WORD coords="649,4090,796,4022" x-confidence="96">you</WORD>
+        <WORD coords="828,4069,1050,4000" x-confidence="96">select</WORD>
+        <WORD coords="1076,4069,1195,4000" x-confidence="95">the</WORD>
+        <WORD coords="1224,4070,1379,4000" x-confidence="95">ISO</WORD>
+        <WORD coords="1410,4069,1538,4000" x-confidence="96">file</WORD>
+        <WORD coords="1566,4068,1643,4000" x-confidence="96">in</WORD>
+        <WORD coords="1670,4069,1788,4000" x-confidence="96">the</WORD>
+        <WORD coords="1818,4090,2096,4000" x-confidence="96">orginal</WORD>
+        <WORD coords="2126,4069,2363,4000" x-confidence="96">folder</WORD>
+        <WORD coords="2391,4069,2529,4000" x-confidence="96">and</WORD>
+        <WORD coords="2555,4090,2757,4022" x-confidence="95">press</WORD>
+        <WORD coords="2786,4069,2905,4000" x-confidence="96">the</WORD>
+        <WORD coords="2933,4090,3122,4000" x-confidence="96">right</WORD>
+        <WORD coords="3148,4069,3405,4022" x-confidence="95">mouse</WORD>
+        <WORD coords="3433,4069,3706,4000" x-confidence="95">button.</WORD>
+        <WORD coords="3741,4069,3937,4000" x-confidence="96">Hold</WORD>
+        <WORD coords="3965,4069,4083,4000" x-confidence="96">the</WORD>
+        <WORD coords="4111,4069,4369,4022" x-confidence="96">mouse</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,4190,727,4121" x-confidence="96">button</WORD>
+        <WORD coords="758,4190,897,4121" x-confidence="96">and</WORD>
+        <WORD coords="926,4211,1097,4121" x-confidence="96">drag</WORD>
+        <WORD coords="1126,4190,1181,4121" x-confidence="95">it</WORD>
+        <WORD coords="1206,4190,1281,4131" x-confidence="95">to</WORD>
+        <WORD coords="1310,4190,1429,4121" x-confidence="95">the</WORD>
+        <WORD coords="1459,4191,1636,4121" x-confidence="79">“CD</WORD>
+        <WORD coords="1665,4190,1922,4123" x-confidence="95">VIEW</WORD>
+        <WORD coords="1952,4191,2195,4121" x-confidence="94">CDR”</WORD>
+        <WORD coords="2226,4190,2563,4121" x-confidence="96">window.</WORD>
+        <WORD coords="2597,4190,2904,4121" x-confidence="96">Release</WORD>
+        <WORD coords="2931,4190,3050,4121" x-confidence="96">the</WORD>
+        <WORD coords="3079,4190,3336,4143" x-confidence="96">mouse</WORD>
+        <WORD coords="3364,4190,3637,4121" x-confidence="96">button.</WORD>
+        <WORD coords="3672,4191,3791,4121" x-confidence="96">On</WORD>
+        <WORD coords="3821,4190,3910,4143" x-confidence="93">an</WORD>
+        <WORD coords="3938,4191,4138,4121" x-confidence="91">OS/2</WORD>
+        <WORD coords="4171,4211,4462,4121" x-confidence="95">System</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,4311,592,4242" x-confidence="96">the</WORD>
+        <WORD coords="622,4311,858,4242" x-confidence="96">folder</WORD>
+        <WORD coords="884,4311,1108,4242" x-confidence="95">Local</WORD>
+        <WORD coords="1139,4332,1430,4242" x-confidence="95">System</WORD>
+        <WORD coords="1456,4311,1518,4242" x-confidence="95">is</WORD>
+        <WORD coords="1549,4311,1784,4242" x-confidence="92">called</WORD>
+        <WORD coords="1814,4312,2057,4242" x-confidence="60">“OS/2</WORD>
+        <WORD coords="2089,4332,2442,4242" x-confidence="95">System”.</WORD>
+        <WORD coords="2478,4312,2602,4242" x-confidence="96">Set</WORD>
+        <WORD coords="2628,4311,2747,4242" x-confidence="96">the</WORD>
+        <WORD coords="2774,4311,2956,4242" x-confidence="96">burn</WORD>
+        <WORD coords="2987,4332,3208,4242" x-confidence="96">speed</WORD>
+        <WORD coords="3235,4311,3309,4252" x-confidence="96">to</WORD>
+        <WORD coords="3338,4310,3435,4242" x-confidence="96">4x</WORD>
+        <WORD coords="3466,4311,3604,4242" x-confidence="96">and</WORD>
+        <WORD coords="3630,4332,3832,4264" x-confidence="96">press</WORD>
+        <WORD coords="3861,4311,3980,4242" x-confidence="96">the</WORD>
+        <WORD coords="4008,4311,4134,4242" x-confidence="96">red</WORD>
+        <WORD coords="4160,4311,4414,4242" x-confidence="96">button</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="478,4448,694,4362" x-confidence="96">(third</WORD>
+        <WORD coords="720,4431,974,4362" x-confidence="96">button</WORD>
+        <WORD coords="1002,4431,1195,4362" x-confidence="95">from</WORD>
+        <WORD coords="1221,4431,1340,4362" x-confidence="95">the</WORD>
+        <WORD coords="1367,4452,1556,4362" x-confidence="96">right</WORD>
+        <WORD coords="1584,4431,1660,4384" x-confidence="95">as</WORD>
+        <WORD coords="1694,4431,1949,4362" x-confidence="95">shown</WORD>
+        <WORD coords="1976,4430,2052,4362" x-confidence="95">in</WORD>
+        <WORD coords="2079,4431,2197,4362" x-confidence="95">the</WORD>
+        <WORD coords="2225,4452,2500,4362" x-confidence="96">picture</WORD>
+        <WORD coords="2527,4447,2822,4362" x-confidence="96">below).</WORD>
+        <WORD coords="2856,4431,2915,4364" x-confidence="95">It</WORD>
+        <WORD coords="2942,4431,3093,4362" x-confidence="96">will</WORD>
+        <WORD coords="3121,4431,3284,4362" x-confidence="96">take</WORD>
+        <WORD coords="3316,4431,3533,4362" x-confidence="95">about</WORD>
+        <WORD coords="3570,4432,3653,4361" x-confidence="95">15</WORD>
+        <WORD coords="3685,4431,3997,4362" x-confidence="96">minutes</WORD>
+        <WORD coords="4027,4431,4143,4362" x-confidence="96">for</WORD>
+        <WORD coords="4171,4431,4211,4384" x-confidence="96">a</WORD>
+        <WORD coords="4238,4432,4371,4362" x-confidence="96">CD</WORD>
+        <WORD coords="4401,4431,4475,4372" x-confidence="96">to</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,4552,565,4483" x-confidence="96">be</WORD>
+        <WORD coords="593,4552,958,4483" x-confidence="96">recorded.</WORD>
+        <WORD coords="990,4552,1227,4483" x-confidence="96">When</WORD>
+        <WORD coords="1254,4552,1343,4483" x-confidence="95">its</WORD>
+        <WORD coords="1375,4565,1715,4483" x-confidence="96">finished,</WORD>
+        <WORD coords="1745,4573,1945,4505" x-confidence="96">press</WORD>
+        <WORD coords="1976,4552,2095,4483" x-confidence="96">the</WORD>
+        <WORD coords="2122,4552,2377,4483" x-confidence="96">button</WORD>
+        <WORD coords="2404,4552,2575,4493" x-confidence="96">next</WORD>
+        <WORD coords="2601,4552,2675,4493" x-confidence="95">to</WORD>
+        <WORD coords="2704,4552,2822,4483" x-confidence="95">the</WORD>
+        <WORD coords="2850,4552,3103,4483" x-confidence="96">record</WORD>
+        <WORD coords="3129,4552,3384,4483" x-confidence="96">button</WORD>
+        <WORD coords="3411,4552,3485,4493" x-confidence="96">to</WORD>
+        <WORD coords="3515,4552,3809,4483" x-confidence="96">finalize</WORD>
+        <WORD coords="3838,4552,3957,4483" x-confidence="95">the</WORD>
+        <WORD coords="3987,4553,4119,4483" x-confidence="95">CD</WORD>
+        <WORD coords="4149,4553,4393,4483" x-confidence="95">ROM.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="2056,4999,2059,4997" x-confidence="86">-</WORD>
+        <WORD coords="2378,5018,2428,5013" x-confidence="32">Go's</WORD>
+        <WORD coords="2757,5032,2898,4994" x-confidence="95">Wizard</WORD>
+        <WORD coords="3138,5009,3156,4997" x-confidence="60">—</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="969,5094,1036,5058" x-confidence="96">Get</WORD>
+        <WORD coords="1045,5094,1199,5054" x-confidence="96">Acrobat</WORD>
+        <WORD coords="1211,5094,1351,5054" x-confidence="93">Reader</WORD>
+        <WORD coords="1385,5094,1452,5058" x-confidence="96">RSJ</WORD>
+        <WORD coords="1469,5094,1651,5054" x-confidence="94">Software</WORD>
+        <WORD coords="1667,5104,1878,5058" x-confidence="41">Homepage</WORD>
+        <WORD coords="1913,5134,1927,5132" x-confidence="56">&lt;</WORD>
+        <WORD coords="1925,5094,2020,5058" x-confidence="96">Start</WORD>
+        <WORD coords="2033,5094,2125,5058" x-confidence="96">Error</WORD>
+        <WORD coords="2138,5151,2250,5058" x-confidence="26">=k</WORD>
+        <WORD coords="2246,5094,2299,5058" x-confidence="88">CD</WORD>
+        <WORD coords="2311,5094,2432,5054" x-confidence="80">Writer</WORD>
+        <WORD coords="2445,5094,2588,5054" x-confidence="95">Control</WORD>
+        <WORD coords="2629,5094,2697,5058" x-confidence="90">RSJ</WORD>
+        <WORD coords="2713,5094,2765,5058" x-confidence="93">CD</WORD>
+        <WORD coords="2747,5151,2805,5057" x-confidence="23">se</WORD>
+        <WORD coords="2909,5132,3022,5054" x-confidence="28">i</WORD>
+        <WORD coords="3078,5094,3294,5054" x-confidence="93">Installation</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="991,5267,1140,5216" x-confidence="84">Folder</WORD>
+        <WORD coords="1201,5267,1294,5216" x-confidence="84">Edit</WORD>
+        <WORD coords="1356,5268,1467,5216" x-confidence="77">View</WORD>
+        <WORD coords="1530,5272,1741,5196" x-confidence="96">Selected</WORD>
+        <WORD coords="1749,5267,1906,5159" x-confidence="28">EEF</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="683,5370,750,5333" x-confidence="94">RSJ</WORD>
+        <WORD coords="767,5369,819,5333" x-confidence="95">CD</WORD>
+        <WORD coords="835,5369,924,5333" x-confidence="95">Boot</WORD>
+        <WORD coords="973,5393,1060,5310" x-confidence="35">ee</WORD>
+        <WORD coords="1077,5369,1142,5333" x-confidence="92">CD</WORD>
+        <WORD coords="1157,5369,1361,5333" x-confidence="95">Recorder</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="668,5501,744,5459" x-confidence="93">&quot;CD</WORD>
+        <WORD coords="755,5506,878,5461" x-confidence="93">View&quot;</WORD>
+        <WORD coords="897,5508,945,5457" x-confidence="92">(L</WORD>
+        <WORD coords="980,5487,1054,5425" x-confidence="60">er</WORD>
+        <WORD coords="1078,5473,1181,5437" x-confidence="96">Hard</WORD>
+        <WORD coords="1197,5473,1293,5437" x-confidence="93">Disk</WORD>
+        <WORD coords="1306,5483,2013,5436" x-confidence="33">[C\PROGRAMS\RSJCD\Tracks]</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="980,5590,1054,5528" x-confidence="51">r</WORD>
+        <WORD coords="1078,5576,1253,5540" x-confidence="93">CDROM</WORD>
+        <WORD coords="1269,5587,1337,5540" x-confidence="68">[S]</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="987,5663,1040,5625" x-confidence="94">CD</WORD>
+        <WORD coords="1055,5664,1232,5622" x-confidence="95">Recorder</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1417,5595,1497,5531" x-confidence="52">er</WORD>
+        <WORD coords="2261,5586,2287,5536" x-confidence="28">ie</WORD>
+        <WORD coords="2551,5589,2634,5537" x-confidence="43">DD</WORD>
+        <WORD coords="2636,5593,2717,5537" x-confidence="43">View</WORD>
+        <WORD coords="2811,5593,2970,5537" x-confidence="33">GbR</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1425,5712,2254,5530" x-confidence="10">TSIM]</WORD>
+        <WORD coords="2288,5691,2433,5593" x-confidence="85">Speed</WORD>
+        <WORD coords="2472,5687,2523,5651" x-confidence="41">fx</WORD>
+        <WORD coords="2668,5730,2906,5526" x-confidence="0">F#m</WORD>
+        <WORD coords="3042,5715,3493,5530" x-confidence="6">Oe</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1440,5793,1629,5754" x-confidence="95">Unknown</WORD>
+        <WORD coords="1646,5793,1698,5758" x-confidence="94">CD</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1451,5890,1528,5854" x-confidence="89">Icon</WORD>
+        <WORD coords="1562,5918,1578,5820" x-confidence="89">|</WORD>
+        <WORD coords="1606,5890,1691,5850" x-confidence="90">Title</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1492,5971,1534,5931" x-confidence="36">a</WORD>
+        <WORD coords="1571,5979,1599,5926" x-confidence="28">Ss</WORD>
+        <WORD coords="1607,5971,1774,5931" x-confidence="78">Track</WORD>
+        <WORD coords="1735,5979,1776,5926" x-confidence="62">07</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1838,5842,1876,5820" x-confidence="45">ais</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1885,5900,1984,5854" x-confidence="95">Type</WORD>
+        <WORD coords="2084,5917,2100,5820" x-confidence="81">|</WORD>
+        <WORD coords="2131,5900,2263,5851" x-confidence="95">Length</WORD>
+        <WORD coords="2319,5918,2324,5820" x-confidence="88">|</WORD>
+        <WORD coords="2358,5897,2461,5847" x-confidence="82">(MB)</WORD>
+        <WORD coords="2521,5837,2527,5820" x-confidence="95">|</WORD>
+        <WORD coords="2561,5890,2675,5854" x-confidence="93">Pause</WORD>
+        <WORD coords="2688,5890,2787,5851" x-confidence="95">Time</WORD>
+        <WORD coords="2826,5904,2857,5843" x-confidence="92">|</WORD>
+        <WORD coords="2880,5890,3015,5854" x-confidence="96">Source</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1889,5970,2038,5933" x-confidence="53">COROM</WORD>
+        <WORD coords="2174,5969,2284,5933" x-confidence="73">61:09</WORD>
+        <WORD coords="2376,5969,2487,5933" x-confidence="67">537.5</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0001.djvu"/>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0002.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0002.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="2050,550,2147,504" x-confidence="28">Pep</WORD>
+        <WORD coords="2179,550,2243,504" x-confidence="0">EUs</WORD>
+        <WORD coords="2283,550,2345,504" x-confidence="0">ei</WORD>
+        <WORD coords="2377,550,2446,499" x-confidence="31">ree</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="592,1162,771,1134" x-confidence="39">el</WORD>
+        <WORD coords="1839,1143,1850,1140" x-confidence="39">i</WORD>
+        <WORD coords="2033,1161,2049,1143" x-confidence="66">:</WORD>
+        <WORD coords="2487,1148,2584,1102" x-confidence="35">Rae</WORD>
+        <WORD coords="2616,1162,2901,1097" x-confidence="0">CUS</WORD>
+        <WORD coords="2929,1148,3127,1097" x-confidence="30">En]</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="535,1345,620,1291" x-confidence="92">RSJ</WORD>
+        <WORD coords="646,1337,700,1291" x-confidence="69">CD</WORD>
+        <WORD coords="794,1350,840,1291" x-confidence="89">Boot</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,2384,582,2316" x-confidence="95">To</WORD>
+        <WORD coords="610,2384,791,2315" x-confidence="95">burn</WORD>
+        <WORD coords="820,2384,910,2337" x-confidence="96">an</WORD>
+        <WORD coords="936,2385,1094,2315" x-confidence="96">ISO</WORD>
+        <WORD coords="1124,2385,1299,2314" x-confidence="96">with</WORD>
+        <WORD coords="1326,2385,1484,2315" x-confidence="95">RSJ</WORD>
+        <WORD coords="1513,2405,1660,2337" x-confidence="95">you</WORD>
+        <WORD coords="1692,2384,1954,2314" x-confidence="93">should</WORD>
+        <WORD coords="1986,2385,2309,2315" x-confidence="87">*never*</WORD>
+        <WORD coords="2344,2405,2512,2314" x-confidence="96">give</WORD>
+        <WORD coords="2539,2405,2722,2337" x-confidence="96">your</WORD>
+        <WORD coords="2748,2385,2882,2315" x-confidence="96">CD</WORD>
+        <WORD coords="2910,2384,3171,2315" x-confidence="96">burner</WORD>
+        <WORD coords="3195,2410,3237,2310" x-confidence="95">a</WORD>
+        <WORD coords="3292,2385,3493,2314" x-confidence="94">drive</WORD>
+        <WORD coords="3521,2384,3725,2314" x-confidence="96">letter</WORD>
+        <WORD coords="3753,2384,3892,2315" x-confidence="96">and</WORD>
+        <WORD coords="3920,2405,4110,2337" x-confidence="96">copy</WORD>
+        <WORD coords="4138,2384,4258,2315" x-confidence="96">the</WORD>
+        <WORD coords="4286,2385,4442,2315" x-confidence="95">ISO</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,2505,605,2435" x-confidence="97">file</WORD>
+        <WORD coords="631,2505,706,2446" x-confidence="97">to</WORD>
+        <WORD coords="735,2505,875,2435" x-confidence="96">this</WORD>
+        <WORD coords="906,2506,1108,2435" x-confidence="96">drive</WORD>
+        <WORD coords="1135,2505,1357,2435" x-confidence="96">letter.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0002.djvu"/>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0003.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0003.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="479,604,913,499" x-confidence="93">Creating</WORD>
+        <WORD coords="948,582,1592,499" x-confidence="92">eComStation</WORD>
+        <WORD coords="1626,582,1928,499" x-confidence="96">install</WORD>
+        <WORD coords="1968,582,2204,499" x-confidence="96">CD's</WORD>
+        <WORD coords="2240,582,2535,501" x-confidence="96">under</WORD>
+        <WORD coords="2567,582,3030,499" x-confidence="96">Windows</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="479,708,643,638" x-confidence="95">This</WORD>
+        <WORD coords="675,708,736,641" x-confidence="96">is</WORD>
+        <WORD coords="765,707,810,662" x-confidence="94">a</WORD>
+        <WORD coords="840,708,1045,638" x-confidence="94">short</WORD>
+        <WORD coords="1070,727,1515,638" x-confidence="96">description</WORD>
+        <WORD coords="1547,707,1641,662" x-confidence="96">on</WORD>
+        <WORD coords="1671,708,1834,638" x-confidence="96">how</WORD>
+        <WORD coords="1864,707,1935,651" x-confidence="95">to</WORD>
+        <WORD coords="1967,707,2210,651" x-confidence="93">create</WORD>
+        <WORD coords="2241,708,2752,639" x-confidence="89">eComStation</WORD>
+        <WORD coords="2785,708,3232,638" x-confidence="94">installation</WORD>
+        <WORD coords="3268,708,3459,639" x-confidence="96">CD's</WORD>
+        <WORD coords="3489,707,3721,638" x-confidence="95">under</WORD>
+        <WORD coords="3751,708,4124,638" x-confidence="96">Windows.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,828,647,759" x-confidence="95">This</WORD>
+        <WORD coords="680,828,957,759" x-confidence="96">section</WORD>
+        <WORD coords="986,829,1135,781" x-confidence="96">was</WORD>
+        <WORD coords="1166,829,1446,759" x-confidence="96">written</WORD>
+        <WORD coords="1472,849,1570,759" x-confidence="96">by</WORD>
+        <WORD coords="1598,828,1868,759" x-confidence="96">Robert</WORD>
+        <WORD coords="1895,849,2216,761" x-confidence="93">Traynor</WORD>
+        <WORD coords="2245,845,2554,759" x-confidence="91">(BobT),</WORD>
+        <WORD coords="2585,829,2984,759" x-confidence="96">november</WORD>
+        <WORD coords="3011,829,3226,759" x-confidence="96">2003.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,1141,709,1051" x-confidence="95">Using</WORD>
+        <WORD coords="738,1120,932,1053" x-confidence="95">Nero</WORD>
+        <WORD coords="963,1121,1007,1050" x-confidence="96">6</WORD>
+        <WORD coords="1037,1120,1206,1053" x-confidence="96">You</WORD>
+        <WORD coords="1235,1120,1369,1073" x-confidence="96">can</WORD>
+        <WORD coords="1396,1120,1527,1073" x-confidence="96">use</WORD>
+        <WORD coords="1555,1120,1750,1053" x-confidence="92">Nero</WORD>
+        <WORD coords="1783,1137,2454,1051" x-confidence="87">(www.nero.com)</WORD>
+        <WORD coords="2485,1120,2559,1061" x-confidence="95">to</WORD>
+        <WORD coords="2587,1120,2769,1051" x-confidence="95">burn</WORD>
+        <WORD coords="2796,1120,2914,1051" x-confidence="91">the</WORD>
+        <WORD coords="2949,1121,3174,1051" x-confidence="38">*.ISO</WORD>
+        <WORD coords="3206,1120,3286,1073" x-confidence="96">or</WORD>
+        <WORD coords="3315,1137,3534,1051" x-confidence="92">(RSJ)</WORD>
+        <WORD coords="3571,1120,3839,1051" x-confidence="88">*.TRK</WORD>
+        <WORD coords="3866,1120,4032,1051" x-confidence="96">files</WORD>
+        <WORD coords="4061,1120,4136,1061" x-confidence="93">to</WORD>
+        <WORD coords="4167,1121,4331,1051" x-confidence="96">CD-</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,1240,634,1193" x-confidence="96">rom</WORD>
+        <WORD coords="659,1240,881,1171" x-confidence="96">blank</WORD>
+        <WORD coords="908,1240,1091,1171" x-confidence="96">disk.</WORD>
+        <WORD coords="1124,1241,1327,1171" x-confidence="89">Both</WORD>
+        <WORD coords="1360,1241,1597,1170" x-confidence="84">*.ISO</WORD>
+        <WORD coords="1629,1241,1787,1171" x-confidence="93">and</WORD>
+        <WORD coords="1820,1241,2105,1170" x-confidence="91">*.TRK</WORD>
+        <WORD coords="2131,1241,2300,1170" x-confidence="96">files</WORD>
+        <WORD coords="2330,1241,2481,1170" x-confidence="95">will</WORD>
+        <WORD coords="2510,1241,2607,1171" x-confidence="95">be</WORD>
+        <WORD coords="2636,1241,2936,1171" x-confidence="96">treated</WORD>
+        <WORD coords="2964,1260,3067,1171" x-confidence="96">by</WORD>
+        <WORD coords="3095,1241,3302,1171" x-confidence="96">Nero</WORD>
+        <WORD coords="3331,1241,3415,1192" x-confidence="94">as</WORD>
+        <WORD coords="3445,1241,3591,1192" x-confidence="96">one</WORD>
+        <WORD coords="3620,1241,3778,1171" x-confidence="95">and</WORD>
+        <WORD coords="3806,1241,3936,1171" x-confidence="95">the</WORD>
+        <WORD coords="3965,1241,4200,1192" x-confidence="96">same.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,1554,652,1415" x-confidence="17">7</WORD>
+        <WORD coords="657,1554,861,1415" x-confidence="17">fase</WORD>
+        <WORD coords="892,1483,936,1413" x-confidence="96">6</WORD>
+        <WORD coords="968,1482,1107,1413" x-confidence="96">and</WORD>
+        <WORD coords="1136,1553,1416,1413" x-confidence="50">a</WORD>
+        <WORD coords="1436,1554,1554,1413" x-confidence="50">a</WORD>
+        <WORD coords="1582,1482,1874,1413" x-confidence="94">Wizard</WORD>
+        <WORD coords="1901,1547,2246,1409" x-confidence="96">interface</WORD>
+        <WORD coords="2276,1517,2356,1435" x-confidence="96">or</WORD>
+        <WORD coords="2383,1483,2656,1413" x-confidence="96">Cancel</WORD>
+        <WORD coords="2684,1482,2802,1413" x-confidence="95">the</WORD>
+        <WORD coords="2831,1482,3121,1413" x-confidence="95">manual</WORD>
+        <WORD coords="3151,1482,3500,1412" x-confidence="95">Interface</WORD>
+        <WORD coords="3531,1482,3606,1435" x-confidence="95">as</WORD>
+        <WORD coords="3640,1483,3894,1413" x-confidence="96">shown</WORD>
+        <WORD coords="3920,1483,4183,1413" x-confidence="96">below.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1118,2229,1152,2169" x-confidence="53">E</WORD>
+        <WORD coords="1167,2225,1262,2190" x-confidence="32">Foil</WORD>
+        <WORD coords="1267,2229,1397,2190" x-confidence="21">lane</WORD>
+        <WORD coords="1397,2229,1512,2190" x-confidence="28">daaa</WORD>
+        <WORD coords="1512,2230,1562,2190" x-confidence="26">aan</WORD>
+        <WORD coords="1572,2225,1597,2190" x-confidence="32">lai</WORD>
+        <WORD coords="1601,2229,1667,2190" x-confidence="27">Daa</WORD>
+        <WORD coords="1667,2229,1756,2190" x-confidence="22">aea</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1158,2270,1202,2229" x-confidence="45">TÈ</WORD>
+        <WORD coords="1219,2269,1317,2220" x-confidence="30">peis</WORD>
+        <WORD coords="1326,2260,1357,2235" x-confidence="16">A</WORD>
+        <WORD coords="1361,2270,1537,2235" x-confidence="16">TESSE</WORD>
+        <WORD coords="1475,2274,1497,2231" x-confidence="24">a</WORD>
+        <WORD coords="1507,2274,1540,2231" x-confidence="29">En</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1212,2314,1242,2270" x-confidence="38">TE</WORD>
+        <WORD coords="1292,2319,1441,2271" x-confidence="0">pheri</WORD>
+        <WORD coords="1393,2323,1446,2266" x-confidence="47">tit,</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1222,2365,1272,2320" x-confidence="29">cae</WORD>
+        <WORD coords="1267,2355,1317,2335" x-confidence="17">ee</WORD>
+        <WORD coords="1346,2371,1381,2326" x-confidence="26">a</WORD>
+        <WORD coords="1381,2373,1476,2312" x-confidence="3">cheap</WORD>
+        <WORD coords="1472,2360,1542,2325" x-confidence="31">ea</WORD>
+        <WORD coords="1534,2389,1591,2310" x-confidence="36">a</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1218,2420,1262,2366" x-confidence="37">Eri</WORD>
+        <WORD coords="1267,2429,1547,2376" x-confidence="8">EEn</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1217,2475,1327,2430" x-confidence="29">Ei</WORD>
+        <WORD coords="1312,2460,1351,2436" x-confidence="33">me</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1152,2520,1198,2477" x-confidence="22">EE</WORD>
+        <WORD coords="1225,2528,1294,2470" x-confidence="25">ever</WORD>
+        <WORD coords="1340,2515,1412,2470" x-confidence="19">oho</WORD>
+        <WORD coords="1422,2510,1537,2475" x-confidence="21">Masri</WORD>
+        <WORD coords="1532,2520,1541,2471" x-confidence="29">|</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1152,2569,1224,2529" x-confidence="31">(Fe</WORD>
+        <WORD coords="1223,2583,1312,2522" x-confidence="16">vate</WORD>
+        <WORD coords="1297,2555,1387,2530" x-confidence="0">weer</WORD>
+        <WORD coords="1392,2555,1572,2490" x-confidence="6">eS</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="537,3537,631,3497" x-confidence="26">Large</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="537,3607,620,3557" x-confidence="0">aut</WORD>
+        <WORD coords="627,3607,697,3543" x-confidence="42">Ahin</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="498,3637,520,3602" x-confidence="42">Ẹ</WORD>
+        <WORD coords="536,3661,633,3602" x-confidence="8">Pamet</WORD>
+        <WORD coords="653,3667,721,3602" x-confidence="4">tink</WORD>
+        <WORD coords="737,3671,822,3598" x-confidence="45">prapa</WORD>
+        <WORD coords="848,3671,904,3598" x-confidence="35">See</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="518,3750,662,3677" x-confidence="33">linir</WORD>
+        <WORD coords="671,3750,867,3667" x-confidence="29">ineen</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="517,4002,747,3892" x-confidence="25">Den</WORD>
+        <WORD coords="692,3961,822,3912" x-confidence="33">ava...</WORD>
+        <WORD coords="1018,3928,1021,3927" x-confidence="60">i</WORD>
+       </LINE>
+       <LINE x-struct="caption">
+        <WORD coords="519,4105,650,4008" x-confidence="46">=</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0003.djvu"/>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0004.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0004.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="474,565,697,496" x-confidence="96">Make</WORD>
+        <WORD coords="730,565,889,518" x-confidence="96">sure</WORD>
+        <WORD coords="916,586,1063,518" x-confidence="96">you</WORD>
+        <WORD coords="1091,565,1277,496" x-confidence="96">have</WORD>
+        <WORD coords="1305,565,1424,496" x-confidence="95">the</WORD>
+        <WORD coords="1455,586,1714,496" x-confidence="96">setting</WORD>
+        <WORD coords="1744,565,1986,496" x-confidence="96">ticked</WORD>
+        <WORD coords="2013,565,2087,506" x-confidence="95">to</WORD>
+        <WORD coords="2123,566,2528,495" x-confidence="95">&quot;Finalize&quot;</WORD>
+        <WORD coords="2561,565,2680,496" x-confidence="95">the</WORD>
+        <WORD coords="2711,566,2865,496" x-confidence="95">CD.</WORD>
+        <WORD coords="2899,565,3126,496" x-confidence="96">There</WORD>
+        <WORD coords="3158,565,3272,518" x-confidence="96">are</WORD>
+        <WORD coords="3301,566,3446,495" x-confidence="96">NO</WORD>
+        <WORD coords="3478,565,3681,496" x-confidence="96">other</WORD>
+        <WORD coords="3710,586,4006,496" x-confidence="95">settings</WORD>
+        <WORD coords="4036,586,4183,518" x-confidence="95">you</WORD>
+        <WORD coords="4212,565,4349,518" x-confidence="95">can</WORD>
+        <WORD coords="4378,565,4458,518" x-confidence="96">or</WORD>
+       </LINE>
+       <LINE x-struct="caption">
+        <WORD coords="478,686,739,617" x-confidence="96">should</WORD>
+        <WORD coords="767,707,1065,617" x-confidence="96">change.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="2252,939,2382,899" x-confidence="35">Pilni</WORD>
+        <WORD coords="2349,953,2384,895" x-confidence="28">=}</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="1568,1059,1657,999" x-confidence="28">VS</WORD>
+        <WORD coords="1677,1044,1772,1019" x-confidence="37">sa-</WORD>
+        <WORD coords="1762,1130,2207,999" x-confidence="0">eee</WORD>
+        <WORD coords="2167,1114,2263,989" x-confidence="42">Le</WORD>
+        <WORD coords="2282,1076,2347,985" x-confidence="53">a</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="492,1002,552,914" x-confidence="64">th</WORD>
+        <WORD coords="592,979,669,913" x-confidence="32">aa</WORD>
+        <WORD coords="692,979,767,949" x-confidence="6">a-</WORD>
+        <WORD coords="811,979,957,949" x-confidence="7">oradh</WORD>
+        <WORD coords="975,984,982,915" x-confidence="26">=</WORD>
+        <WORD coords="997,977,1101,929" x-confidence="18">gibt</WORD>
+        <WORD coords="1123,979,1306,925" x-confidence="0">GAFAT</WORD>
+        <WORD coords="1337,979,1462,924" x-confidence="6">ees</WORD>
+        <WORD coords="1503,979,1587,919" x-confidence="15">ee</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="492,1067,626,989" x-confidence="6">Sie</WORD>
+        <WORD coords="660,1119,718,1004" x-confidence="30">bd</WORD>
+        <WORD coords="764,1064,847,1004" x-confidence="41">ki</WORD>
+        <WORD coords="855,1064,1177,989" x-confidence="36">SGER</WORD>
+        <WORD coords="1187,1064,1231,999" x-confidence="53">le</WORD>
+        <WORD coords="1283,1064,1399,993" x-confidence="3">Os</WORD>
+        <WORD coords="1430,1064,1546,989" x-confidence="8">oi</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="1887,2125,2086,2086" x-confidence="23">Se</WORD>
+        <WORD coords="2096,2120,2244,2090" x-confidence="27">Se</WORD>
+        <WORD coords="2277,2110,2362,2090" x-confidence="45">ae</WORD>
+       </LINE>
+       <LINE x-struct="caption">
+        <WORD coords="1953,2168,2065,2126" x-confidence="36">PORES</WORD>
+        <WORD coords="2172,2155,2282,2130" x-confidence="22">SmE</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,2440,815,2369" x-confidence="95">Possible</WORD>
+        <WORD coords="845,2459,1240,2370" x-confidence="96">problems</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,2631,781,2541" x-confidence="96">Usually</WORD>
+        <WORD coords="810,2610,1005,2543" x-confidence="96">Nero</WORD>
+        <WORD coords="1035,2610,1186,2541" x-confidence="96">will</WORD>
+        <WORD coords="1216,2631,1584,2541" x-confidence="96">complain</WORD>
+        <WORD coords="1611,2609,1676,2541" x-confidence="96">if</WORD>
+        <WORD coords="1698,2610,1817,2541" x-confidence="96">the</WORD>
+        <WORD coords="1846,2611,2001,2541" x-confidence="96">ISO</WORD>
+        <WORD coords="2031,2631,2272,2541" x-confidence="96">image</WORD>
+        <WORD coords="2300,2610,2361,2541" x-confidence="95">is</WORD>
+        <WORD coords="2390,2631,2611,2541" x-confidence="96">badly</WORD>
+        <WORD coords="2640,2631,3040,2541" x-confidence="96">corrupted,</WORD>
+        <WORD coords="3070,2610,3198,2541" x-confidence="96">but</WORD>
+        <WORD coords="3224,2610,3462,2541" x-confidence="96">minor</WORD>
+        <WORD coords="3489,2631,3938,2541" x-confidence="96">corruptions</WORD>
+        <WORD coords="3969,2610,4104,2563" x-confidence="96">can</WORD>
+        <WORD coords="4130,2610,4222,2541" x-confidence="96">be</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,2752,796,2662" x-confidence="96">ignored.</WORD>
+        <WORD coords="830,2730,898,2662" x-confidence="88">If</WORD>
+        <WORD coords="920,2752,1067,2684" x-confidence="96">you</WORD>
+        <WORD coords="1096,2731,1360,2672" x-confidence="96">cannot</WORD>
+        <WORD coords="1390,2731,1509,2684" x-confidence="96">see</WORD>
+        <WORD coords="1538,2731,1657,2662" x-confidence="96">the</WORD>
+        <WORD coords="1684,2752,2030,2662" x-confidence="96">resulting</WORD>
+        <WORD coords="2061,2744,2173,2662" x-confidence="96">cd,</WORD>
+        <WORD coords="2205,2731,2436,2662" x-confidence="96">check</WORD>
+        <WORD coords="2461,2731,2516,2662" x-confidence="96">it</WORD>
+        <WORD coords="2544,2731,2724,2662" x-confidence="96">after</WORD>
+        <WORD coords="2752,2731,2792,2684" x-confidence="96">a</WORD>
+        <WORD coords="2817,2731,3089,2662" x-confidence="96">reboot.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,2971,543,2903" x-confidence="94">If</WORD>
+        <WORD coords="568,2972,746,2903" x-confidence="96">after</WORD>
+        <WORD coords="771,2972,891,2903" x-confidence="96">the</WORD>
+        <WORD coords="918,2972,1173,2903" x-confidence="96">reboot</WORD>
+        <WORD coords="1199,2972,1395,2903" x-confidence="96">there</WORD>
+        <WORD coords="1426,2972,1542,2925" x-confidence="96">are</WORD>
+        <WORD coords="1573,2972,1716,2903" x-confidence="96">still</WORD>
+        <WORD coords="1745,2972,1841,2925" x-confidence="96">no</WORD>
+        <WORD coords="1871,2972,2037,2903" x-confidence="96">files</WORD>
+        <WORD coords="2067,2972,2330,2903" x-confidence="96">visible</WORD>
+        <WORD coords="2361,2972,2457,2925" x-confidence="96">on</WORD>
+        <WORD coords="2484,2972,2602,2903" x-confidence="96">the</WORD>
+        <WORD coords="2633,2985,2789,2903" x-confidence="96">CD,</WORD>
+        <WORD coords="2820,2993,2967,2925" x-confidence="96">you</WORD>
+        <WORD coords="2995,2993,3228,2903" x-confidence="96">might</WORD>
+        <WORD coords="3254,2972,3439,2903" x-confidence="96">have</WORD>
+        <WORD coords="3469,2972,3509,2925" x-confidence="96">a</WORD>
+        <WORD coords="3537,2972,3892,2903" x-confidence="96">windows</WORD>
+        <WORD coords="3920,2993,4253,2903" x-confidence="96">problem</WORD>
+        <WORD coords="4281,2972,4456,2903" x-confidence="96">with</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="477,3093,773,3024" x-confidence="96">another</WORD>
+        <WORD coords="797,3114,1135,3046" x-confidence="94">program</WORD>
+        <WORD coords="1161,3114,1577,3024" x-confidence="94">interfering</WORD>
+        <WORD coords="1607,3093,1783,3024" x-confidence="96">with</WORD>
+        <WORD coords="1810,3093,1929,3024" x-confidence="96">the</WORD>
+        <WORD coords="1955,3114,2264,3024" x-confidence="96">burning</WORD>
+        <WORD coords="2292,3114,2390,3024" x-confidence="96">by</WORD>
+        <WORD coords="2418,3093,2612,3026" x-confidence="95">Nero</WORD>
+        <WORD coords="2643,3106,2710,3024" x-confidence="96">6,</WORD>
+        <WORD coords="2744,3093,2784,3046" x-confidence="95">a</WORD>
+        <WORD coords="2812,3114,3040,3024" x-confidence="96">faulty</WORD>
+        <WORD coords="3070,3093,3161,3024" x-confidence="96">cd</WORD>
+        <WORD coords="3187,3106,3467,3024" x-confidence="96">burner,</WORD>
+        <WORD coords="3501,3093,3541,3046" x-confidence="96">a</WORD>
+        <WORD coords="3567,3114,3797,3024" x-confidence="95">faulty</WORD>
+        <WORD coords="3826,3094,3981,3024" x-confidence="96">ISO</WORD>
+        <WORD coords="4011,3114,4252,3024" x-confidence="95">image</WORD>
+        <WORD coords="4282,3093,4363,3046" x-confidence="95">or</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3215,659,3167" x-confidence="95">even</WORD>
+        <WORD coords="687,3235,917,3145" x-confidence="95">faulty</WORD>
+        <WORD coords="947,3214,1028,3167" x-confidence="96">or</WORD>
+        <WORD coords="1053,3235,1582,3145" x-confidence="96">inappropriate</WORD>
+        <WORD coords="1611,3214,1702,3145" x-confidence="96">cd</WORD>
+        <WORD coords="1728,3214,2007,3145" x-confidence="96">blanks.</WORD>
+       </LINE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,3335,625,3266" x-confidence="95">The</WORD>
+        <WORD coords="655,3335,775,3266" x-confidence="96">list</WORD>
+        <WORD coords="803,3335,888,3266" x-confidence="96">of</WORD>
+        <WORD coords="909,3356,1234,3266" x-confidence="96">possible</WORD>
+        <WORD coords="1262,3356,1630,3266" x-confidence="96">problems</WORD>
+        <WORD coords="1660,3335,1722,3266" x-confidence="96">is</WORD>
+        <WORD coords="1752,3335,2063,3266" x-confidence="96">endless.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="476,3577,637,3507" x-confidence="95">One</WORD>
+        <WORD coords="666,3597,1000,3507" x-confidence="95">example</WORD>
+        <WORD coords="1030,3576,1115,3507" x-confidence="96">of</WORD>
+        <WORD coords="1136,3597,1552,3507" x-confidence="96">interfering</WORD>
+        <WORD coords="1580,3597,1954,3529" x-confidence="96">programs</WORD>
+        <WORD coords="1984,3576,2045,3507" x-confidence="95">is</WORD>
+        <WORD coords="2076,3596,2278,3507" x-confidence="94">Easy</WORD>
+        <WORD coords="2310,3577,2446,3506" x-confidence="95">CD</WORD>
+        <WORD coords="2480,3577,2811,3506" x-confidence="96">Creator</WORD>
+        <WORD coords="2837,3597,2935,3507" x-confidence="96">by</WORD>
+        <WORD coords="2963,3576,3202,3507" x-confidence="96">Roxio</WORD>
+        <WORD coords="3236,3576,3374,3507" x-confidence="95">and</WORD>
+        <WORD coords="3402,3577,3629,3507" x-confidence="95">Nero.</WORD>
+        <WORD coords="3663,3576,3897,3507" x-confidence="96">These</WORD>
+        <WORD coords="3927,3576,4190,3517" x-confidence="96">cannot</WORD>
+        <WORD coords="4215,3576,4307,3507" x-confidence="96">be</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,3697,811,3628" x-confidence="96">installed</WORD>
+        <WORD coords="838,3696,914,3628" x-confidence="96">in</WORD>
+        <WORD coords="941,3697,1059,3628" x-confidence="96">the</WORD>
+        <WORD coords="1092,3697,1290,3650" x-confidence="96">same</WORD>
+        <WORD coords="1317,3697,1695,3628" x-confidence="96">Windows</WORD>
+        <WORD coords="1726,3697,2169,3628" x-confidence="95">installation</WORD>
+        <WORD coords="2196,3718,2540,3628" x-confidence="96">together.</WORD>
+        <WORD coords="2573,3697,2816,3628" x-confidence="96">Either</WORD>
+        <WORD coords="2841,3697,2972,3650" x-confidence="96">use</WORD>
+        <WORD coords="3002,3697,3141,3650" x-confidence="96">one</WORD>
+        <WORD coords="3171,3697,3251,3650" x-confidence="96">or</WORD>
+        <WORD coords="3276,3697,3395,3628" x-confidence="96">the</WORD>
+        <WORD coords="3426,3697,3646,3628" x-confidence="96">other.</WORD>
+        <WORD coords="3680,3697,3871,3628" x-confidence="96">Both</WORD>
+        <WORD coords="3898,3718,4270,3650" x-confidence="96">programs</WORD>
+        <WORD coords="4302,3697,4454,3628" x-confidence="96">will</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="473,3818,655,3749" x-confidence="96">burn</WORD>
+        <WORD coords="683,3819,839,3749" x-confidence="89">ISO</WORD>
+        <WORD coords="866,3839,1174,3749" x-confidence="89">/images</WORD>
+        <WORD coords="1204,3818,1277,3759" x-confidence="96">to</WORD>
+        <WORD coords="1309,3818,1399,3771" x-confidence="96">an</WORD>
+        <WORD coords="1427,3839,1673,3759" x-confidence="96">empty</WORD>
+        <WORD coords="1703,3819,1836,3749" x-confidence="95">CD</WORD>
+        <WORD coords="1864,3818,2302,3749" x-confidence="95">recordable.</WORD>
+       </LINE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,3939,625,3870" x-confidence="96">The</WORD>
+        <WORD coords="656,3939,789,3870" x-confidence="96">CD</WORD>
+        <WORD coords="820,3939,985,3870" x-confidence="96">disk</WORD>
+        <WORD coords="1010,3939,1284,3870" x-confidence="96">MUST</WORD>
+        <WORD coords="1312,3939,1404,3870" x-confidence="96">be</WORD>
+        <WORD coords="1434,3939,1474,3892" x-confidence="96">a</WORD>
+        <WORD coords="1501,3939,1664,3892" x-confidence="96">new</WORD>
+        <WORD coords="1694,3939,1834,3870" x-confidence="96">and</WORD>
+        <WORD coords="1862,3960,2302,3870" x-confidence="96">completely</WORD>
+        <WORD coords="2330,3940,2605,3869" x-confidence="96">BLANK</WORD>
+        <WORD coords="2710,3939,2962,3870" x-confidence="96">before</WORD>
+        <WORD coords="2989,3960,3136,3892" x-confidence="96">you</WORD>
+        <WORD coords="3168,3939,3353,3880" x-confidence="95">start.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="476,4202,852,4112" x-confidence="95">Checking</WORD>
+        <WORD coords="881,4181,1000,4112" x-confidence="96">the</WORD>
+        <WORD coords="1030,4182,1186,4112" x-confidence="95">ISO</WORD>
+        <WORD coords="1216,4181,1391,4112" x-confidence="93">with</WORD>
+        <WORD coords="1417,4182,1747,4112" x-confidence="92">WinISO</WORD>
+        <WORD coords="1777,4181,1945,4114" x-confidence="96">You</WORD>
+        <WORD coords="1974,4181,2109,4134" x-confidence="95">can</WORD>
+        <WORD coords="2138,4202,2328,4134" x-confidence="95">open</WORD>
+        <WORD coords="2355,4181,2474,4112" x-confidence="96">the</WORD>
+        <WORD coords="2502,4182,2659,4112" x-confidence="96">ISO</WORD>
+        <WORD coords="2688,4202,2929,4112" x-confidence="96">image</WORD>
+        <WORD coords="2956,4180,3033,4112" x-confidence="95">in</WORD>
+        <WORD coords="3063,4181,3103,4134" x-confidence="96">a</WORD>
+        <WORD coords="3128,4202,3466,4134" x-confidence="96">program</WORD>
+        <WORD coords="3492,4181,3638,4112" x-confidence="93">like</WORD>
+        <WORD coords="3665,4182,3995,4112" x-confidence="90">WinISO</WORD>
+        <WORD coords="4026,4181,4267,4112" x-confidence="96">which</WORD>
+        <WORD coords="4294,4181,4355,4112" x-confidence="88">is</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="477,4301,830,4232" x-confidence="93">available</WORD>
+        <WORD coords="859,4300,934,4232" x-confidence="94">in</WORD>
+        <WORD coords="964,4301,1004,4254" x-confidence="96">a</WORD>
+        <WORD coords="1031,4301,1189,4232" x-confidence="96">trial</WORD>
+        <WORD coords="1216,4301,1436,4232" x-confidence="96">mode</WORD>
+        <WORD coords="1465,4301,1639,4232" x-confidence="96">with</WORD>
+        <WORD coords="1670,4301,1874,4254" x-confidence="96">some</WORD>
+        <WORD coords="1902,4301,2342,4232" x-confidence="96">restrictions</WORD>
+        <WORD coords="2374,4301,2514,4232" x-confidence="96">and</WORD>
+        <WORD coords="2544,4301,2897,4232" x-confidence="96">available</WORD>
+        <WORD coords="2927,4301,3118,4232" x-confidence="93">from</WORD>
+        <WORD coords="3146,4301,3848,4232" x-confidence="41">www.winiso.com</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE x-struct="caption">
+        <WORD coords="473,4490,527,4460" x-confidence="22">{2</WORD>
+        <WORD coords="528,4519,727,4465" x-confidence="36">Wint-</WORD>
+        <WORD coords="993,4487,1007,4480" x-confidence="43">:</WORD>
+        <WORD coords="1149,4518,1151,4516" x-confidence="54">|</WORD>
+        <WORD coords="1511,4502,1514,4500" x-confidence="74">3</WORD>
+        <WORD coords="1684,4508,1758,4481" x-confidence="45">=</WORD>
+       </LINE>
+       <LINE x-struct="caption">
+        <WORD coords="501,4590,572,4535" x-confidence="66">File</WORD>
+        <WORD coords="608,4594,796,4504" x-confidence="69">‘Actions:</WORD>
+        <WORD coords="802,4615,1006,4492" x-confidence="49">&quot;Bootable</WORD>
+        <WORD coords="1027,4570,1072,4509" x-confidence="71">CD</WORD>
+        <WORD coords="1111,4619,1291,4540" x-confidence="12">Neils</WORD>
+        <WORD coords="1342,4615,1500,4500" x-confidence="33">Opties</WORD>
+        <WORD coords="1552,4615,1637,4500" x-confidence="37">=a</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="512,5675,582,5645" x-confidence="65">Hon</WORD>
+        <WORD coords="597,5679,722,5645" x-confidence="57">hosted</WORD>
+        <WORD coords="1022,5650,1192,5590" x-confidence="31">Ea</WORD>
+        <WORD coords="1820,5685,1977,5586" x-confidence="38">ee</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="788,5738,851,5691" x-confidence="23">Files</WORD>
+        <WORD coords="862,5738,897,5691" x-confidence="62">of</WORD>
+        <WORD coords="1887,5730,1992,5695" x-confidence="48">arga</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="498,5804,622,5702" x-confidence="0">Teta</WORD>
+        <WORD coords="653,5804,737,5702" x-confidence="40">Byee</WORD>
+        <WORD coords="902,5735,972,5695" x-confidence="45">bpe</WORD>
+        <WORD coords="1207,5735,1302,5705" x-confidence="56">Foma</WORD>
+        <WORD coords="1707,5800,1755,5685" x-confidence="39">2</WORD>
+        <WORD coords="1827,5845,2155,5680" x-confidence="22">=E</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,6080,739,6009" x-confidence="96">About</WORD>
+        <WORD coords="767,6079,895,6010" x-confidence="96">the</WORD>
+        <WORD coords="924,6099,1459,6009" x-confidence="96">unregistered</WORD>
+        <WORD coords="1487,6080,1794,6009" x-confidence="96">version</WORD>
+        <WORD coords="1824,6080,1911,6009" x-confidence="93">of</WORD>
+        <WORD coords="1932,6080,2310,6009" x-confidence="90">WinISO:</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,6200,625,6131" x-confidence="96">The</WORD>
+        <WORD coords="655,6200,843,6131" x-confidence="95">limit</WORD>
+        <WORD coords="871,6200,955,6131" x-confidence="96">of</WORD>
+        <WORD coords="976,6221,1468,6131" x-confidence="96">unregistered</WORD>
+        <WORD coords="1496,6201,1786,6131" x-confidence="95">version</WORD>
+        <WORD coords="1817,6200,1932,6153" x-confidence="95">are</WORD>
+        <WORD coords="1963,6200,2038,6153" x-confidence="96">as</WORD>
+        <WORD coords="2069,6221,2474,6131" x-confidence="96">following:</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="653,6353,672,6334" x-confidence="70">-</WORD>
+        <WORD coords="770,6372,927,6302" x-confidence="89">Can</WORD>
+        <WORD coords="954,6371,1081,6312" x-confidence="96">not</WORD>
+        <WORD coords="1109,6371,1378,6312" x-confidence="96">extract</WORD>
+        <WORD coords="1406,6371,1446,6324" x-confidence="96">a</WORD>
+        <WORD coords="1474,6371,1602,6302" x-confidence="96">file</WORD>
+        <WORD coords="1633,6392,1906,6312" x-confidence="95">greater</WORD>
+        <WORD coords="1931,6371,2101,6302" x-confidence="95">than</WORD>
+        <WORD coords="2131,6371,2351,6302" x-confidence="81">3MB.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="653,6473,672,6454" x-confidence="77">-</WORD>
+        <WORD coords="770,6492,927,6422" x-confidence="91">Can</WORD>
+        <WORD coords="954,6491,1081,6432" x-confidence="95">not</WORD>
+        <WORD coords="1109,6491,1405,6432" x-confidence="96">convert</WORD>
+        <WORD coords="1434,6491,1524,6444" x-confidence="96">an</WORD>
+        <WORD coords="1551,6512,1792,6422" x-confidence="96">image</WORD>
+        <WORD coords="1821,6512,2095,6432" x-confidence="95">greater</WORD>
+        <WORD coords="2121,6491,2291,6422" x-confidence="93">than</WORD>
+        <WORD coords="2328,6492,2640,6422" x-confidence="85">100MB.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0004.djvu"/>
+  <OBJECT data="file://localhost/var/tmp/autoclean/derive/ecomstation2.1/eComStation%202.1/howtoburncds.djvu" type="image/x.djvu" usemap="howtoburncds_0005.djvu" width="4959" height="7017">
+   <PARAM name="PAGE" value="howtoburncds_0005.djvu"/>
+   <PARAM name="DPI" value="300"/>
+   <HIDDENTEXT>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="653,547,672,528" x-confidence="80">-</WORD>
+        <WORD coords="770,565,927,496" x-confidence="77">Can</WORD>
+        <WORD coords="954,565,1081,506" x-confidence="95">not</WORD>
+        <WORD coords="1112,565,1282,518" x-confidence="96">save</WORD>
+        <WORD coords="1312,565,1401,518" x-confidence="94">an</WORD>
+        <WORD coords="1429,586,1669,496" x-confidence="96">image</WORD>
+        <WORD coords="1700,586,1973,506" x-confidence="96">greater</WORD>
+        <WORD coords="1998,565,2169,496" x-confidence="89">than</WORD>
+        <WORD coords="2206,565,2518,496" x-confidence="81">100MB.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="653,668,672,649" x-confidence="83">-</WORD>
+        <WORD coords="770,686,927,617" x-confidence="85">Can</WORD>
+        <WORD coords="954,686,1081,627" x-confidence="95">not</WORD>
+        <WORD coords="1112,686,1282,639" x-confidence="96">save</WORD>
+        <WORD coords="1312,686,1401,639" x-confidence="95">an</WORD>
+        <WORD coords="1428,707,1669,617" x-confidence="96">image</WORD>
+        <WORD coords="1700,707,1974,627" x-confidence="96">greater</WORD>
+        <WORD coords="1998,686,2169,617" x-confidence="93">than</WORD>
+        <WORD coords="2206,686,2492,617" x-confidence="94">100MB</WORD>
+        <WORD coords="2529,686,2605,639" x-confidence="95">as</WORD>
+        <WORD coords="2634,686,2797,639" x-confidence="95">new</WORD>
+        <WORD coords="2827,686,2975,617" x-confidence="96">file.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,977,543,909" x-confidence="96">If</WORD>
+        <WORD coords="565,978,683,909" x-confidence="95">the</WORD>
+        <WORD coords="712,978,868,909" x-confidence="95">ISO</WORD>
+        <WORD coords="900,999,1125,931" x-confidence="95">opens</WORD>
+        <WORD coords="1156,978,1383,909" x-confidence="93">under</WORD>
+        <WORD coords="1409,979,1759,908" x-confidence="92">WinISO</WORD>
+        <WORD coords="1793,978,1932,909" x-confidence="96">and</WORD>
+        <WORD coords="1959,999,2106,931" x-confidence="96">you</WORD>
+        <WORD coords="2135,978,2269,931" x-confidence="96">can</WORD>
+        <WORD coords="2297,978,2487,909" x-confidence="96">view</WORD>
+        <WORD coords="2520,978,2723,931" x-confidence="95">some</WORD>
+        <WORD coords="2753,978,2838,909" x-confidence="95">of</WORD>
+        <WORD coords="2860,978,2978,909" x-confidence="95">the</WORD>
+        <WORD coords="3007,978,3174,909" x-confidence="96">files</WORD>
+        <WORD coords="3204,978,3439,909" x-confidence="96">inside</WORD>
+        <WORD coords="3468,978,3638,909" x-confidence="96">then</WORD>
+        <WORD coords="3665,978,3719,909" x-confidence="96">it</WORD>
+        <WORD coords="3747,978,3994,909" x-confidence="96">would</WORD>
+        <WORD coords="4024,978,4093,919" x-confidence="96">at</WORD>
+        <WORD coords="4119,978,4300,909" x-confidence="96">least</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,1099,787,1030" x-confidence="96">indicate</WORD>
+        <WORD coords="815,1099,963,1030" x-confidence="96">that</WORD>
+        <WORD coords="990,1099,1108,1030" x-confidence="96">the</WORD>
+        <WORD coords="1137,1099,1294,1030" x-confidence="93">ISO</WORD>
+        <WORD coords="1324,1099,1473,1052" x-confidence="95">was</WORD>
+        <WORD coords="1504,1120,1728,1030" x-confidence="95">likely</WORD>
+        <WORD coords="1756,1099,1830,1040" x-confidence="96">to</WORD>
+        <WORD coords="1858,1099,1950,1030" x-confidence="96">be</WORD>
+        <WORD coords="1980,1099,2095,1030" x-confidence="96">ok.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="514,1307,532,1279" x-confidence="24">t</WORD>
+        <WORD coords="552,1307,697,1258" x-confidence="0">WnESO</WORD>
+        <WORD coords="708,1325,726,1253" x-confidence="56">-</WORD>
+        <WORD coords="742,1310,797,1258" x-confidence="53">F:</WORD>
+        <WORD coords="806,1307,907,1258" x-confidence="53">iWork</WORD>
+        <WORD coords="924,1307,1116,1258" x-confidence="0">aCS\ero</WORD>
+        <WORD coords="1140,1307,1206,1258" x-confidence="92">and</WORD>
+        <WORD coords="1230,1307,1293,1258" x-confidence="24">ecs</WORD>
+        <WORD coords="1320,1325,1451,1253" x-confidence="73">mages</WORD>
+        <WORD coords="1488,1307,1697,1258" x-confidence="63">ecsfinalisa</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="507,1362,572,1327" x-confidence="65">fie</WORD>
+        <WORD coords="617,1362,777,1332" x-confidence="89">Actions</WORD>
+        <WORD coords="827,1362,1077,1332" x-confidence="71">Boctable</WORD>
+        <WORD coords="1042,1376,1080,1323" x-confidence="40">D</WORD>
+        <WORD coords="1127,1362,1292,1332" x-confidence="93">Convert</WORD>
+        <WORD coords="1342,1372,1502,1332" x-confidence="68">Options</WORD>
+        <WORD coords="1552,1372,1642,1332" x-confidence="92">Help</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE/>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="473,1693,477,1658" x-confidence="95">|</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="557,1762,607,1722" x-confidence="49">9</WORD>
+        <WORD coords="627,1757,802,1727" x-confidence="30">BOOTIMGS</WORD>
+        <WORD coords="982,1770,1027,1722" x-confidence="19">let</WORD>
+        <WORD coords="1051,1762,1126,1732" x-confidence="28">OT</WORD>
+        <WORD coords="1155,1762,1217,1732" x-confidence="37">GS</WORD>
+        <WORD coords="1472,1767,1607,1732" x-confidence="24">Directoy</WORD>
+        <WORD coords="2062,1762,2267,1732" x-confidence="5">THAN.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="512,1812,537,1782" x-confidence="46">+</WORD>
+        <WORD coords="557,1828,607,1772" x-confidence="1">E</WORD>
+        <WORD coords="627,1807,677,1777" x-confidence="46">oo</WORD>
+        <WORD coords="982,1828,1027,1771" x-confidence="42">iat</WORD>
+        <WORD coords="1037,1817,1092,1787" x-confidence="59">ican</WORD>
+        <WORD coords="1472,1822,1607,1787" x-confidence="49">Directoy</WORD>
+        <WORD coords="2062,1817,2227,1787" x-confidence="28">200A.</WORD>
+        <WORD coords="2242,1817,2267,1787" x-confidence="87">2</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="557,1887,607,1822" x-confidence="64">Gi</WORD>
+        <WORD coords="627,1862,696,1827" x-confidence="0">DISK</WORD>
+        <WORD coords="707,1862,787,1827" x-confidence="0">IGS</WORD>
+        <WORD coords="978,1881,1019,1800" x-confidence="25">bes</WORD>
+        <WORD coords="1059,1867,1201,1837" x-confidence="10">skims</WORD>
+        <WORD coords="1472,1881,1607,1823" x-confidence="0">Dircectiy</WORD>
+        <WORD coords="2062,1867,2267,1837" x-confidence="13">2003.00-28</WORD>
+        <WORD coords="2241,1881,2271,1823" x-confidence="67">0.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="517,1907,532,1892" x-confidence="69">#</WORD>
+        <WORD coords="557,1917,607,1884" x-confidence="42">1)</WORD>
+        <WORD coords="627,1912,687,1882" x-confidence="56">ECS</WORD>
+        <WORD coords="992,1932,1022,1882" x-confidence="52">a</WORD>
+        <WORD coords="1046,1922,1102,1892" x-confidence="59">ECS</WORD>
+        <WORD coords="1472,1936,1607,1880" x-confidence="0">Direct)</WORD>
+        <WORD coords="2062,1922,2227,1892" x-confidence="0">2004-0</WORD>
+        <WORD coords="2242,1922,2267,1892" x-confidence="73">2.</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="512,1957,532,1942" x-confidence="52">A</WORD>
+        <WORD coords="627,1991,757,1932" x-confidence="15">IBMINST</WORD>
+        <WORD coords="982,1988,1177,1882" x-confidence="41">Bac</WORD>
+        <WORD coords="1472,1992,1607,1924" x-confidence="0">Directoy</WORD>
+        <WORD coords="2062,1977,2232,1947" x-confidence="37">3003-00-08</WORD>
+        <WORD coords="2247,1977,2287,1947" x-confidence="71">|...</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="557,2046,608,1973" x-confidence="58">tal</WORD>
+        <WORD coords="627,2041,702,1982" x-confidence="10">TED</WORD>
+        <WORD coords="982,2037,1117,1988" x-confidence="46">ro</WORD>
+        <WORD coords="1472,2045,1607,1988" x-confidence="39">Directoy</WORD>
+        <WORD coords="2062,2032,2287,2002" x-confidence="8">2003-15...</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="557,2116,607,2037" x-confidence="56">E</WORD>
+        <WORD coords="627,2112,802,2032" x-confidence="35">ae</WORD>
+        <WORD coords="982,2147,1222,2041" x-confidence="26">see</WORD>
+        <WORD coords="1472,2101,1607,2033" x-confidence="16">Dreactny</WORD>
+        <WORD coords="2062,2087,2267,2057" x-confidence="0">200-150,</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="516,2162,537,2112" x-confidence="22">a</WORD>
+        <WORD coords="557,2172,607,2107" x-confidence="36">my</WORD>
+        <WORD coords="627,2167,667,2107" x-confidence="41">FS</WORD>
+        <WORD coords="685,2167,792,2137" x-confidence="54">IME</WORD>
+        <WORD coords="1037,2142,1107,2107" x-confidence="19">Ose</WORD>
+        <WORD coords="1472,2154,1607,2103" x-confidence="42">Drazmy</WORD>
+        <WORD coords="2062,2142,2262,2107" x-confidence="52">200-150</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="517,2207,532,2197" x-confidence="56">a</WORD>
+        <WORD coords="557,2222,607,2161" x-confidence="46">[J</WORD>
+        <WORD coords="627,2213,790,2157" x-confidence="42">PSFONTS</WORD>
+        <WORD coords="982,2202,1027,2152" x-confidence="47">P</WORD>
+        <WORD coords="1037,2192,1207,2162" x-confidence="4">CSAMAGE</WORD>
+        <WORD coords="1472,2202,1607,2162" x-confidence="33">Directory</WORD>
+        <WORD coords="2062,2192,2267,2162" x-confidence="8">JUALO:</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="652,2217,667,2202" x-confidence="42">ral</WORD>
+        <WORD coords="692,2217,707,2212" x-confidence="23">FP!</WORD>
+        <WORD coords="758,2225,781,2199" x-confidence="20">Sal</WORD>
+        <WORD coords="1497,2222,1502,2217" x-confidence="22">x</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="997,2247,1192,2217" x-confidence="5">PAFOS.</WORD>
+        <WORD coords="1277,2252,1297,2232" x-confidence="24">k</WORD>
+        <WORD coords="1472,2262,1607,2196" x-confidence="71">Director:</WORD>
+        <WORD coords="2062,2247,2232,2217" x-confidence="29">INOS</WORD>
+        <WORD coords="2242,2247,2287,2217" x-confidence="50">D..</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1037,2302,1127,2272" x-confidence="0">BOOT</WORD>
+        <WORD coords="1142,2302,1240,2272" x-confidence="0">MEHL</WORD>
+        <WORD coords="1251,2312,1322,2252" x-confidence="5">TH</WORD>
+        <WORD coords="1472,2302,1537,2272" x-confidence="57">Tent</WORD>
+        <WORD coords="1561,2317,1702,2251" x-confidence="85">Document</WORD>
+        <WORD coords="1932,2302,2022,2272" x-confidence="0">AEJEA</WORD>
+        <WORD coords="2062,2302,2287,2272" x-confidence="3">200309-25.0..,</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="1037,2357,1177,2327" x-confidence="60">LICENSE</WORD>
+        <WORD coords="1192,2357,1251,2327" x-confidence="83">THT</WORD>
+        <WORD coords="1472,2357,1537,2327" x-confidence="38">Tat</WORD>
+        <WORD coords="1556,2372,1702,2306" x-confidence="0">Docuarmn!</WORD>
+        <WORD coords="1932,2357,2022,2327" x-confidence="0">10K.</WORD>
+        <WORD coords="2062,2357,2232,2327" x-confidence="43">200-16</WORD>
+        <WORD coords="2242,2357,2267,2327" x-confidence="77">2</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="982,2417,1195,2376" x-confidence="0">-LYMHELP</WORD>
+        <WORD coords="1207,2407,1257,2379" x-confidence="46">INE</WORD>
+        <WORD coords="1472,2426,1555,2361" x-confidence="4">Sahuo</WORD>
+        <WORD coords="1576,2426,1737,2361" x-confidence="46">Information</WORD>
+        <WORD coords="1912,2412,2022,2377" x-confidence="30">a</WORD>
+        <WORD coords="2062,2412,2267,2377" x-confidence="15">maB</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="512,2477,665,2411" x-confidence="2">onae</WORD>
+        <WORD coords="978,2477,1028,2411" x-confidence="0">SR</WORD>
+        <WORD coords="1044,2477,1287,2411" x-confidence="0">HAKEDISIBAT</WORD>
+        <WORD coords="1472,2462,1602,2432" x-confidence="27">MS-00S</WORD>
+        <WORD coords="1617,2477,1702,2411" x-confidence="73">Baich</WORD>
+        <WORD coords="1712,2477,1762,2411" x-confidence="82">File</WORD>
+        <WORD coords="1947,2462,2017,2432" x-confidence="25">BRM</WORD>
+        <WORD coords="2062,2462,2267,2432" x-confidence="12">200-27</WORD>
+        <WORD coords="2240,2477,2269,2411" x-confidence="75">2</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="497,2492,937,2487" x-confidence="25">Se</WORD>
+        <WORD coords="979,2507,1297,2481" x-confidence="34">CI</WORD>
+        <WORD coords="1228,2511,1300,2475" x-confidence="15">Cay</WORD>
+        <WORD coords="1447,2517,1607,2487" x-confidence="21">eee</WORD>
+        <WORD coords="1622,2507,1770,2487" x-confidence="41">kee</WORD>
+        <WORD coords="1947,2502,2022,2487" x-confidence="40">CE</WORD>
+        <WORD coords="2062,2507,2182,2487" x-confidence="29">Une</WORD>
+        <WORD coords="2197,2502,2232,2487" x-confidence="30">T</WORD>
+        <WORD coords="2342,2482,2362,2467" x-confidence="43">ri</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="542,2557,737,2527" x-confidence="0">ToiltMe</WORD>
+        <WORD coords="842,2567,847,2512" x-confidence="83">|</WORD>
+        <WORD coords="1433,2572,1502,2506" x-confidence="31">Tir</WORD>
+        <WORD coords="2092,2567,2097,2517" x-confidence="73">|</WORD>
+        <WORD coords="2142,2557,2212,2527" x-confidence="33">tee</WORD>
+        <WORD coords="2227,2557,2332,2527" x-confidence="37">THOME</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="476,2745,689,2677" x-confidence="92">TRK</WORD>
+        <WORD coords="716,2747,983,2698" x-confidence="96">versus</WORD>
+        <WORD coords="1014,2747,1210,2676" x-confidence="94">ISO:</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="474,2915,544,2848" x-confidence="91">A</WORD>
+        <WORD coords="577,2916,845,2847" x-confidence="91">*.TRK</WORD>
+        <WORD coords="872,2916,1000,2847" x-confidence="96">file</WORD>
+        <WORD coords="1029,2916,1090,2847" x-confidence="95">is</WORD>
+        <WORD coords="1121,2916,1195,2857" x-confidence="95">to</WORD>
+        <WORD coords="1227,2916,1321,2847" x-confidence="96">all</WORD>
+        <WORD coords="1349,2916,1610,2847" x-confidence="96">intents</WORD>
+        <WORD coords="1644,2916,1783,2847" x-confidence="96">and</WORD>
+        <WORD coords="1809,2937,2160,2869" x-confidence="96">purposes</WORD>
+        <WORD coords="2193,2916,2233,2869" x-confidence="92">a</WORD>
+        <WORD coords="2265,2929,2514,2847" x-confidence="87">*.ISO,</WORD>
+        <WORD coords="2545,2916,2663,2847" x-confidence="96">the</WORD>
+        <WORD coords="2693,2937,2867,2847" x-confidence="95">only</WORD>
+        <WORD coords="2894,2916,3041,2847" x-confidence="96">real</WORD>
+        <WORD coords="3071,2916,3469,2847" x-confidence="96">difference</WORD>
+        <WORD coords="3495,2916,3827,2847" x-confidence="93">between</WORD>
+        <WORD coords="3854,2916,3965,2847" x-confidence="96">trk</WORD>
+        <WORD coords="3993,2916,4132,2847" x-confidence="96">and</WORD>
+        <WORD coords="4160,2916,4272,2847" x-confidence="92">iso</WORD>
+        <WORD coords="4301,2916,4363,2847" x-confidence="95">is</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="474,3037,623,2968" x-confidence="93">that</WORD>
+        <WORD coords="649,3037,760,2968" x-confidence="91">trk</WORD>
+        <WORD coords="785,3037,913,2968" x-confidence="96">has</WORD>
+        <WORD coords="946,3037,986,2990" x-confidence="92">a</WORD>
+        <WORD coords="1011,3058,1313,2968" x-confidence="89">40-byte</WORD>
+        <WORD coords="1341,3037,1606,2968" x-confidence="96">header</WORD>
+        <WORD coords="1634,3037,1703,2978" x-confidence="96">at</WORD>
+        <WORD coords="1729,3037,1847,2968" x-confidence="96">the</WORD>
+        <WORD coords="1875,3058,2272,2968" x-confidence="96">beginning</WORD>
+        <WORD coords="2303,3037,2388,2968" x-confidence="96">of</WORD>
+        <WORD coords="2409,3037,2527,2968" x-confidence="93">the</WORD>
+        <WORD coords="2562,3037,2741,2968" x-confidence="91">*.trk</WORD>
+        <WORD coords="2767,3037,2897,2968" x-confidence="96">file</WORD>
+        <WORD coords="2926,3037,3167,2968" x-confidence="96">which</WORD>
+        <WORD coords="3195,3037,3522,2968" x-confidence="96">contains</WORD>
+        <WORD coords="3551,3037,4022,2968" x-confidence="96">information</WORD>
+        <WORD coords="4053,3058,4354,2968" x-confidence="90">specific</WORD>
+        <WORD coords="4384,3037,4457,2978" x-confidence="97">to</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3158,632,3089" x-confidence="91">RSJ</WORD>
+        <WORD coords="663,3158,795,3089" x-confidence="91">CD</WORD>
+        <WORD coords="826,3158,1080,3089" x-confidence="96">writer.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,3329,582,3262" x-confidence="95">To</WORD>
+        <WORD coords="612,3329,779,3260" x-confidence="96">load</WORD>
+        <WORD coords="807,3329,1033,3260" x-confidence="96">either</WORD>
+        <WORD coords="1059,3350,1227,3270" x-confidence="96">type</WORD>
+        <WORD coords="1258,3329,1343,3260" x-confidence="96">of</WORD>
+        <WORD coords="1365,3329,1493,3260" x-confidence="96">file</WORD>
+        <WORD coords="1521,3328,1598,3260" x-confidence="96">in</WORD>
+        <WORD coords="1625,3329,1820,3262" x-confidence="96">Nero</WORD>
+        <WORD coords="1851,3342,1918,3260" x-confidence="96">6,</WORD>
+        <WORD coords="1941,3350,2093,3260" x-confidence="96">just</WORD>
+        <WORD coords="2118,3350,2246,3270" x-confidence="96">put</WORD>
+        <WORD coords="2274,3329,2314,3282" x-confidence="92">a</WORD>
+        <WORD coords="2347,3301,2383,3260" x-confidence="92">*</WORD>
+        <WORD coords="2417,3328,2491,3260" x-confidence="95">in</WORD>
+        <WORD coords="2519,3329,2637,3260" x-confidence="92">the</WORD>
+        <WORD coords="2667,3350,3052,3260" x-confidence="89">entryfield</WORD>
+        <WORD coords="3082,3329,3221,3260" x-confidence="96">and</WORD>
+        <WORD coords="3249,3329,3303,3260" x-confidence="96">it</WORD>
+        <WORD coords="3333,3329,3594,3260" x-confidence="96">should</WORD>
+        <WORD coords="3622,3329,3810,3260" x-confidence="96">load.</WORD>
+        <WORD coords="3844,3328,3913,3260" x-confidence="96">If</WORD>
+        <WORD coords="3934,3350,4081,3282" x-confidence="96">you</WORD>
+        <WORD coords="4110,3329,4296,3260" x-confidence="96">wish</WORD>
+        <WORD coords="4323,3329,4397,3270" x-confidence="96">to</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3471,752,3381" x-confidence="96">change</WORD>
+        <WORD coords="784,3450,824,3403" x-confidence="92">a</WORD>
+        <WORD coords="856,3450,1036,3381" x-confidence="91">*.trk</WORD>
+        <WORD coords="1062,3450,1191,3381" x-confidence="96">file</WORD>
+        <WORD coords="1219,3450,1292,3391" x-confidence="96">to</WORD>
+        <WORD coords="1324,3450,1364,3403" x-confidence="96">a</WORD>
+        <WORD coords="1390,3471,1565,3403" x-confidence="93">pure</WORD>
+        <WORD coords="1599,3450,1781,3381" x-confidence="77">*.1so</WORD>
+        <WORD coords="1811,3450,1940,3381" x-confidence="96">file</WORD>
+        <WORD coords="1968,3450,2138,3381" x-confidence="96">then</WORD>
+        <WORD coords="2165,3471,2312,3403" x-confidence="96">you</WORD>
+        <WORD coords="2341,3450,2476,3403" x-confidence="96">can</WORD>
+        <WORD coords="2503,3450,2632,3403" x-confidence="96">use</WORD>
+        <WORD coords="2664,3450,2704,3403" x-confidence="96">a</WORD>
+        <WORD coords="2734,3450,2943,3381" x-confidence="96">small</WORD>
+        <WORD coords="2971,3471,3208,3381" x-confidence="96">utility</WORD>
+        <WORD coords="3236,3450,3310,3391" x-confidence="96">to</WORD>
+        <WORD coords="3342,3450,3436,3381" x-confidence="96">do</WORD>
+        <WORD coords="3469,3450,3571,3403" x-confidence="96">so.</WORD>
+        <WORD coords="3605,3450,3777,3381" x-confidence="96">This</WORD>
+        <WORD coords="3806,3471,4043,3381" x-confidence="96">utility</WORD>
+        <WORD coords="4072,3450,4208,3403" x-confidence="96">can</WORD>
+        <WORD coords="4234,3450,4325,3381" x-confidence="96">be</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="475,3571,705,3502" x-confidence="96">found</WORD>
+        <WORD coords="735,3571,803,3512" x-confidence="96">at</WORD>
+        <WORD coords="830,3571,1152,3502" x-confidence="93">Hobbes:</WORD>
+        <WORD coords="1186,3592,3785,3502" x-confidence="65">http://hobbes.nmsu.edu/pub/os2/apps/mmedia/cd/cd-t/trk2iso.zip</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="475,3741,702,3672" x-confidence="95">There</WORD>
+        <WORD coords="734,3741,849,3694" x-confidence="96">are</WORD>
+        <WORD coords="875,3741,1053,3672" x-confidence="93">both</WORD>
+        <WORD coords="1079,3741,1347,3672" x-confidence="85">Win32</WORD>
+        <WORD coords="1377,3741,1733,3672" x-confidence="96">windows</WORD>
+        <WORD coords="1766,3741,1904,3672" x-confidence="93">and</WORD>
+        <WORD coords="1933,3742,2134,3672" x-confidence="92">OS/2</WORD>
+        <WORD coords="2164,3741,2490,3672" x-confidence="96">versions</WORD>
+        <WORD coords="2521,3740,2597,3672" x-confidence="95">in</WORD>
+        <WORD coords="2624,3741,2742,3672" x-confidence="96">the</WORD>
+        <WORD coords="2775,3741,2972,3694" x-confidence="96">same</WORD>
+        <WORD coords="3003,3762,3119,3672" x-confidence="96">zip</WORD>
+        <WORD coords="3149,3741,3298,3672" x-confidence="96">file.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="478,4084,975,4013" x-confidence="96">Conclusion:</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+    <PAGECOLUMN>
+     <REGION>
+      <PARAGRAPH>
+       <LINE>
+        <WORD coords="500,4254,559,4187" x-confidence="94">It</WORD>
+        <WORD coords="585,4254,647,4185" x-confidence="94">is</WORD>
+        <WORD coords="677,4275,978,4185" x-confidence="96">entirely</WORD>
+        <WORD coords="1005,4275,1332,4185" x-confidence="96">possible</WORD>
+        <WORD coords="1360,4254,1434,4195" x-confidence="96">to</WORD>
+        <WORD coords="1464,4254,1697,4195" x-confidence="96">create</WORD>
+        <WORD coords="1725,4254,2167,4185" x-confidence="96">installation</WORD>
+        <WORD coords="2197,4254,2385,4185" x-confidence="95">CD's</WORD>
+        <WORD coords="2418,4254,2503,4185" x-confidence="93">of</WORD>
+        <WORD coords="2525,4254,3044,4185" x-confidence="90">eComStation</WORD>
+        <WORD coords="3071,4254,3299,4185" x-confidence="96">under</WORD>
+        <WORD coords="3323,4254,3723,4185" x-confidence="96">Windows.</WORD>
+        <WORD coords="3757,4275,4158,4185" x-confidence="95">Hopefully</WORD>
+        <WORD coords="4186,4254,4343,4185" x-confidence="96">thes</WORD>
+       </LINE>
+       <LINE>
+        <WORD coords="478,4375,688,4306" x-confidence="95">small</WORD>
+        <WORD coords="717,4375,1177,4306" x-confidence="95">instructions</WORD>
+        <WORD coords="1209,4375,1458,4306" x-confidence="95">makes</WORD>
+        <WORD coords="1489,4375,1543,4306" x-confidence="96">it</WORD>
+        <WORD coords="1570,4375,1800,4306" x-confidence="96">easier</WORD>
+        <WORD coords="1827,4375,1941,4306" x-confidence="96">for</WORD>
+        <WORD coords="1966,4396,2113,4328" x-confidence="96">you</WORD>
+        <WORD coords="2141,4375,2216,4316" x-confidence="96">to</WORD>
+        <WORD coords="2247,4375,2341,4306" x-confidence="96">do</WORD>
+        <WORD coords="2374,4375,2475,4328" x-confidence="96">so.</WORD>
+       </LINE>
+      </PARAGRAPH>
+     </REGION>
+    </PAGECOLUMN>
+   </HIDDENTEXT>
+  </OBJECT>
+  <MAP name="howtoburncds_0005.djvu"/>
+ </BODY>
+</DjVuXML>

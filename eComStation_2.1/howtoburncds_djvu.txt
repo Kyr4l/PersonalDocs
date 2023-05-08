@@ -1,0 +1,482 @@
+The eComStation installation CD contains many directories and files that can be downloaded 
+(digitally) as an ISO file that can then be turned into an actual CD copy of the full product. 
+
+
+Burning your eComStation ISO's on CD ROM 
+
+
+When you normally insert a CD ROM and view the contents with a file browser you can see the 
+directories and the files on the CD ROM. The location of the files on the CD ROM and the names 
+of directories and files are stored in a file system. The file system that is used very often on CD- 
+ROM is called ISO 9660. Other well known file systems are HPFS, JFS, FAT and NTFS. 
+
+
+An ISO file is basically an IMAGE file that contains all directories and files you NORMALLY see 
+in the file listing. For this reason you must burn it to a CD in "RAW" or Image mode. We can not 
+give instructions for every CD ROM burn package on the market, since not every package uses the 
+same terminology. With most CD ROM burn software you can choose to either assign a drive letter 
+to your CD burner or write an ISO file to a CD ROM. 
+
+
+To properly create the exact copy of the original CD from the .ISO file, look for an option in your 
+CD burning software that reads something along the lines of "Burn Image" or "Create a CD from 
+ISO". Then locate the .[SO file that you have downloaded and burn the image onto a CD. 
+
+
+When you normally copy files from hard disk to a CD ROM you copy files and/or directories to the 
+CD ROM. An ISO file however can not just be copied to a CD ROM as a normal file from a hard 
+disk. If you would do that you would end with a CD ROM with only that single ISO file visible in a 
+file listing. In addition to directories and files, CD images also contain information about the boot 
+sector (among other characteristics) of the CD that it is cloning. 
+
+
+NOTE: There are other types of CD images available, such as Nero (.nrg) and CUE sheets (.cue & . 
+bin), RSJ uses the .trk extension. All these files can be treated as ISO just the same. ISO is a widely 
+used format and is also used to create the eComStation Installation CDs. 
+
+
+Save yourself a lot of time 
+
+
+Burn the CD's at 4 speed, not faster, this may result in problems with starting from CD ROM or 
+installing software from CD ROM! If your CD recorder does not supporting recording a CD at 4 
+speed, then choose the lowest burn speed you can select. 
+
+
+Download: 
+
+
+First you need to download the ZIP files containing the eComStation ISO files. These are available 
+for registered customers and can be downloaded as (very large) zipfiles. It is best to use a Download 
+Manager that you are familiar with, so that the download can be resumed if the connection drops. 
+This will help to ensure that the file 1s retrieved fully intact. 
+
+
+The following pages describe burning the ISO under eComStation (or OS/2) and Windows and 
+assume you succesfully downloaded the ISO files. 
+
+
+Creating eComStation install CD's under OS/2 /eComStation with RSJ 
+
+
+Before you start the download of the eComStation images make certain you have enough diskspace. 
+Each ZIP file requires between 400 to 550 MB of diskspace. In addition, the ISO file also needs to 
+be unzipped. (An ISO file for a CD has a maximum size of 650 MB). 
+
+
+The following instructions apply only if you have installed the commercial CD ROM burn software 
+RSJ for OS/2/eComStation (this is available from www.rs].de) 
+
+
+From your Desktop open the folder “Local System” and “Drives”, select the proper “Drive ?” and 
+the folder (directory) that contains the ISO images. (On an OS/2 System the folder Local System 1s 
+called “OS/2 System”. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Folder Edit View seine Help 
+
+
+= Command a Tae cic : 2 = 
+
+
+$ =. al ey 
+— Bare i i o e 
+
+
+Drives, 
+
+
+
+
+
+
+
+
+
+
+
+A er Edit View Selected. REISI Drives 
+
+
+Folder Edit View Selected Help 
+
+
+fy fy ay ay ay ED | & g i Aig „424KB free, 4,097,488 KB total 
+
+
+
+
+
+
+
+
+
+
+
+DriveA DriveB DriveC DriveD DriveE Driver DriveG 4 orm 
+
+
+k A Ca) SEINST_REXX 
+Victripm CS) Mcp 1FIXPAK3NLBETA 
+R) mmecsbuilder 
+
+
+
+
+
+
+
+
+Drive | (3,922 of 4,001 MB free) 
+
+
+From your Desktop, open the folder that RSJ created. Open the “CD VIEW” folder and then open 
+“CD recorder”. Drag and Drop the ISO file in the “CD VIEW CDR” window. Drag and drop means 
+that you select the ISO file in the orginal folder and press the right mouse button. Hold the mouse 
+button and drag it to the “CD VIEW CDR” window. Release the mouse button. On an OS/2 System 
+the folder Local System is called “OS/2 System”. Set the burn speed to 4x and press the red button 
+(third button from the right as shown in the picture below). It will take about 15 minutes for a CD to 
+be recorded. When its finished, press the button next to the record button to finalize the CD ROM. 
+
+
+
+
+
+- Go's Wizard — 
+Get Acrobat Reader RSJ Software Homepage < Start Error =k CD Writer Control RSJ CD se i Installation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Folder Edit View Selected EEF 
+
+
+
+
+
+
+
+
+RSJ CD Boot ee CD Recorder 
+
+
+
+
+
+"CD View" (L er Hard Disk [C\PROGRAMS\RSJCD\Tracks] 
+
+
+
+
+
+
+
+
+
+
+
+
+r CDROM [S] 
+CD Recorder 
+
+
+er ie DD View GbR 
+
+
+TSIM] Speed fx F#m Oe 
+Unknown CD 
+
+
+Icon | Title 
+a Ss Track 07 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ais 
+Type | Length | (MB) | Pause Time | Source 
+COROM 61:09 537.5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pep EUs ei ree 
+
+
+el i : Rae CUS En] 
+
+
+RSJ CD Boot 
+
+
+
+
+
+To burn an ISO with RSJ you should *never* give your CD burner a drive letter and copy the ISO 
+file to this drive letter. 
+
+
+Creating eComStation install CD's under Windows 
+This is a short description on how to create eComStation installation CD's under Windows. 
+This section was written by Robert Traynor (BobT), november 2003. 
+
+
+Using Nero 6 You can use Nero (www.nero.com) to burn the *.ISO or (RSJ) *.TRK files to CD- 
+rom blank disk. Both *.ISO and *.TRK files will be treated by Nero as one and the same. 
+
+
+7 fase 6 and a a Wizard interface or Cancel the manual Interface as shown below. 
+
+
+E Foil lane daaa aan lai Daa aea 
+TÈ peis A TESSE a En 
+TE pheri tit, 
+cae ee a cheap ea a 
+Eri EEn 
+Ei me 
+EE ever oho Masri | 
+(Fe vate weer eS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Large 
+aut Ahin 
+
+
+Ẹ Pamet tink prapa See 
+linir ineen 
+
+
+Den ava... i 
+= 
+
+
+
+
+
+
+
+
+Make sure you have the setting ticked to "Finalize" the CD. There are NO other settings you can or 
+should change. 
+
+
+
+
+
+
+Pilni =} 
+
+
+VS sa- eee Le a 
+
+
+
+
+
+
+th aa a- oradh = gibt GAFAT ees ee 
+
+
+Sie bd ki SGER le Os oi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Se Se ae 
+PORES SmE 
+
+
+Possible problems 
+
+
+Usually Nero will complain if the ISO image is badly corrupted, but minor corruptions can be 
+ignored. If you cannot see the resulting cd, check it after a reboot. 
+
+
+If after the reboot there are still no files visible on the CD, you might have a windows problem with 
+another program interfering with the burning by Nero 6, a faulty cd burner, a faulty ISO image or 
+even faulty or inappropriate cd blanks. 
+
+The list of possible problems is endless. 
+
+
+One example of interfering programs is Easy CD Creator by Roxio and Nero. These cannot be 
+installed in the same Windows installation together. Either use one or the other. Both programs will 
+burn ISO /images to an empty CD recordable. 
+
+The CD disk MUST be a new and completely BLANK before you start. 
+
+
+Checking the ISO with WinISO You can open the ISO image in a program like WinISO which is 
+available in a trial mode with some restrictions and available from www.winiso.com 
+
+
+{2 Wint- : | 3 = 
+File ‘Actions: "Bootable CD Neils Opties =a 
+
+
+Hon hosted Ea ee 
+Files of arga 
+Teta Byee bpe Foma 2 =E 
+
+
+
+
+
+About the unregistered version of WinISO: 
+The limit of unregistered version are as following: 
+
+
+- Can not extract a file greater than 3MB. 
+- Can not convert an image greater than 100MB. 
+
+
+- Can not save an image greater than 100MB. 
+- Can not save an image greater than 100MB as new file. 
+
+
+If the ISO opens under WinISO and you can view some of the files inside then it would at least 
+indicate that the ISO was likely to be ok. 
+
+
+
+
+
+
+
+
+
+
+
+
+t WnESO - F: iWork aCS\ero and ecs mages ecsfinalisa 
+fie Actions Boctable D Convert Options Help 
+
+
+
+
+
+
+
+
+
+
+
+| 
+9 BOOTIMGS let OT GS Directoy THAN. 
++ E oo iat ican Directoy 200A. 2 
+Gi DISK IGS bes skims Dircectiy 2003.00-28 0. 
+# 1) ECS a ECS Direct) 2004-0 2. 
+A IBMINST Bac Directoy 3003-00-08 |... 
+tal TED ro Directoy 2003-15... 
+E ae see Dreactny 200-150, 
+a my FS IME Ose Drazmy 200-150 
+a [J PSFONTS P CSAMAGE Directory JUALO: 
+ral FP! Sal x 
+PAFOS. k Director: INOS D.. 
+BOOT MEHL TH Tent Document AEJEA 200309-25.0.., 
+LICENSE THT Tat Docuarmn! 10K. 200-16 2 
+-LYMHELP INE Sahuo Information a maB 
+onae SR HAKEDISIBAT MS-00S Baich File BRM 200-27 2 
+Se CI Cay eee kee CE Une T ri 
+ToiltMe | Tir | tee THOME 
+TRK versus ISO: 
+
+
+A *.TRK file is to all intents and purposes a *.ISO, the only real difference between trk and iso is 
+that trk has a 40-byte header at the beginning of the *.trk file which contains information specific to 
+RSJ CD writer. 
+
+
+To load either type of file in Nero 6, just put a * in the entryfield and it should load. If you wish to 
+change a *.trk file to a pure *.1so file then you can use a small utility to do so. This utility can be 
+found at Hobbes: http://hobbes.nmsu.edu/pub/os2/apps/mmedia/cd/cd-t/trk2iso.zip 
+
+
+There are both Win32 windows and OS/2 versions in the same zip file. 
+
+
+Conclusion: 
+
+
+It is entirely possible to create installation CD's of eComStation under Windows. Hopefully thes 
+small instructions makes it easier for you to do so. 
+
+

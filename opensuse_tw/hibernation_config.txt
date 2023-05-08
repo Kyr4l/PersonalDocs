@@ -1,0 +1,24 @@
+ENABLING HIBERNATION ON TUMBLEWEED
+
+
+SWAP must be equal to than the installed RAM + offset (google how much ram hibernation linux)
+
+write in /etc/dracut.conf.d/resume.conf
+
+add_dracutmodules+=" resume "
+
+edit /etc/default/grub
+
+add the following lines to GRUB_CMDLINE_LINUX_DEFAULT:
+
+resume=UUID=[SWAP UUID] resume_offset=[SWAP OFFSET]"
+
+SWAP UUID can be obtained by running:
+
+findmnt -no UUID -T /swap/swapfile
+
+SWAP OFFSET can be obtained by running:
+
+btrfs inspect-internal map-swapfile -r /swap/swapfile
+
+

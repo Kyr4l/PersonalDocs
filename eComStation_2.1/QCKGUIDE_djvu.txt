@@ -1,0 +1,3120 @@
+Quick 
+Installation 
+Guide 
+
+
+
+
+
+
+
+
+Beans 
+
+
+Introduction 
+
+
+This Quickguide is intended to help you get started installing eComStation 2.0 on your 
+computer or in a virtual machine. The eComStation help is split up into 2 sections. 
+
+The first section is this Quickguide. The second is the online help, available from 
+within the graphical eComStation installer and from the installed system. The 
+information in the Quickguide is intended to help you prepare to install eComStation 2.0 
+on your system. It provides information you may need to boot the installation CD and 
+to get the graphical installer loaded and running. The online help provides detailed help 
+for the graphical installer and various post-installation tasks. We especially recommend 
+that you read Chapter | of this Quickquide if you are installing to a large disk drive. 
+
+
+Chapter 1, eComStation 2.0 Quickguide, contains important information about using 
+up to a 2 terabytes hard disk and tells you what you need to take into account when 
+installing multiple Operating Systems on your hard disk. 
+
+
+Chapter 2, Booting from eComStation CD #1, explains how to set up your system to 
+boot from and use the Pre-boot menu of eComStation 2.0 CD #1. The Pre-boot menu 
+loads the proper drivers depending on what hardware is detected. You can also use this 
+chapter to help resolve startup problems. 
+
+
+Chapter 3, Continuing the Installation Process, explains the basics of using the 
+graphical Guided Procedure installer which is started after you accept the Pre-boot menu 
+selections. This section also explains how the Guided Procedure online help works and 
+where you can find more information. You should be able to find the information you 
+need to complete the installation in the online help once the Guided Procedure installer 
+is running. This chapter also describes how to use CD #2 and how to set up connections 
+to Windows/Linux computers in your local network, etc. 
+
+
+Chapter 4, What Hardware is Supported by eComStation 2.0, is intended to help you 
+understand the computer hardware that eComStation supports and where you can find 
+more information to resolve hardware-related installation issues. This chapter might be 
+useful if you encounter problems booting from eComStation CD #1 or if you are having 
+other problems installing eComStation. 
+
+
+Chapter 5, Getting Support/Resolving Problems/General FAQ, will help you find 
+additional resources and explain how to get support. 
+
+
+Chapter 6, License Agreement/Trademarks/Acknowledgments, is the legal section of 
+the manual and describes your rights and duties as to the usage of eComStation 2.0. 
+
+
+1. eComStation 2.0 Quickguide 
+
+
+Thank you for purchasing eComStation 2.0. 
+
+
+This Quickguide is intended to assist you with starting the installation of eComStation 
+from CD #1 and also contains important installation notes. Additional online help is 
+available directly in the graphical installer and can be accessed easily by depressing the 
+help button in the right-hand corner of the screen. 
+
+
+eComStation 2.0 has all the features you are used to from previous versions of 
+eComStation plus both major and small improvements. To list a few; 
+
+
+ACPI enables you to use modern systems with multiple CPU's. 
+
+and allows hardware that needs ACPI to manage it to work. 
+
+The bootable JFS file system gives your eComStation a major performance 
+increase and allows applications and the Operating System to load much faster. 
+The Panorama video driver enables eComStation to work with just about any 
+video card. 
+
+Improvements in network support with include more NIC drivers and drivers for 
+WiFi chip set. Support with the Samba protocol to access shared network 
+drives. 
+
+Major improvements in the installer to support virtual machines such as 
+VirtualBox, Virtual PC etc. 
+
+Support for booting and installing from USB-attached CD drives. 
+
+Better support for modern hardware while preserving support for legacy devices. 
+Major improvement in audio support with the updated UNIAUD driver 
+
+Support of hard disks up to 2 TB. 
+
+Comes with free virus scanner, ClamAV (see CD #2 for details). 
+
+It is strongly recommended that you no longer use versions of eComStation 
+older than eComStation 2.0 in conjunction with Windows Vista/7 because you 
+can lose the Windows disk signature from your disk which can damage your 
+Windows partition. eComStation 2.0 preserves the Windows disk signature. 
+
+
+As of May 2010, eComStation 2.0 does not require any fixpaks to be installed. The last 
+fixpaks and fixes released by IBM are already integrated into eComStation. Installing 
+the latest IBM fixpaks on eComStation is not recommended. In fact, installing fixpaks 
+from IBM such as fixpak 5 or 6 from MCP 2 may render your eComStation 2.0 non- 
+functional. These IBM fixpaks may back level files required by bootable JFS or other 
+system components. 
+
+
+1.1 Important eComStation 2.0 Installation Note 
+
+
+Before you start to install eComStation 2.0 on your system, please read the following 
+chapter carefully to help you make the right choices. eComStation 2.0 supports hard 
+disks up to 2.0 Terabytes, but there are some things to take into consideration. 
+
+
+In this manual, you will find multiple references to two programs called the 
+“DiskChecker” and “MiniL VM”. 
+
+
+The DiskChecker is a program that is loaded when booting from the eComStation 2.0 
+CD #1. The DiskChecker starts to run when you see the line “Checking fixed disk 
+integrity.” If any errors are detected, they will be displayed after the eComStation 2.0 
+boot logo is displayed. After the boot logo, no graphics are displayed; just text. 
+
+
+MiniLVM is a program to manage the volumes/partitions on your hard disks. You can 
+start this from eComStation 2.0 CD #1 as follows; once the system is booted into the 
+GUI installer, enter your registration key. Click on the “next” button until “Select the 
+installation volume” appears and click on “Manage Volumes”. 
+
+
+This chapter is important if: 
+
+
+1. The hard disk you want to install eComStation 2.0 to is bigger than 512 GB or if 
+one of the additional hard disks in your system for data is bigger than 512 GB; 
+
+2. Your hard disk is bigger than 512 GB and/or you have Windows Vista/7 
+installed or want to install it; 
+
+3. You booted from the eCS 2.0 CD #1 install disk and got a message from the 
+“DiskChecker” that referred you to the manual. The DiskChecker will refer you 
+to the manual to resolve certain disk layout issues it discovers; 
+
+4. You want to dual boot other Operating Systems such as Linux and older 
+versions of Windows. 
+
+
+Before setting up your hard disk, make a tested backup of your hard disk when 
+modifying partitions on your hard disk(s), if any are present. A lot of pre-installed 
+systems with Windows Vista/7 do not ship with recovery media (CD or DVD) in order 
+to reinstall Windows. The recovery partition is also on the hard disk itself. There is a 
+risk that this recovery partition can be lost when modifying the partition layout. It is 
+recommend that you use the tool that comes with your pre-installed Operating System 
+to create recovery DVD/CD's first. Make certain you backup all personal data. 
+
+
+1.2 Empty hard disk bigger than 512 GB, No Operating System Installed 
+
+
+If you have an empty hard disk with no Operating System installed and you want to 
+install eComStation it or you want to use a hard disk as an additional data drive larger 
+than 512 GB, you need to completely partition the HDD with MiniLVM from 
+eComStation. You should not use other partition tools on the drive like Partition Magic 
+or the Windows DiskManager! For example, if you want to install Windows and/or 
+Linux next to eComStation, you need to create all the partitions for Windows/Linux 
+with eComStation. You can then choose to format the partition with the proper file 
+system in the installer of the Operating System you want to install. 
+
+
+A good layout for a disk that will contain Windows XP/Vista/7 is to install the 
+eComStation BootManager first and then use the eComStation supplied tools to create a 
+primary partition to contain the Windows XP/Vista/7 installation. Place the primary 
+partition for Windows directly after the eComStation BootManager partition and then 
+create the other logical partitions. When running the Windows installer, do not delete 
+the primary partition but rather, select it as the target partition for Windows installation. 
+
+
+After Windows XP/Vista/7 is installed next to the eComStation BootManager, boot 
+from the eComStation CD #1 and start MiniLVM. Use MiniLVM to mark the 
+eComStation BootManager partition as active/startable. Add your Operating System(s) 
+to the BootManager menu and you will be able to start them via the BootManager. 
+
+
+The above scenario is not possible with most recovery DVD/CD disks supplied by 
+computer vendors because most recovery disks wipe the hard disk and do not provide an 
+option to select the install partition. Either you need to use a Windows OEM/retail disk 
+that allows you to select and setup the partition size or you need to use the procedure 
+described in section 1.3. 
+
+
+If you do not want to use the copy of Windows or any other Operating System already 
+installed on your hard disk and the disk is larger than 512 GB, boot from eComStation 
+CD #1 and wipe your hard disk. If you get a warning from the DiskChecker, type 
+CTRL-C to bypass this warning, since you will erase any information from the disk 
+
+
+anyway. eComStation File Tools Help 
+Resize disk 
+Checks 
+When the graphical part of the installer has started, click on Eomal dik 
+the “next” button and agree to the eComStation 2.0 license 
+agreement. On the “Installation Type” screen, choose 
+“Management console”. From the Management console menu, select the "Disk" item 
+
+
+and select “Initialize disk”. This will display a list of all hard disks and USB-attached 
+
+
+
+
+
+
+
+
+
+
+
+storage available media on your system. 
+
+
+
+
+
+NN ©) O) ©) 
+
+
+
+
+
+Select the correct disk (normally 
+number 1 or 2), then select to 
+remove the MBR (Master Boot 
+Record). You will be asked twice 
+for confirmation. After a 
+countdown of 5 seconds, your disk 
+will be erased and the system will 
+reboot. Select to boot again from 
+the eComStation 2.0 install CD. — RARE 
+
+
+01 Volume 2 998.1 JFS Prin 
+
+
+E t ation fr 
+>> Erase MBR information from this disk << 
+
+
+
+
+
+If you would like to preserve the Windows environment on your disk, please read one of 
+the two following sections: 
+
+
+1.3 Hard Disk Bigger than 512GB with a Pre-loaded Operating System. 
+
+
+This section applies when you encounter the below message during startup from the 
+eCS 2.0 CD #1 install CD: 
+
+
+“A partition was detected on disk 1 which extends beyond the proper 
+cylinder boundary. You will have to resize this partition using the 
+partition resizing tool (available during installation) if you wish to use 
+the disk. Refer to the user manual for more information.” 
+
+
+When you depress enter at this stage of the startup process of eComStation, it will 
+restart your computer. If your system holds a secondary hard disk (disk 2), the above 
+warning may be displayed, but when you have depressed enter, your system will 
+continue to boot into the installer. This means you are able to use disk 1 to install eCS 
+2.0 but you can not access disk 2 from eComStation. The same strategy described for 
+disk 1 applies to any second hard disk in your system. You need to create any partitions 
+you want to access on disk 2 below the 512 GB boundary. 
+
+
+If your hard disk is bigger than 512 GB and it already has a non-OS/2/eComStation 
+Operating System installed (for example Windows), eComStation will not be able to use 
+the hard drive. The reason for this is that the drive geometry used can not be fully 
+supported by eCS 2.0. This will be addressed in future versions of eComStation. 
+
+
+Currently, eComStation can access only the first 512 GB of the disk. If you have a 
+1.5 TB disk and you want to use 100 GB of disk space for eComStation volumes, you 
+
+
+need to reduce the main Windows partition to 400 GB so the partitions you want to use 
+for eComStation volumes fit below the 512 GB disk boundary. There may NOT be 
+any partitions in the area above the 512 GB boundary on your disk. You will need 
+to delete any system recovery partitions that reside above the 512 GB boundary. 
+
+
+Most computers come with Windows Vista/Windows 7 pre-installed. Both Windows 
+versions have a built-in disk resizer, so to resize your hard, disk start Windows Vista/7: 
+
+
+click on the logo in the left hand corner of the screen in Task Bar (Start) 
+choose Control Panel 
+
+set menu to Category, not Small/Large Icons 
+
+select System and Security at the bottom of the screen Create and 
+Format Hard Disk Partitions lists all storage media in and attached to your 
+computer, 
+
+depress the left or right mouse button on the large partition of your hard drive 
+choose Shrink Volume from the context menu, 
+
+If you cannot resize your partition below the 512 GB boundary; 
+
+go to My Computer 
+
+click the right mouse button on the partition you need to resize, 
+
+choose the option Tools and select Error Checking to run CHKDSK - the 
+system will need to restart for this, 
+
+run the Windows disk Defragmenter. 
+
+
+You might need to repeat this procedure 2 or 3 times to clear the end of the disk 
+partition. 
+
+
+Note: if you want to create a partition for data exchange between Windows and 
+eComStation, this partition also needs to be below the 512 GB disk boundary. 
+
+
+Ensure that any Operating System you want to start via the eComStation BootManager 
+is located below the 512 GB boundary. If you install an Operating System with its 
+bootable partition above the 512 GB boundary, it will most likely not boot that 
+Operating System via the eComStation BootManager. 
+
+
+For more information about installing the eComStation BootManager, please read the 
+section “Loading Other Operating Systems Next to eComStation” located at the end of 
+this chapter. 
+
+
+After you have created free disk space below the 512 GB boundary, you can boot from 
+the eComStation installation CD #1 and install eComStation. You may be asked by the 
+DiskChecker if the LVM fingerprint information should be fixed. If asked, answer 
+
+
+6 
+
+
+“Yes” to this question. After you update the fingerprint information, the system will 
+reboot. After the reboot, restart the eComStation installer from CD #1 and install 
+eComStation. 
+
+
+If you start MiniLVM to create partitions and you still get the warning about a corrupt 
+partition table/MBR; 
+
+
+click on Cancel, right hand corner of the screen, 
+
+select Maintenance console from the menu, 
+
+select Initialize disk - lists all hard disks and USB-attached storage media on 
+your system and let the utility delete the LVM information. 
+
+
+Normally, to delete the LVM information, you need to select disk 1 or 2 and then 
+request the erase from the menus. In this case, let the countdown expire and allow the 
+utility to delete the LVM information. After the information is deleted, reboot from the 
+eCS 2.0 install CD and restart the install process. 
+
+
+You can now install eComStation on the disk in the free disk space you created. 
+
+
+We recommend that you install the eComStation BootManager first, then create a 
+logical partition in which to install eComStation 2.0. This logical partition will extend 
+to the 512 GB boundary and MiniLVM will display that your hard disk has only 512 
+GB of disk space. This is the expected behavior. 
+
+
+The logical partition can later be expanded with your Operating System's DiskManager. 
+In our research, we concluded that the Windows 7 DiskManager will refuse to expand 
+the logical partition created by eComStation. We recommend that you use the 
+commercial package DFSee to expand the logical partition. You may download the 
+bootable CD version here: http://www.dfsee.com/dfsee/cdrom.php 
+
+
+We recommend that you create the partitions above the 512 GB boundary while running 
+DFSee booted from the DFSee bootable CD. Once you have created a partition above 
+the 512 GB boundary, you will not be able to modify the disk layout using 
+eComStation's DiskManager (MiniLVM). This means you need to carefully plan your 
+disk layout before performing the eComStation installation. 
+
+
+Operating Systems like Windows and Linux can access the rest of the disk for data 
+storage. 
+
+
+1.4 Hard Disks Smaller than 512 GB 
+
+
+When booting from the eComStation 2.0 CD #1, the DiskChecker may display the 
+following message: 
+
+
+“A partition was detected on disk 1/2 which extends beyond the proper 
+cylinder boundary.” 
+
+
+If this occurs and you wish to install eCS to this disk drive, you will have to resize this 
+partition using the partition resizing tool. Refer to the user manual for more information. 
+
+
+If you get the above message, you need to depress enter and let the installer start. 
+
+Once you have entered the registration key in the eCS installer, start MiniLVM as 
+follows: in the left hand column of the screen, the current menu is highlighted during 
+the install phase. Click on Next until you see Manage Volumes and select it. This will 
+start the application MiniLVM which will result in getting the error message “Disk 1 
+reports a corrupt partition table”. You may ignore this warning. From the menu bar 
+choose the option System > Partition Resizing Tool. 
+
+
+The partitions are listed in the order they are found on your hard disk. In the event you 
+got the above error message from the DiskChecker, you need to make the last partition 
+on the reported disk (1 or 2) smaller. Make certain you allow enough space for eCS to 
+install, leaving 10 or 20 GB to create a partition for eComStation. 
+
+
+If you can not create enough free disk space, boot into Windows and perform the 
+following task. Go to My computer and click with the right mouse button on the 
+partition you need to resize. Choose the option tools and select error checking. This 
+will allow you to perform a CHKDSK. Your system will need to restart for this. After 
+you have done this, run the Windows disk Defragmenter. You might need to repeat this 
+procedure 2 or 3 times to clear the end of the disk partition. 
+
+
+When the disk resizer is finished resizing the partition and you click on Finish, click on 
+Proceed to reboot the system. After the reboot, select to boot from the eCS 2.0 CD #1 
+again. The DiskChecker might ask you to repair the LVM fingerprint information on 
+your hard disk. If prompted, answer “Yes” and the system will reboot again. 
+
+
+At this point, you may choose to boot from the eComStation 2.0 CD #1 again and create 
+the required volumes with MiniLVM. If you still get an error message from MiniLVM 
+that disk 1 or 2 is corrupt; 
+
+
+Click on the Cancel button of the installer in the right hand corner of the screen 
+of the eComStation installer, 
+
+Start the Maintenance console from the menu, 
+
+Select the Disk menu 
+
+Select Initialize Disk 
+
+
+The Initialize Disk tool will show all hard disks and USB-attached storage media on 
+your system. Normally, you will need to select disk number 1 or 2 (whichever is your 
+hard disk). Then choose to erase the LVM information. After the 5 second countdown 
+timer expires, the LVM information will be deleted. The system will be automatically 
+rebooted afterwards. 
+
+
+After the reboot, the DiskChecker will, if you allowed the Initialize disk tool to erase 
+the LVM information, ask to repair the LVM fingerprint information. Once this is done, 
+one final reboot is performed. You can now boot from the eComStation eCS CD #1 and 
+finish the eComStation installation by installing to the volume created with MiniLVM. 
+
+
+1.5 Loading Other Operating Systems Next to eComStation 
+
+
+It is strongly recommended that you use the eComStation BootManager to start 
+eComStation and other Operating Systems from your hard disk. Other Boot Managers 
+might work, but may make the installation complicated. If your computer came with 
+Windows Vista/7 pre-installed, note which partition you add to the eComStation 
+BootManager to start Windows. If you have Windows Vista/7 pre-loaded on your 
+computer, you need to check how Windows is installed on your HDD. 
+
+
+Most Windows Vista/7 pre-loads are installed with 2 primary partitions on one hard 
+disk. The first partition on the disk is about 100 to 200 MB, known as the Windows 
+BootManager followed by the Windows partition itself, which normally uses the rest of 
+your hard disk. Add the small Windows partition to the eComStation BootManager. 
+
+
+When your system starts up, it should work like this: 
+eComStation BootManager è Windows BootManager? Windows main partition. 
+
+
+In some situations, the eComStation bootmanager will render the Windows 7 boot 
+partition unstartable. Please refer to http://www.ecomstation.com/fag/560 for more 
+information on this problem. 
+
+
+1.6 Installing the eComStation BootManager, I get “Partition Alignment 
+error” 
+
+
+When you select to install the eComStation BootManager from MiniLVM and you get 
+the warning Partition alignment error; 
+
+
+Create a primary partition of about 20 MB with MiniLVM. 
+Select to install the eComStation BootManager 
+Delete the 20 MB partition you just created. 
+
+
+Since with most pre-loads of Windows Vista/7 on computers two primary partitions are 
+already in use and the eComStation BootManager is also a primary partition, it is 
+recommended that you create a logical partition in which to install eComStation, 
+otherwise you cannot exchange data between eComStation and other Operating 
+Systems. 
+
+
+1.7 Coexisting with Other Operating Systems - miscellaneous 
+
+
+In the previous sections of this chapter, we described how to deal with Operating 
+Systems on your hard disk if the hard disk is bigger than 512 GB or you are using 
+Windows Vista/7. This section will provide some hints on how to deal with Linux and 
+older version of Windows, such as Windows 98/Me. 
+
+
+To exchange data between Operating Systems, make sure you have a volume 
+
+that is readable and/or writable by both systems. Almost all Operating Systems can use 
+FAT 16 partitions (maximum size of the partition is 2GB) but otherwise, special drivers 
+will be required to make this possible. 
+
+
+The FAT 32 driver is installed by default with eComStation 2.0. You can copy data 
+back and forth between Windows and eComStation. 
+
+If you are installing eComStation 2.0 to a system that has an older version of the 
+BootManager installed from either MCP or eComStation 1.0 or 1.1, we recommend that 
+you delete the older BootManager and install the eComStation 2.0 BootManager 
+version. 
+
+
+There was a defect in Windows 2000 that destroyed the BootManager partition which 
+was corrected in service pak 3. To replace the existing BootManager, run MiniLVM 
+
+
+and use the system menu options. 
+
+
+The eComStation 2.0 BootManager will not be destroyed by versions of Windows 2000 
+
+
+10 
+
+
+that do not have service pak 3 installed. 
+
+
+My Computer in Windows NT 4.0, 2000, XP, Vista and 7 may show a drive letter for 
+eComStation partitions. If you double click on that drive icon for the eComStation 
+partition, Windows will report that it cannot read that partition and will offer to format 
+the partition. 
+
+
+DO NOT accept this offer since it will render your eComStation volume useless. For 
+your own safety, we recommend that you use the Windows DiskManager to remove the 
+drive letters from eComStation partitions. 
+
+
+To access the DiskManager, go to Administrator Tools > Computer Management > 
+Storage and remove the drive letters from the partitions. Windows will no longer list 
+the HPFS/JFS partitions; however, this will not affect the drive letters defined for 
+eComStation itself. The eComStation drive letter assignments are stored in a different 
+way from Windows. 
+
+
+Windows 95, 98 or Millennium Edition 
+
+
+If you have installed eComStation and you are going to install a DOS-based Operating 
+System like Windows 95, 98, 98SE, or Windows ME, be aware that these systems will 
+install on the very first primary partition of your hard disk only. It may be advisable to 
+resize and/or move your eCS partition with the aid of a partition manager to allocate 
+free space for the creation of a primary partition at the beginning of your hard disk. 
+
+
+If you install Windows after eCS is installed, some versions of Windows will generate a 
+warning about BootManager being disabled or report that you will no longer be able to 
+start OS/2. You may ignore these warnings. When the installation has finished, you can 
+re-enable BootManager by booting eCS from the installation CD#1 and run MiniLVM 
+again to set the BootManager as the active partition. 
+
+
+Linux 
+eComStation can be installed without problems alongside a Linux installation. We 
+recommend that you use the eCS BootManager rather than LILO or GRUB as the 
+
+
+primary BootManager. To do this, install LILO or GRUB to the Linux partition rather 
+than the MBR. 
+
+
+11 
+
+
+2. Booting from eComStation CD #1 
+
+
+Read the license chapter in this Quickguide. By using software from CD #2 or 
+starting from eComStation 2.0 CD #1, you accept the terms that are mentioned in 
+this license. If you have any questions or remarks about the license, please send an 
+e-mail to licensedesk @ ecomstation.com. 
+
+
+Before you begin your installation of eComStation 2.0, have the registration key 
+readily available on either USB stick, floppy disk, hard disk or on paper. You should 
+have received the registration key by e-mail. If not, you can request it via the customer 
+area of http://www.ecomstation.com/ after logging in. For the latest information and 
+tips on the installation process, check http://www.ecomstation.com/support/ 
+
+
+Hardware requirements 
+
+
+In order to successfully install eComStation 2.0, please take into consideration the 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+following; 
+Minimum Recommended 
+CPU Intel Pentium 133 Any modern CPU will do, but the higher the speed 
+MHz or equivalent the more responsive your system will be. Also, the 
+(including Intel latest multi-core CPU systems should work. This is 
+Celeron, PII, P4 and | made possible by ACPI, but eComStation can also 
+AMD K6, Athlon and | work on multi-core CPU's without using the other 
+Duron processors) cores. 
+Memory |96 MB (absolute Install as much memory as you can in your system. 
+minimum required for 4 GB is the maximum supported amount. 
+installation from CD). | Applications like Firefox and Open Office need a 
+lot of RAM to work. Also make certain you give a 
+virtual machine (like Virtual PC) enough memory. 
+Video PCI VGA video card |For more information, refer to the chapter “What 
+with at least 512 KB |Hardware is Supported by eComStation 2.0” in 
+memory. this Quickguide, the video card section. 
+Drive 600 MB When selecting more options in the installer, more 
+space drive space is required. A practical working size is 
+a bootable JFS partition of 4 GB. 
+Mouse Any PS/2, serial or |A PS/2 or USB mouse is recommended for best 
+
+
+
+
+
+
+
+
+USB mouse 
+
+
+
+
+
+performance. 
+
+
+
+
+
+12 
+
+
+
+
+
+
+
+
+Minimum Recommended 
+
+
+
+
+
+CD-Drive |IDE or SCSI CD- An IDE/SATA or SCSI CD-ROM or DVD player 
+ROM with boot capability and a BIOS which supports 
+booting from CD-ROM. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting the Install 
+
+
+The eComStation 2.0 package consists of three CD's: 
+CD#1 contains the eComStation 2.0 base product and installer, 
+CD#2 contains a host of applications and drivers to enhance your eComStation 
+experience and 
+CD# 3 contains Open Office 3.1. 
+
+
+If you received only a single eComStation disk, you most likely have received a DVD 
+disk which contains the content of all three CD's. When the manual instructs you to 
+insert CD #2 or CD #3, insert the DVD disk. 
+
+
+To start the eComStation installation, insert CD #1 in the CD drive and press reset. 
+
+
+If the system boot successfully from CD #1, you will see the following Boot Source 
+menu; 
+
+
+Boot from hard disk 4 
+
+
+Boot from eComStation CD-ROM 
+
+
+Press "Esc" to cancel automatic 
+hard disk boot in ? seconds. 
+
+
+
+
+
+If the above menu does not display, there are a couple of things you can try to resolve 
+the problem. 
+
+
+Some computers will only check the CD-ROM drive for bootable CD during a "cold 
+boot". To perform a cold boot, power off your computer and turn it on again. 
+
+
+If your system does not attempt to boot from CD #1, check that your BIOS is set to 
+enable booting from the CD-ROM drive and that BIOS is configured to check the CD- 
+
+
+13 
+
+
+ROM before the hard disk. Consult the manual of your mainboard and/or computer for 
+instructions on how to access your computer's BIOS and adjust these settings. 
+
+Another thing to try is, to press the PAUSE key as the CD-ROM drive starts to spin up. 
+Sometimes the BIOS attempts to access the CD-ROM before the CD is spinning fast 
+enough. PAUSE gives the CD time to spin up to speed. After the CD is spinning at full 
+speed, press ENTER. 
+
+
+On the Boot Source menu, the default option is to boot from hard disk. To boot the 
+installation CD, cursor down to the “Boot from eComStation CD-ROM” menu item and 
+press ENTER and you will see the following Boot Options menu: 
+
+
+Boot with default values 4 
+
+
+Boot with menu for own values 
+Display online documentation 
+
+
+
+
+
+This menu allows you to boot either using default values or the values you select. On 
+most systems with IDE and or SCSI hard drives and CD-ROM's, it is sufficient to select 
+the “Boot with default values” option. To select the “Boot with default values” option, 
+press ENTER. 
+
+
+If you need to adjust the options, cursor down to the “Boot with menu for own values” 
+option and press ENTER. 
+
+
+When you select the “Boot with default values” option, the installer will be loaded and 
+started. The eComStation boot logo will display. The boot logo will be replaced by a 
+screen with a blue background and you will be asked if you want the CD Checker to 
+verify the CD content. If you do not respond to the prompt within 30 seconds, this 
+check will be bypassed. This check verifies that all files on the CD-ROM can be read 
+without errors. When the CD Checker completes, it will display a status report and list 
+any files that can not be read correctly. If you encounter freezes when the installer is 
+copying files to hard disk, we recommend you restart the installation and run the CD 
+Checker. 
+
+
+Some older equipment may have problems with some of the IDE driver performance 
+options. If the system freezes while the CD Checker is running, we recommend that 
+you restart the system and choose “Boot with menu for own values” and select a lower 
+performance driver on the Boot Options: Storage page. 
+
+
+14 
+
+
+To select a lower performance driver from the Pre-boot menu, press PgDn (Page 
+Down) until you see the Boot Options: Storage page title. If an IDE controller was 
+detected, the controller option will be set to “(E)IDE/ATA(PI) Performance Mode” 
+(Danis506, DaniATAPI)”. First, try selecting “(E)IDE/ATA(PI) Compatibility Mode” 
+(Danis506, DaniATAPI)” and press F10 to accept the selection and retry the CD 
+Checker. If this fails, try selecting the “IBM1S506, IBMATAPI” driver in 
+“Performance Mode” or “Compatibility Mode”. See the section titled The Pre-boot 
+Menu below for more details on how to operate the Pre-boot menu. 
+
+
+If you get the message that “OS/2 cannot operate your hard disk” or if the DiskManager 
+(MiniLVM) status window does not show any disk drives, we recommend that you try 
+one of the other IDE drivers as described above. If you still can not boot from the CD, 
+please see the next section which describes how to make boot diskettes. Boot diskettes 
+are also useful if you need to supply an updated IDE driver. 
+
+
+After the CD Checker finishes, a message indicating that the eComStation installer is 
+being started will display. 
+
+
+If you get a message that PMSHELL cannot load a DLL, you most likely do not have 
+enough memory to load the installer. The installer requires a minimum of 96 MB of 
+RAM. 
+
+
+If you boot eComStation in a virtual machine, we strongly recommend that you read 
+The Pre-boot Menu section. The Pre-boot menu contains several settings that are 
+specific to booting in a virtual machine. 
+
+
+2.1 The Pre-boot Menu 
+
+
+In addition to the cases described in the previous section, there are other situations 
+where you might want to use the Boot with own values option. For example, if you 
+want to boot CD #1 from an external USB CD ROM drive, you will need to override the 
+default options. 
+
+
+To navigate through the Pre-boot menu pages, use the PAGE UP and PAGE DOWN 
+keys. To move from field to field, press the TAB and SHIFT-TAB keys. To toggle an 
+option on or off, press the space bar. To select an item from a field that supports 
+multiple selections, use the up and down arrow keys. See the BOOT OPTIONS: Keys 
+help page for a full description of the available keyboard navigation features. This is 
+the first page that displays when the Pre-boot menu starts. 
+
+
+15 
+
+
+eComStation BOOT OPTIONS: Target hardware: 
+
+
+eComStation BOOT OPTIONS: Target hardware 
+Keys help - — Miscellaneous 
+
+
+Please select the type of hardware you want to install eComStation to below: 
+
+
+Target hardware: [ 
+
+
+[ ] Use Advanced Configuration and Power Interface (ACPI) 
+[ ] Use debug version 
+Optional ACPI Parameters: 
+[ 
+
+
+Note: If you want to install from USB CD device, please select this on 
+the last page (BOOT OPTIONS: USB) of this menu. 
+
+
+Please review the documentation for more information 
+
+
+
+
+
+The first entry on this page is the Target hardware field which enables you to select 
+the target platform you will install to. Tthe pre-boot menu will automatically pre-select 
+this field based on what type of hardware was detected. If you want to change the pre- 
+selected option, you can override it. 
+
+
+The Target hardware ''Virtual Machine" option is recommend if you install in a 
+virtual machine. It is automatically selected if you boot eComStation in Microsoft 
+Virtual PC/Connextix Virtual PC for OS/2, Parallels workstation, Vmware or 
+VirtualBox. Only certain versions of Vmware will support eComStation, so please 
+consult the documentation. 
+
+
+You might need CPU virtualization for this feature to work. VirtualBox is a virtual 
+machine you can download free of charge from www.virtualbox.org. For VirtualBox to 
+load eComStation, it is required to have CPU virtualization. CPU virtualization is 
+called AMD-V or Intel VT-x. Please consult your computer/BIOS manual to see if your 
+system supports this. 
+
+
+Make certain that CPU virtualization is turned on in your BIOS. When you turn it on, 
+fully power off your computer and turn it back on again. eComStation may have hangs 
+or kernel TRAPS or it will hang without CPU virtualization. We recommend that you 
+use VirtualBox version 3.2.0. or later, as recently there have been fixes to address 
+stability issues with eComStation/OS2. 
+
+
+16 
+
+
+If the pre-boot has automatically set your Target hardware to Virtual machine, do 
+not modify any of the settings on the other pages in the Pre-boot menu. 
+
+
+For virtual machines, the optimal selections have already been set. For example, 
+altering the hard disk drive controller, enabling USB, ACPI or changing the video driver 
+can result in stability issues. 
+
+
+Target hardware "Legacy hardware": 
+
+
+It can be difficult to tell if a computer supports ACPI based on the documentation that 
+comes with your computer, but typically all systems with a Pentium II CPU or older or 
+systems with a legacy ISA slot(s) will not support ACPI. 
+
+
+In the event ACPI support on your system is not detected, it will switch on the Legacy 
+mode (exceptions for some modern industrial mainboards). Selecting Legacy mode is 
+recommend for certain older models of ThinkPads; but selecting this mode on modern 
+hardware might result in hangs during boot from CD #1. 
+
+
+Target hardware "Modern hardware, safe mode": 
+
+
+This option is pre-selected when ACPI support is detected. This mode is optimal for 
+modern hardware and is automatically selected when ACPI is detected. It will not load 
+the ACPI driver at startup. This mode will prevent eComStation from loading certain 
+drivers that can hang on a modern system. 
+
+
+Target hardware ''Modern hardware, ACPI mode": 
+
+
+This is the exact same mode as Modern hardware, safe mode but with ACPI loaded. 
+The statement that loads ACPI in your config.sys is the line PSD=ACPI.PSD. This 
+mode must be selected manually. If you do not select it here, you can install ACPI 
+either by selecting it when booted from CD #1 in the installer or after eComStation is 
+installed with the help of the “ACPI Wizard”. 
+
+
+If you have a system with an AMD mainboard chip set (not an AMD CPU), selecting 
+ACPI might hang your system at boot. Use Modern hardware, safe mode on this 
+type of systems. For more information on ACPI, please read the chapter in this 
+Quickguide: “What hardware is supported by eComStation 2.0” 
+
+
+If you activate the option Modern hardware, ACPI mode, the next menu option in 
+pre-boot with the title Target hardware is pre-selected at Use Advanced 
+
+
+Configuration and Power Interface (ACPI). You can select Use debug version and 
+
+
+17 
+
+
+Optional ACPI parameters. These two options are used only if you are asked to 
+debug problems with ACPI. For more information on ACPI, please read the chapter in 
+this Quickguide: “What Hardware is Supported by eComStation 2.0” 
+
+
+eComStation BOOT OPTIONS: Miscellaneous 
+
+
+eComStation BOOT OPTIONS: Miscellaneous 
+Target hardware - - Storage 
+
+
+Country: [ 
+Keyboard layout: [ 
+Code pages: [ 
+
+
+Start after boot: [ 
+Reserve the following drive letter: 
+
+
+eComStation CD-ROM located in drive: 
+Memory boot drive letter: 
+
+
+Display driver to use during installation (see readme) 
+
+
+Use Amouse driver 
+
+Skip harddisk integrity check 
+
+Edit CONFIG.SYS 
+
+Pause boot process when error occurs 
+Display additional driver messages 
+
+Do not display bootlogo 
+
+Reserve the hardware resources listed below: 
+
+
+
+
+
+This screen offers a mixture of various options. In the first block, select the locale 
+information for the Operating System. The country option sets the default 
+country/region dependent information which can be refined in detail after the 
+installation through the Locale object. 
+
+Since the keyboard layout you use may be different from the country you are located in 
+or be based upon the language version of the Operating System you use, the layout is 
+selectable as well. With the code page option, you may determine the primary 
+character encoding eComStation uses and an alternate code page that you can toggle 
+between after the Operating System has been started. 
+
+
+The next option selects what program to start after booting from the installation CD- 
+ROM or floppy diskettes. The graphical installation program can be started or a 
+command line interface for maintenance tasks or problem determination. 
+
+
+Reserving a drive letter allows to control of the assignment of the drive letters for your 
+CD/DVD drives. The Operating System will assign drive letters to all drives that are 
+partitioned media, such as hard disks or certain removable drives. The letter of the last 
+one of these media is the first valid letter for a working drive letter reservation. The 
+
+
+18 
+
+
+CD/DVD drives will be assigned the next letters after the reserved one in the order the 
+drives are detected by your PC. 
+
+
+Changing the drive letter to be reserved automatically adjusts the value of the next 
+option where you can select the drive the eComStation installation CD-ROM has been 
+inserted. If the CD-ROM is not located in the first CD/DVD drive, you must change 
+this letter to match the appropriate drive. Usually, this would be the second drive, so 
+move the drive letter one further by pressing either the Up arrow key or hitting the letter 
+key ('T' for the example above). The range of the values is limited by the selected 
+reserved drive letter and the fixed letter of the memory boot drive ('Z’). 
+
+
+If you do not know the letters assigned to your drives, leave the menu after the selection 
+of your storage controllers in the next screen by hitting the ALT key together with the 
+F1 key. In the following screen, hit the F2 key and run the program "ecsdrinf" on the 
+command line. It will give you an overview of the drive letters, labels, and file systems. 
+The drive letter next to the label "ECS_CDRUN" is the one of the drive where the 
+eComStation installation CD-ROM has been inserted. 
+
+
+The drive letter of the memory boot drive should only be changed if you already have a 
+drive/logical volume that has the default of 'Z' assigned. If you select a drive letter 
+identical to the one of the CD/DVD drive that has the eComStation CD-ROM inserted, 
+a warning message is displayed and you can not leave the menu until you select a 
+different drive letter. 
+
+
+The option “Display driver to use during installation (see readme)” - we recommend 
+that you do not modify this. In most cases, the Pre-boot menu makes the proper 
+selection for you. You can choose GRADD, VGA and the SNAP driver and Panorama 
+video driver. If you are installing in a virtual machine, do not modify the video setting. 
+The video driver selected in this menu will also be used for installation of eComStation. 
+For more information on video drivers, please read the chapter in this Quickguide: 
+“What hardware is supported by eComStation 2.0”. 
+
+
+The following seven options of eComStation Boot Menu Miscellaneous can be useful 
+for problem determination and solving startup issues. 
+
+
+1) Use Amouse driver: This option is recommended for systems with a USB mouse 
+and is also pre-selected if your system is detected as a modern machine. We 
+recommend that you do not select Amouse when installing eComStation in a virtual 
+machine. When this option is selected in the Pre-boot menu, it will be installed 
+automatically by the installer. 
+
+
+19 
+
+
+2) Skip hard disk integrity check: If this option is checked, the hard disk integrity 
+check will be skipped during the pre-boot process. Generally, we recommend that you 
+do not disable this option. 
+
+
+3) Edit Config.sys: This option allows you to modify the config.sys before the installer 
+is loaded. You can use F7 to search for text in config.sys. This is a powerful option 
+and should only be used to resolve problems. Making modifications to config.sys 
+without sufficient knowledge can result in failure to boot the installation CD or the 
+installation itself, failing. 
+
+
+4) Pause boot process when error occurs: If this option is selected and the system 
+detects an error when loading the installer, it will ask you if you want to continue. 
+Write down the error message and pass it along to support. This option suppresses the 
+automatic boot that some errors will automatically initiate. If you request that the 
+loading of the installer continue, it is possible that the load will fail completely. 
+
+
+5) Display additional driver messages: Select this option to activate verbose mode 
+which is supported by some drivers. When using this option, we recommend that you 
+use ALT-F4 to leave the Pre-boot menu rather than pressing F10. When verbose 
+mode is selected, the drivers may generate a lot of output and ALT-F4 loads the drivers 
+one at a time so that you can read the messages. 
+
+
+6) Do not display bootlogo: Select this option if you opened a support ticket and 
+support requested that you check the Use debug version ACPI option. Suppressing the 
+debug logo will make the messages output by the ACPI driver visible on the screen. 
+
+
+This option is also useful if your system seems to hang at the boot logo. For example, 
+some SiS graphics are known to hang when the bootlogo is loaded. Suppressing the 
+bootlogo avoids the hang. Please note: if this option resolves the hang that occurs 
+when booting from CD #1, you need to modify your installation manually after the 
+installer has finished copying files from CD #1 to your hard disk. To do this, select 
+your install options and let the installer start copying files to your hard disk. Then 
+check the Start management console on completion checkbox. When the file copy 
+completes, use the management console menu to open a command line session and 
+delete the “‘os2logo” file from the root directory of your boot drive. 
+
+
+7) Reserve the hardware resources listed below: Use this option to prevent resources 
+from being allocated by the wrong device driver. This should happen rarely and 
+typically occurs only for older ISA hardware or PCMCIA (PC Card) adapters. To 
+reserve resource, press the SPACE-BAR to enable the option and then enter the 
+resource reservations in the field that follows. 
+
+
+20 
+
+
+Some typical resource reservations are: 
+
+
+- /1O:x,y or /P:x,y 
+Reserves I/O ports, where 'x' is the base port number in hexadecimal and 'y' is 
+the length/number of ports in hexadecimal. The 
+'x' and 'y' values are separated by commas. Example: /10:340,4 
+
+
+- MEM:xxxx,y 
+Reserves memory, where 'xxxx' is the base memory address in hexadecimal and 
+'y' is the length in hexadecimal of the address 
+range. The 'xxxx' and 'y' values are separated by commas. The memory address 
+is a paragraph address that is xxxx represents 
+the paragraph address address xxxx:0 which is the same as the linear address 
+xxxxQ. The addresses that can be reserved are 
+between C000:0 and DFFF:. Example: /MEM:CA00,1000. 
+
+
+- DMA:x 
+Reserves a DMA channel, where 'x' is the channel number in decimal. Example: 
+IDMA:2 
+
+
+- IRQ:x 
+Reserves an interrupt line, where 'x' is the interrupt line in decimal. Example: 
+/RQ:10 
+
+
+- [EXC 
+
+- MUL 
+
+- SHA 
+Modifies the reservations defined by /IO /MEM /DMA /IRQ. The options are 
+EXClusive, MULtiplexed or SHAred. The modifier must immediately follow 
+the resource to which it applies. The modifiers are mutually exclusive. Only one 
+can be specified for a given resource. If a modifier is not specified, the default is 
+EXClusive. 
+
+
+21 
+
+
+eComStation Boot Options: Storage 
+
+
+eComStation BOOT OPTIONS: 
+Miscellaneous - 
+
+
+1. Controller: 
+Parameters: 
+
+
+. Controller: 
+Parameters: 
+
+
+. Controller: 
+Parameters: 
+
+
+Name of other driver from diskette without extension: [ 
+
+
+[ ] Use generic INT 13h driver instead of adapter device drivers CIBMINT13) 
+
+
+Optical drives: [ ] 
+
+
+
+
+
+The Storage menu allows you to configure the drivers to be loaded to match the host 
+adapters installed in your PC. In most cases, the installed adapters will be detected 
+automatically. You may select up to three different host adapter drivers. These drivers 
+will be loaded in the order listed on the menu. If you have multiple CD-ROM adapters, 
+the driver for the host adapter that has the CD/DVD drive which contains the 
+eComStation installation CD-ROM must be loaded first. Selecting a driver more than 
+once is allowed, but is not useful. Only the first instance will be loaded. 
+
+
+If a ATA(PD/(E)IDE host adapter is detected, the "Extended ATA(PI)/(E)IDE 
+(DaniS506, Dani ATAPI)" driver will be preselected as the first controller by default. If 
+SCSI host adapters were detected, they will be selected as the second and third 
+controllers depending upon the number detected. 
+
+
+The ATA(PD/(E)IDE drivers are not compatible with any of the software RAID setups 
+offered for some ATA/IDE RAID controllers such as HPT, Promise FastTrack, AMI; 
+however, the chip sets are supported in non-RAID mode. Verify that the RAID features 
+are disabled in the BIOS setup for these controllers. 
+
+
+If the installer does not start correctly or the installation fails, try switching the 
+DaniS506 driver to Compatibility mode. If this fails, try switching to the IBM1S506 
+driver (i. e., “(E)IDE/ATA(PI) Compatibility mode (IBM1S506, IBMATAPI)”. 
+
+
+22 
+
+
+ServeRaid Adapters 
+
+
+If you are installing eComStation 2.0 to an IBM server with a ServeRaid adapter which 
+uses the IPSRAID.ADD driver, the eComStation DiskManager may not display any of 
+the disks connected to your RAID array. This seems to be a bug in the IBM ServeRaid 
+driver. This is a timing issue. If this occurs, change the first controller instance from 
+DANIS506 to IBM1S506. 
+
+
+Tekram Adapters 
+Host adapters that use the following drivers need special attention: 
+
+
+Tekram DC-310/U, DC-390F/U/U2B/U2W/W (TMSCSIW) 
+Tekram DC-310/U, DC-390F/U/U2B/U2W/W (see note, below) 
+
+
+These adapters require that you supply the driver TMSCSIW.ADD from diskette since 
+the company did not allow distribution of this driver with eComStation. Please refer to 
+the end of this appendix for directions on how to supply the driver on diskette. The 
+driver archive can be downloaded from: 
+
+
+ftp://ftp.tekram.com/SCSI/390X/DC390EB W.zip 
+
+
+If you have trouble booting with this driver, try selecting "Symbios/LSI F-U2W 
+81x/825/860/87x/885/895 chips (SYM8XX)" instead. For DC-390U3D/U3W adapters, 
+select "Symbios/LSI U2W/U160 895A/896/1000/1010 chips (SYM_HI)". 
+
+
+Tekram DC-305/315/395 (TRM3X5) 
+Tekram DC-305E/I, DC-315U, DC-395F/U/UW 
+
+
+These adapters are NOT recommended for eComStation. If you choose to use this 
+adapter, you need to supply the driver TRM3X5.ADD from diskette since the company 
+
+
+did not allow distribution of their driver with eComStation. Please refer to the end of 
+this appendix on how to supply the driver. The driver archive can be downloaded from: 
+
+
+ftp://ftp.tekram.com/SCSI/3X5/DC3X5U.zip 
+
+
+Using Other Adapters 
+
+
+To select an adapter that is not listed in the controller drop down list, select the entry 
+that reads; 
+
+
+23 
+
+
+Use other driver from diskette (enter name below) 
+When you select this option, a red arrow => will appear to the left of the field labeled 
+Name of other driver from diskette (without extension): 
+
+
+Enter the name of the driver without the extension (.ADD), for example "AIC7770". 
+You will not be able to leave the Pre-boot menu until you have either entered the driver 
+name or until you have selected a different option from the controller drop down list. 
+Please refer to the end of this appendix on how to supply a driver on diskette. 
+
+
+Below each controller selection field, there is a parameters field where driver-specific 
+options can be entered. Most drivers will not require any special options to boot 
+correctly. You can force the driver into verbose mode by typing /V into the parameters 
+field and the driver will display additional messages when it is loading. 
+
+
+If none of the other host adapter selections work properly or your host adapter is not 
+supported, you can try selecting the generic INT 13h driver. Selecting this driver forces 
+the values of the three controller selection fields to None since this option is mutually 
+exclusive with any other controller selection. Certain restrictions apply and the usage of 
+this driver is not recommended. On most systems, this driver will either fail to work or 
+the system will function extremely slowly. 
+
+
+Optical Drives 
+
+
+If you experience problems starting the installer or the installer appears to have 
+problems accessing the CD/DVD drive, try selecting the “Extended CD-ROM/CD- 
+RW/DVD Device Manager” from the optical drives selection list. 
+
+For older hardware, try selecting the “Standard CD-ROM Device Manager”. This 
+Device Manager does not support DVD drives. 
+
+
+24 
+
+
+eComStation BOOT OPTIONS: USB 
+
+
+eComStation BOOT O 
+Storage - - Keys help 
+
+
+Support [0]? USB Universal Host Controllers (UHCI: Intel, VIA) 
+Support [0]? USB Open Host Controllers (OHCI: ALi, AMD, OPTi, SiS) 
+Support [0]? USB Enhanced Host Controllers (EHCI: Intel, NEC) 
+[ ] Support USB mice/trackballs 
+[ ] Support USB keyboards 
+[ ] Support USB mass storage devices: 
+
+[1]? floppy disk drives attached 
+
+[0]® CD-ROM/-R(W) drives attached 
+
+
+[ ] Install from USB CD device 
+[8] Removable drives attached (USB stick, USB harddisks etc.) 
+
+
+
+
+
+If the Pre-boot menu detects USB host controllers, it will preselect up to 8 controllers 
+for each detected controller type as well as enabling support for USB keyboards and 
+pointing devices. To change the preselected counts, use the Up and Down keys to cycle 
+the count between 0 to 8 or type in a number. Note that you are selecting controllers, 
+not ports. 
+
+
+To successfully run USB devices, the USB controllers must have hardware resources 
+assigned (i. e., IRQ, port, etc.). Please consult the mainboard manual for any special 
+BIOS settings that might be required for the USB controllers. 
+
+
+The next three options control USB devices that might be needed for installation 
+(pointing devices, a keyboard or external storage devices). 
+
+
+Press the Space bar to activate/deactivate support for each of these device types. You 
+must select at least one USB host controller before you will be able to activate any of 
+these device types. 
+
+
+If at least one USB host controller is detected, "Support USB mass storage devices" will 
+be pre-selected. 
+
+
+Note: to install eComStation from a USB CD-ROM drive, set the count of CD- 
+ROM/-R(W) drivers attached to 1 and check the Install from USB CD device option. 
+
+
+If you are installing eComStation 2.0 under a virtual machine, we recommend that you 
+
+
+25 
+
+
+do not activate USB support. Activating USB support can lead to instability. 
+Making a Boot Diskette/Driver Update Diskette 
+
+
+If your system is not able to boot from CD #1 and you have a diskette drive, try creating 
+boot diskettes from CD#1. This is especially useful for legacy systems. The drivers on 
+these diskettes can not be updated. 
+
+
+You can also boot from CD-ROM and supply additional drivers on diskette. The 
+section entitled “Booting from eComStation CD #1” describes how to use an additional 
+driver diskette. 
+
+
+To create the diskettes, run makedisk.bat from a DOS/Windows based machine on 
+which you have CD-ROM access. Alternatively, run makedisk.cmd on an OS/2 based 
+machine that provides CD-ROM access. Both makedisk.cmd and makedisk.cmd can be 
+found on CD #1. 
+
+
+To create boot diskettes, press 1 to select the Create 4 installation diskettes with 
+menu option. 
+
+
+To create an additional driver diskette, press 2 to select the Create 1 prepared diskette 
+to update the memory disk with your files option. 
+
+
+26 
+
+
+3. Continuing the Installation Process 
+
+
+The installer runs in three phases. In phase #1, you will select the items to be to 
+installed, such as network configuration, audio driver, etc. In this phase the base 
+operating system is installed onto hard disk. Phase #2 will boot from hard disk and 
+continues to install selected components to the system. Finally phase #3 is booting to a 
+complete eComStation 2.0 desktop and allows you to fine tune the system by using the 
+Post Installation Tasks wizard. 
+
+
+If you need additional assistance while the installer is running, use the online help. 
+To view the online help, press the help button in the right hand corner of any installer 
+screen. 
+
+
+To access the online help after eComStation is installed, put eComStation 2.0 CD #1 in 
+your CD-ROM drive and click on the folder Local system on your Desktop, select the 
+folder Drives and click on the drive letter of CD ROM. Finally, go to the folder 
+\ECS\INSTALL and double click on GUIDPROC.HLP. 
+
+
+The online help Contains the following chapters; 
+
+
+Chapter 1. Installation 
+
+Describes how to install eComStation 2.0 using either the Easy or Advanced 
+installation method. Explains how to handle a migration from a previous 
+OS/2/eComStation version. 
+
+
+Chapter 2. What's Next? 
+Talks about adding support for several hardware items and will touch briefly on the 
+installation of additional applications. 
+
+
+Chapter 3. Getting Connected 
+Explains briefly how to get connected to the Internet and your Local Network. Also 
+contains tips on networking within a Windows/Linux Environment. 
+
+
+Chapter 4. Getting Involved 
+Describes some ways you can help to support the development and evolution of 
+eComStation. 
+
+
+Chapter 5. LVM 
+Describes in detail the usage of the LVM programs in eComStation. 
+
+
+27 
+
+
+4. What Hardware is Supported by eComStation 2.0 
+
+
+4.1 ACPI Support 
+
+
+ACPI support is a new component in eComStation 2.0. Before ACPI was introduced in 
+computer hardware, a lot of the hardware management (like IRQ assignment and power 
+management) was done by the BIOS. With ACPI, a large part of these tasks is taken 
+over by the Operating System. ACPI support is an extension of the Operating System 
+kernel at the deepest level possible, in the form of a so called PSD. 
+
+
+When ACPI is enabled on eComStation, the following line is inserted in your 
+config.sys: PSD=ACPI.PSD 
+
+
+The position of this line in the config.sys does not matter as eComStation will load this 
+module as the first “driver” from config.sys. The old APM.SYS driver can not be used 
+in conjunction with ACPI. It is replaced with the line BASEDEV=APM.ADD in your 
+config.sys. The position of this driver in the config.sys is not important. 
+
+
+The installation of ACPI can be enabled by selecting ACPI in the Pre-boot menu 
+(please read chapter 2 of this manual for more details). It is also possible to select it 
+during installation of the Operating System when booted from CD #1 in the hardware 
+page of the installer. A final option to install ACPI is the “ACPI Wizard” after the 
+system is installed. Go to the folder “Local system” >” Install Remove” and double click 
+on the ACPI Wizard icon. 
+
+
+Note: To activate SMP (multiprocessor / multicore) support you need to run the ACPI 
+wizard and modify the parameters. By default SMP is not enabled. 
+
+
+Note: not all computers require ACPI support. 
+
+
+There are three reasons to install ACPI. The first reason to install ACPI is because of 
+multi CPU support (or SMP support). eComStation has an extremely good SMP support 
+in its kernel. Large parts of the eComStation Operating System are “threaded”. 
+Especially with a SMP system the kernel can have an application be served by 2 or 
+more CPU's by distributing these “threads”, increasing the speed of your computer. 
+
+
+The second reason to install ACPI is to support APIC mode. Computers used to have 
+IRQ support up to IRQ 15. This mode of operating is called “PIC” mode. More and 
+more modern systems will only run reliably if the IRQ management is set to “APIC” 
+mode. This is made possible by ACPI.PSD, as well. With some notebooks, the base 
+
+
+28 
+
+
+functionality of the computer works without ACPI so you can start your OS, but 
+functionality like WiFi and sound might not work without ACPI being installed and 
+running in “APIC” mode. In some cases ACPI also has to be loaded to initialize 
+hardware before a device driver uses the device. 
+
+
+The third reason to install ACPI is that it makes it possible to use suspend and resume, 
+because with most modern laptops, the classic APM support is no longer present in the 
+BIOS. The success rate of this may depend on the hardware you have. Note: The first 
+time you test suspend and resume, we recommend that you close all open documents 
+etc. before you test to see if your system works. 
+
+
+If suspend/resume does not work: 
+
+You can try the following. Open your config.sys file and look for the line 
+DEVICE=X:\ECS\S YSTEM\AMOUSE\AMOUSE.SYS SMP. 
+
+Replace this line with the following 
+DEVICE=X:\0S2\BOOT\MOUSEAPM.SYS. 
+
+
+If your screen remains black at resume, you can try appending the /VBE switch option 
+to the PSD=ACPI.PSD line in your config.sys. This will configure the VBE extensions. 
+
+
+To modify the settings for suspend, go to the folder “Local System” > “System setup” 
+and click on the ACPI setup icon. Generally, it is best to set the “ sleep state” to S3 and 
+keep the “Save video for suspend” set to “0”. 
+
+
+Usually, installing ACPI will not cause any system issues. What can cause problems is 
+when the /SMP mode and/or the /APIC switches are added to the config.sys. For more 
+information on the ACPI switches, please consult the document PSD_EN.INF which 
+can be found in the \ECS\ACPI\DOC\ directory of your boot drive. It offers detailed 
+information on ACPI and the switches available for the various ACPI drivers and 
+utilities. 
+
+
+Q: I installed ACPI or I allowed the ACPI wizard to add the suggested switches 
+ISMP /APIC to the PSD line. The config.sys line now reads PSD=ACPI.PSD /SMP 
+/APIC and my system does not start. What should I do? 
+
+
+A: Not all systems support ACPI equally well. On some systems, when you install 
+ACPI and enable the /SMP /APIC support, you might see pauses of up to 40 seconds for 
+
+
+29 
+
+
+your machine to start up and load the drivers. This can happen especially with USB 
+drivers and the UNIAUD audio driver, so wait for your system to boot. 
+
+
+Q: I installed ACPI and I see my system loading and then the screen remains black 
+when all device drivers seem to be loaded. I see no eComStation Desktop. 
+
+
+A: Restart your system with the key combination Ctrl-Alt-Delete and when you see the 
+little white “eCS” blob in the left hand corner of the screen, press the key combination 
+ALT-F4. This will allow you to select which device drivers and daemons to load. 
+Continue pressing the space bar until you see the line, X:\OS2\ACPIDAEMON.EXE. 
+Skip this line. If your system starts successfully now, remove the line 
+RUN=X:\0S2\ACPIDAEMON.EXE from your config.sys. Then add a reference to the 
+acpidaemon.exe to your eComStation startup folder. 
+
+
+Q: I have enabled SMP support and my system seems to hang and in the part of the boot 
+process where text is displayed on the screen, no graphics are displayed. How can I fix 
+this? 
+
+
+A: From the line PSD=ACPI.PSD /SMP /APIC in your config.sys, remove the 
+option /APIC. Normally, this is recommended, but some device drivers don't support 
+the /APIC mode from ACPI. 
+
+
+Q: I installed ACPI and I don't see COM.SYS loading the config.sys. Instead, I see 
+PSCOM.SYS. What is PSCOM.SYS? 
+
+
+A: The PSCOM.SYS driver is a serial port driver that supports IRQ's above 15. This 
+driver is is needed when ACPI is running in APIC and the serial port is assigned to an 
+IRQ above 15. 
+
+
+Q: I started up my system the first time with ACPI installed and the eCenter CPU graph 
+reports that I have very high CPU consumption. What is going on? 
+
+
+A: In some rare cases the “Beer battery widget” that is installed in the eCenter on laptop 
+systems can make the system slow. Click on the battery icon with the right mouse 
+
+
+button and choose “Delete widget’. 
+
+
+Q: DOS and Win/OS2 sessions do not start since I added the /SMP /APIC switches to 
+the PSD=ACPI.PSD line in my config.sys file. Why is this happening? 
+
+
+A: On some systems, if you start a DOS or WIN/OS2 session when you booted eCS, it 
+can take up to 30 seconds to start the first DOS or WIN/OS2 session. You can try to 
+
+
+30 
+
+
+remove the /APIC option from the PSD=ACPI.PSD line in your config.sys. If this does 
+not help, you may need to install ACPI version 3.14. This is often true if you have a 
+Nvidia mainboard chip set. To do this, insert eComStation CD #1 in your CD ROM 
+drive and then open the folder “Local System” >” Drives” and select your CD ROM 
+drive. Go to the directory \CID\SERVER\ECSPKG and click on the package 
+ACPI314.WPI. The WarpIN installer will warn that you are going to install older 
+versions of the ACPI drivers. Ignore this warning and allow WarpIN to install the 
+driver. 
+
+
+Q: I have an AMD mainboard chip set and it hangs when I load ACPI. What can I do? 
+A: Some AMD chip sets do not work with ACPI because of the way eComStation 
+boots. You need to install your system in the default install mode that CD #1 offers 
+“Modern hardware- Safe mode”. For more details, please read Chapter 2 of the 
+Quickguide about the Pre-boot menu. (Please note ACPI does not effect AMD CPU's). 
+
+
+Q: My machine seems to get very warm. What can I do? 
+
+
+A: This can be caused by ACPI especially when the SMP mode is activated. 
+For Intel CPU's, download the following tool to throttle the speed of your CPU: 
+Intel: http://hobbes.nmsu.edu/download/pub/os2/util/system/cpuspeed1.4.zip 
+For AMD CPU's there is currently no solution. 
+
+
+Q: My system hangs at startup when I added the switches /SMP /APIC. When loading 
+the USB host controller drivers or USB equipment does not work. 
+
+
+A: Try adding the /CD option to the ACPI.PSD line in your config.sys. 
+Q: My system is slow with ACPI in SMP mode. What is the cause? 
+
+
+A: On some systems, hyperthreading does not work properly with ACPI. 
+Turn this feature off in your system's BIOS. 
+
+
+Q: I selected “shutdown” and my system does not switch off? What can I do? 
+A: Your system might not properly support power off via ACPI. Click with the right 
+mouse button on your eComStation Desktop in a spot where there are no icons, then 
+
+
+click on properties in the menu. In the new menu that pops up, select eShutdown. and 
+disable the Power off option. 
+
+
+31 
+
+
+Q: I installed the latest build of XWorkplace and my system is having problems with 
+powering off with ACPI, but eWorkplace worked. 
+
+
+A: As of May 2010, the time of the eComStation 2.0 release, a version of XWorkplace 
+with the required fixes had not yet been released. 
+
+
+4.2 What Audio Cards/Chip Sets are Supported? 
+
+
+eComStation 2.0 comes with drivers for a wide variety of supported audio chip sets. 
+ISA chip sets are not detected. You need to select ISA chip sets manually from the 
+driver list during installation. Most PCI/AC97/HDA chip sets integrated on mainboards 
+should be detected and supported by UNIAUD. If an audio driver is not installed, go to 
+the folder “Local System” “Install/ remove” and click on “Multimedia Application 
+Install”. Choose “Add a Multimedia Feature” >” Install from the menu and select the 
+appropriate driver from the list of drivers included on the eComStation 2.0 CD”. 
+
+
+Q: My system starts up and I have a repeating startup sound or other system sound. 
+What is going on? 
+
+
+A: This happens with the UNIAUD driver on some systems that have HDA audio chip 
+sets. In this case, go to the folder “Local System” +” System Setup” and then choose 
+sound and disable the system sounds. An updated UNIAUD driver will be available at a 
+later date. Please check the following web page for details: 
+
+
+http://www.ecomstation.com/fag/559 
+
+
+Q: I am having trouble with the UNIAUD audio driver. Where can I get support? 
+
+
+A: Go to http://svn.netlabs.org/uniaud for more information. Please note: eComStation 
+2.0 ships with a build of the UNIAUD drivers UNIAUD16.SYS and UNIAUD32.SYS 
+from May 2010. The website still needs to be updated to reflect these changes, so do 
+not back level your UNIAUD driver. 
+
+
+Q: I have the UNIAUD audio driver installed, but I can almost hear no sound. What is 
+wrong? 
+
+
+A: Some systems have issues with the mixer settings. Go to the folder "Programs" and 
+then "Multimedia." Double click on the "UNIAUD Mixer" and move the sliders for 
+PCM Playback to adjust the volume. 
+
+
+Q: I have installed an audio driver and it does not work properly. How do I uninstall it? 
+
+
+32 
+
+
+A: Start minstall as is described at the top of this section. Choose “Uninstall an 
+Installed Feature” from the main menu. This will remove the audio driver you selected 
+to uninstall. If you still are having problems, you can also select from the “Reinitialize 
+your Multimedia installation”. This will reset your multimedia sub-system to the state it 
+was when there was no audio driver installed. This will resolve problems that can occur 
+if the configuration files get corrupted. After resetting, try to reinstall your driver via 
+minstall and see if this fixes the problem. 
+
+
+Q: I have downloaded an updated version of the UNIAUD driver (UNIAUD16.SYS and 
+UNIAUD32.SYS). What do I do with it? There is no information or files with the 
+package that explain how to install the audio driver. 
+
+
+A: If you already have UNIAUD installed on your system, all you need to do is copy 
+UNIAUDI6.SYS and UNIAUD32.SYS to the \MMOS2 directory on the boot drive and 
+reboot. We recommend that you backup the old UNIAUD drivers before overwriting 
+them. 
+
+
+Q: I have an SB live card in my system and the driver does not load. What do I do? 
+
+
+A: If you have more then 2 GB of memory in your system, switch over to UNIAUD. 
+The Soundblaster Live driver does not work with more than 2 GB of RAM. Start 
+minstall as is described at the top of this section and override the selected SB live driver 
+and select the UNIAUD driver. 
+
+
+4.3 What Video Cards are Supported by eComStation? 
+eComStation 2.0 supports four different types of video drivers. 
+
+
+The first is the SNAP video driver. This driver has support for hardware acceleration 
+which provides a high level of video performance. For a list of supported video chip 
+sets, look on eCS 2.0 CD #1 in the file: \CID\SERVER\SNAP\readme.txt. This driver 
+will not work with suspend/resume of ACPI. You will need to use the Panorama video 
+drivers for suspend/resume to work. 
+
+
+In most cases, the Panorama video driver is installed by eComStation 2.0. This is a 
+driver that supports just about any video chip set. This is because it is a VESA driver 
+and the VESA interface on video cards is a generic or industry standard. The Panorama 
+driver does have a few limitations: 
+
+
+33 
+
+
+* The Panorama driver does not use video chip set specific features. For example, 
+some laptops have “wide screen” adapters, but these resolutions are not 
+supported by the Panorama driver. For some video chip sets, there are 
+Panorama wide screen enablers. For more information, see: 
+
+
+http://en.ecomstation.ru/projects/panorama/?action=down 
+
+
+- If you experience performance issues with the Panorama video driver on your 
+system, please check the FAQ item for this at: 
+
+
+http://www.ecomstation.com/fag/555 
+
+
+* With the Panorama driver, you cannot set the refresh rate for your screen. The 
+BIOS of the video card detects the capabilities of the screen and uses the best 
+possible settings. 
+
+
+The GRADD video driver is similar to the Panorama driver, but it does not provide the 
+level of acceleration that the Panorama driver offers. The GRADD driver does not work 
+as well with some video cards as the Panorama driver does. On some video chip sets, 
+the GRADD driver will hang the system or crash it. 
+
+
+The VGA video driver is a basic driver that is normally not needed. It only supports a 
+resolution of 640 x 480 and 16 colors. 
+
+
+If you want to change the driver after installation, open the folder “Local System” + 
+“Install/Remove” and start the program “Video driver wizard”. You can choose to 
+install SNAP, Panorama, GRADD or the VGA driver. 
+
+
+Recovering from an Incorrectly Set Screen Resolution 
+
+
+This is a new feature in eComStation 2.0. If you accidentally set the screen resolution 
+too high and your screen no longer displays a video image, you need to reset to standard 
+VGA and then reinstall your video driver. If you do not see the eComStation desktop 
+after rebooting with the modified resolution, press Ctrl-Alt-Delete. When you see the 
+little white eCS blob in the left hand corner of your screen, press ALT-F1. This should 
+display the recovery menu. From the recovery menu, select option “D Reset GRADD 
+based video driver to 800 x 600 64K colors.” 
+
+
+Q: When booting from eComStation CD #1, I get a hang or TRAP in SDDHELP.SYS. 
+What do I do? 
+
+
+A: Select the Panorama driver in the Pre-boot menu. 
+
+
+34 
+
+
+4.4 Disk Storage Controllers 
+
+
+For a list of supported SATA/PATA controllers, please check the file 
+\ECS\DOC\DANISS06\CHIPLIST.TXT on an installed system. On some systems, the 
+default settings of the AHCI controller are not supported and you need to switch the 
+controller to compatibility mode in the BIOS. Beware when switching to compatibility 
+mode. Consult your BIOS documentation. In some cases, compatibility mode will 
+result in Windows failing to start. 
+
+
+An AHCI driver is under development, but not yet ready for public release. For details 
+please visit http://www.ecomstation.com/faq/557 (AHCI is the follow up of the SATA 
+disk controller standard). 
+
+
+Q: I tried to install eComStation on a bootable JFS volume with a HP / Compaq DL- 
+360 server using CPQARRAY.ADD RAID driver or the LSI 320 driver. The system 
+does not start or it crashes. 
+
+
+A: The LSI 320 driver does not support bootable JFS. You must install to an HPFS file 
+system. The CPQARRAY.ADD driver has no problem accessing JFS data volumes. 
+
+
+Q: I have an Adaptec SCSI Adapter and a SCSI CD-ROM and I could not get it to boot 
+the eComStation CD #1. What should I do? 
+
+
+A: Check the following settings: 
+
+In the Adaptec BIOS, set disconnect to "NO" for the CD-ROM device. Some CD- 
+ROM's do not work properly in sync mode. Try turning off initiate sync negotiation in 
+the BIOS. 
+
+
+Q: My computer is beeping and the hard disk is spinning up and down all the time. 
+What is going on? 
+
+
+A: Most likely, you have a problem with reading from the hard disk. If eCS detects 
+problems with reading from hard disk, it tries to recover by resetting the disk controller. 
+
+
+A common reason for read problems is that a computer may not be properly grounded. 
+Please check the electrical grounding of your PC or hard drive. 
+
+
+4.5 What network Card Chip Sets are Supported? 
+
+
+For an extensive list, please visit http://www.ecomstation.com/fag/558 
+
+
+
+
+
+35 
+
+
+Q: Why are some chip sets that were supported by the Genmac 2.20 driver not 
+supported by eComStation 2.0? For example, my Atheros wireless chip is not 
+supported. 
+
+
+A: Some drivers had to be removed due to licensing issues. To download the Genmac 
+driver for your missing chip set, visit: http://genmac.netlabs.org/ 
+
+
+4.6 What CPU/Mainboard Chip Sets are Supported? 
+
+
+Most mainboard chip sets are supported by eComStation. For details, read the section 
+on ACPI earlier in this chapter. We generally recommend Intel-based motherboards 
+because they tend to be the most compatible. The CPU type or brand does not really 
+matter, as long as it supports the x86 architecture. You can purchase a multi-core CPU 
+and run eComStation in single core mode if the ACPI driver does not support the 
+motherboard in SMP mode. 
+
+
+4.7 USB / USB Peripherals Support 
+
+
+When you boot from eComStation CD #1, the correct number of USB 1.1/2.0 
+controllers is usually automatically detected and the correct drivers are installed. 
+Support for USB keyboards, mice and USB hubs should be not be a problem as most of 
+this equipment conforms to industry standards. 
+
+
+Many USB scanners are supported with the TAME package. If you did not select the 
+TAME package during installation of eComStation CD #1, you can install it by starting 
+TAME.EXE from the directory COMMON\CID\SERVER\ECSPKG\ on CD #1. 
+
+
+On some systems, the system load time will be longer because the USB drivers take a 
+long time to initialize. This can be up to 30 seconds or longer. This sometimes can 
+occur if ACPI is enabled in /APIC mode. See the ACPI section in this chapter for more 
+details. 
+
+
+If you have an USB mass storage device that does not have a drive letter assigned in 
+eComStation, it may be because the existing device formatting does not conform 100% 
+with the USBMSD standard. If the USB key/hard disk contains no data you wish to 
+keep, we recommend that you reformat the device with the eComStation “Disk utility” 
+tool. To access this tool, boot from eComStation CD #1 and press CTRL-C to ignore 
+any warnings from the DiskChecker. When the graphical installer is loaded, insert your 
+USB device. Select the Maintenance console from Easy/Advanced/Maintenance 
+console radio buttons. When the menu bar displays, select the Disk and select “Disk 
+
+
+36 
+
+
+utility” from the sub-menu. Select the device you want to erase and respond Yes twice 
+to erase the device. Confirm the erase only if you are sure you have selected the 
+correct device. 
+
+
+Your system will then reboot. Once back in eComStation, use MiniLVM to partition 
+the USB key or hard disk. You can find MiniLVM in your System setup folder. It is 
+best to format the USB key under any version of Windows as a FAT 32 device, so that 
+you can use the key under Windows, eComStation and Linux. This procedure is needed 
+especially if your USB disk is bigger than 512 GB and you want to use it under 
+eComStation. Most disks are pre-partitioned for Windows. The same limits apply as 
+described in chapter 1, which provides instructions on how to deal with hard disks 
+bigger than 512 GB. 
+
+
+Q: Which USB network hardware is supported in eComStation? 
+
+
+A: eComStation has support for USB Ethernet adapters which are based on the 
+Kawasaki KLSKUSB101 chip set. You can install this driver via the Adapters and 
+Protocols tool (MPTS) which you can find in the System Setup > Network folder. 
+
+
+The following USB Ethernet network cards have been tested: 
+3COM USB Network Interface 
+
+D-Link Corp. USB Ethernet Adapter (DSB-650) 
+
+ADS Technologies Inc. USB Ethernet Adapter (USB-10BT) 
+
+
+Note: as of May 2010, USB 3.0 host controllers are not supported by eComStation. 
+Development of a USB 3.0 host controller driver is planned. 
+
+
+4.8 Which printers are supported by eComStation 2.0? 
+
+
+Open the folder “Local System” > “Printers” and click on “Install Printer”. In the 
+dialog “Create new printer”, there is an option “Install new printer driver”. Select it 
+list of the supported printers. 
+
+
+Printer drivers shipped with eCS 
+
+
+Printers need two drivers to function. One driver sends the stream file to the printer and 
+the other driver is called a “port driver’. If you want to install a printer that uses SLPR 
+printing (a TCP/IP protocol), install a “local printer” and select your printer from the 
+list. Click the right mouse button on “LPT 1” and then, click on “Install”. You will be 
+able to select SLPR or the SMB (for access to Samba printer). 
+
+
+37 
+
+
+Importing a PPD file 
+
+
+If your printer is not supported by the drivers shipped with eComStation 2.0, check the 
+manual of your printer or the website of your printer manufacture to see if the printer 
+supports the Postscript printer language. If it does, look for the PPD file for your 
+printer. 
+
+
+A PPD file is a text file that describes the features of your printer and it can normally be 
+found on the driver disk or the website of your computer vendor. If you cannot find the 
+PPD file, search via your favorite search engine. For example, check the website: 
+http://www.openprinting.org/download/PPD/. When you have a PPD, you can import 
+the file by opening the folder “Local System” + “Printers” and start the program 
+“Add printer drivers”. 
+
+
+CUPS Printer Driver 
+
+
+As an alternative, you can download the CUPS printer driver for eComStation. This is a 
+printer driver ported from Linux to eComStation. It supports a wide variety of printers. 
+Almost every printer sold for Apple's Mac OS X is supported by CUPS on eComStation 
+because Mac OS also uses CUPS. There are some exceptions however. A small 
+percentage of printers are only supported on Mac OS X. For more information on how 
+to install CUPS, how to download it and which printers are supported, please visit the 
+
+
+website: http://svn.netlabs.org/ecups/wiki/HowTo. 
+
+
+4.9 What Video Capture/TV Tuner Cards are Supported? 
+
+
+On eComStation CD #2, you will find a set of legacy drivers for ISA/PCI TV tuner and 
+video capture chip sets and also for the popular Brooktree 848 chip set. However, these 
+drivers do not support current hardware. 
+
+
+The commercial application Emperoar TV supports modern USB and PCI DVB/MPEG 
+capture cards. For more information and which models are supported, please visit the 
+
+
+website: http://www.s-t.de/emperoar/ 
+
+
+4.10 How Do I Burn CD's/DVD's with eComStation? 
+
+
+eComStation 2.0 comes with a trial version of RSJ CD writer. For more information, 
+visit http://www.rsj.de. RSJ should work with just about any IDE, SCSI or USB/DVD 
+burner. An alternative you can try is DVD toys from eCo software. A trial version of 
+DVD toys can be found on eComStation CD #2 under the eCosoft tab. Go to: 
+
+
+38 
+
+
+http://en.ecomstation.ru/projects/dvdtoys/ for more information. 
+
+
+4.11 More information on supported hardware. 
+
+
+There are 2 good websites with more background information on which hardware is 
+supported by eComStation. The website http://www.os2warp.be holds a lot of 
+background information on how hardware works. The web page from eCo software has 
+a large catalog of currently supported hardware, laptops, desktop machines, etc. For 
+
+
+more information visit http://en.ecomstation.ru/hardware.php 
+
+
+39 
+
+
+5. Getting Support/Resolving Problems/General FAQ 
+5.1 Getting support: 
+
+
+eComStation Home & Student users are not entitled to receive support via telephone 
+from Mensys B.V. Other eComStation resellers may decide to do support these users 
+on there own terms. To get support, you need open a support ticket. Please visit 
+
+
+http://www.ecomstation.com/support and click on the option: 
+
+
+Create a support ticket 
+
+
+When you create a support ticket, we need to know what version of eComStation you 
+are using. You can determine what version of eComStation you have by checking your 
+registration key. The eComStation registration key consists of something a username 
+and a password. The username will look similar to ML20HW-XYZ123. The 5th 
+character indicates the version, H indicates Home and Student, B indicates Business and 
+S indicates Server edition. 
+
+
+Before opening a ticket, please read this section of the manual carefully and also 
+Chapter 5. Resolving Problems. By following these steps, you will provide us with 
+the information we need to efficiently resolve your issue. Opening a support ticket 
+without this information will delay the processing of your support request. 
+
+
+Please describe the problem as clearly as possible. If possible, include the exact error 
+message. In many cases, a seemingly insignificant error message will make it possible 
+to resolve your issue. 
+
+
+The most important thing we need from you is the file instlog.zip which is created by 
+the eComStation installer, even if the installation process is interrupted. The file 
+instlog.zip contains all the choices you made during installation of eComStation 2.0 and 
+logs important information about your drive layout and what hardware is on your 
+system. Find the file \VAR\LOG\INSTLOG.ZIP on your boot drive and include it 
+along with those noted below when seeking support. 
+
+
+If possible, please also attach the files: 
+
+
+\CONFIG.SYS 
+\popuplog.os2 
+
+
+The files will be on your boot drive, if they exist. Also include 
+
+
+40 
+
+
+\IBMCOM\LANTRAN.LOG 
+\IBMCOM\protocol.ini 
+\IBMLAN\IBMLAN.INI 
+
+
+These files will usually be one your boot drive, but may be on some other drive if you 
+installed the corresponding components to an alternate drive. 
+
+
+Use the following terminology in your ticket as this will make it easier to understand 
+when you are experiencing problems using eComStation: 
+
+
+CD boot problem - refers to the boot from eComStation CD #1 into the graphical 
+installer where you can define your disk partitions and programs you want to install. 
+
+
+Phase 1 install problem - use this phrase if the first portion of the installation of 
+eComStation terminates/hangs while the system is still booted from CD #1 and copying 
+files to hard disk. 
+
+
+Phase 1 reboot problem — use this phrase to describe problems that occur when 
+booting from the hard disk after the installer has completed copying the core files to the 
+hard disk. This boot phase will display device driver names as they are loading and 
+after the device drivers are loaded, will continue with the next phase of the installation. 
+
+
+Phase 2 installation problem — use this phrase to describe crashes, hangs or other 
+problems that occur after the core files have been copied to disk and the system has 
+successfully rebooted from hard disk for the first time and the graphical installer has 
+restarted. When the graphical installer restarts, it will display the progress slider and the 
+elapsed time counter. Depending on the speed of your system, this installation phase 
+should take no more than 40 minutes. If it takes longer, you probably have an 
+installation hang that needs to be resolved. 
+
+
+Installed System problem - use this phrase if your system is installed completely and 
+you are experiencing stability issues or application issues. If you have made any 
+modifications since the initial installation completed, please report what you have 
+modified. 
+
+
+Please also refer to the chapter titled 4. What Hardware is Supported by 
+eComStation 2.0. It might help resolve problems you might have after configuring 
+
+
+ACPI, enabling USB support or adding a sound driver. 
+
+
+When a support ticket is opened, we will try to respond within 2 business days. 
+Response time may longer if extensive research is required. 
+
+
+41 
+
+
+Once your system is installed, you will find all support documents conveniently located 
+in the help center folder. Open this folder from Local System >Help Center. 
+
+
+
+
+
+pp LITT eo 
+Folder Edit View Selected Help 
+
+
+
+
+
+
+
+
+
+
+
+J [1 $8) Help Center 
+
+[=] SÌ Information 
+
+[=] $$ Enhanced User Interface 
+eStyler User's Guide 
+[+] Sì IBM Convenience Package 
+[=] Si Networking 
+
+[+] $$) File and Print Services 
+[+] SÌ Tcryip 
+
+[+] SÌ Product Notes 
+
+[+] Sì Program Development 
+
+& Information fromthe Internet 
+[=] SÌ Troubleshooting 
+
+[+] SÌ Trace Facilities 
+Serviceability and Troubleshooting Guide 
+@ Online Support 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i argani 
+Folder Edit View Selected Help 
+
+
+on Command Prompts Ea + abs 
+È Drives Là Printers 
+È) Help Center pT Startup 
+Là Install Remove 5) System Setup 
+
+
+= 
+
+
+BS objects Obytes ti 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tools on CD #2: 
+
+
+. Recovery and System Tools 
+. Documentation for the Graham Utilities 
+. Filesystem and Recovery tools. 
+
+
+. \bontrial\trial\grahutil\graham20.inf 
+
+
+Please note that the Graham Utilities can be run directly from CD to provide 
+maintenance functions on your system. 
+
+
+Community support 
+
+
+Community support can be found by pointing your newsreader to 
+news://news.ecomstation.com/. 
+
+
+You can also access the news server with a web browser by going to: 
+
+
+http://news.ecomstation.com/ 
+
+
+42 
+
+
+5.2 Resolving Problems 
+
+
+If you are having problems installing eComStation 2.0 and your system hangs during 
+one of the boots, do the following; 
+
+
+When eComStation boots you will see a little white blob that says "eCS" in the upper 
+left corner of your screen. When this blob displays you can: 
+
+
+Press the key combination ALT-F2. This will display the name of each driver as 
+it loads. 
+
+If you are an advanced user, you can try pressing ALT-F4. This will allow you 
+to select which drivers to load. 
+
+
+Knowing exactly which driver hangs can often be extremely helpful in determining 
+what needs to be done to resolve the hang. 
+
+
+When booting from CD #1, you can also use the Pre-boot menu (described earlier in 
+this Quickguide) and on the BOOT OPTIONS Miscellaneous page, toggle on the Edit 
+CONFIG.SYS option. When you check this option, you will be able to edit the 
+config.sys that the Pre-boot menu will use to boot from CD-ROM. 
+
+
+5.3 General FAQ 
+
+
+Some problems are not specific to eComStation 2.0. They are what we would call 
+generic problems. Please review the following section if you have not yet identified any 
+specific hardware problems. 
+
+
+Q: I boot from CD-ROM to install eComStation and my system seems to “hang”. 
+
+
+A: On some systems, the USB drivers can take longer to initialize. When you start your 
+eComStation system with the ALT-F2 and see the system “hanging” on the last device 
+driver displayed, this may not be an error loading the last device driver. It could be an 
+error switching eComStation into full protected mode operation. See the section that 
+discusses ACPI configuration for troubleshooting hints. 
+
+
+Q: My machine locked up during installation or the install process stopped. How can I 
+restart the installation? 
+
+
+A: Try the following. On your hard disk, go to the directory \ECS\INSTALL\RSP\ and 
+start RESUME.CMD. This may not always solve the problem. 
+
+
+43 
+
+
+Q: My system hangs when booting from a hard disk and I use a bootable JFS volume. I 
+see on the screen CHKDSK process with a message indicating it can not continue. 
+What can I do? 
+
+
+A: Boot from eCS 2.0 CD #1. (If you get any warning from the DiskChecker, bypass 
+this with the key CTRL-C). When the installer has started, press the SHIFT-F3 and 
+type in the command “CHKDSK X: /F” where X: is the drive letter of your boot 
+volume. 
+
+
+Q: I set the JFS cache size with the option /CACHE: in the config.sys to 512,000 KiB. 
+Why is my system unstable? 
+
+
+A: We recommend that you limit the JFS cache to a maximum of 128,000 KiB 
+depending on the amount of RAM that you have installed. 
+
+
+Q: I'm trying to run a DOS application and it does not work. It gives an error when I try 
+open a file from the DOS application or the application will not even start. What is 
+wrong? 
+
+
+A: There is a bug in the JFS file system that causes some old DOS applications not to 
+work properly. We recommend that you create an HPFS partition with MiniLVM and 
+install the application to the HPFS partition. 
+
+
+Q: I'm certain my system works with APM.SYS to provide suspend and resume, but it 
+was not installed. How can I resolve this? 
+
+
+A: The APM files are installed to your hard disk by default. If you are certain that your 
+system supports APM, add the following lines to your config.sys: 
+
+
+DEVICE=X:\OS2\BOOT\APM.SYS 
+DEVICE=X:\OS2\MDOS\VAPM.SYS 
+RUN=X:\0S2\APMDAEMN.EXE 
+
+(where X is the drive letter of your boot drive) 
+
+
+44 
+
+
+Q: I installed the IPX protocol to support a legacy Netware environment. Do I need to 
+add anything on my Netware install? 
+
+
+A: You need to add a file called "net.cfg" to the root directory of your boot drive with 
+the following content: 
+
+
+NETWARE REQUESTER 
+
+PREFERRED TREE "DIX_HILLS" 
+
+CACHE BUFFERS 30 
+
+PACKET BURST OFF 
+
+LARGE INTERNET PACKETS NEGOTIATED 
+
+NAME CONTEXT "NEW_YORK.RR" 
+
+The keyword "PREFERRED TREE" is used if you use an NDIS Netware environment. 
+If you use bindery only mode, replace the keyword "PREFERRED TREE" by 
+"PREFERRED SERVER". 
+
+
+Q: I installed the IPX protocol to support a legacy Netware environment. I get a TRAP 
+during the installation of eComStation in the module "RTSND." How can I fix this? 
+
+
+A: Do not use a Realtek 8139 network card with the IPX/Netware client. 
+
+
+Q: I have an IBM XSeries 345 server. When I boot from eComStation CD #1, I get a 
+black screen trap in the module "RESOURCE". What do I do? 
+
+
+A: Boot from eComStation CD #1, again. In the Pre-boot menu, select Legacy 
+hardware from the menu option Target hardware. 
+
+
+Q: I migrated a previous installation of OS/2/eComStation to eComStation 2.0. On 
+volumes other than the install volume, folders sometimes do not open when I double- 
+click on them. How do I fix this? 
+
+
+A: This occurs if you have been using the XWorkplace Split View folders feature for 
+these volumes in your previous eCS installation. Out of the box, eWorkplace does not 
+support the Split View folders; only XWorkplace supports them. To solve this problem, 
+open the settings notebook of the specific volumes and go to the Menu tab and change 
+the "Open As" properties of the volume to "Icon View". Sub-folders will automatically 
+inherit the "Open As" behavior from the parent. 
+
+
+45 
+
+
+6. License Agreement/Trademarks/Acknowledgments 
+
+
+6.1 eComStation 2.0 End User License Agreement 
+
+
+READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT 
+CAREFULLY BEFORE INSTALLING AND USING THIS COMPUTER 
+SOFTWARE AND THE ACCOMPANYING USER DOCUMENTATION (THE 
+"PROGRAM"). THE PROGRAM IS COPYRIGHTED AND LICENSED (NOT 
+SOLD). BY INSTALLING THE PACKAGE CONTAINING THE PROGRAM, YOU 
+ARE ACCEPTING AND AGREEING TO THE TERMS OF THIS LICENSE 
+AGREEMENT. IF YOU ARE NOT WILLING TO BE BOUND BY THE TERMS OF 
+THIS LICENSE AGREEMENT, YOU SHOULD PROMPTLY RETURN THE 
+PACKAGE TO THE PLACE OF PURCHASE TO ARRANGE FOR A REFUND OF 
+YOUR PURCHASE. THIS LICENSE AGREEMENT REPRESENTS THE ENTIRE 
+AGREEMENT CONCERNING THE PROGRAM BETWEEN YOU AND Mensys 
+B.V. AND IT SUPERSEDES ANY PRIOR PROPOSAL, REPRESENTATION OR 
+UNDERSTANDING BETWEEN THE PARTIES. NOTE: IF YOU ARE USING A 
+PREVIEW COPY OF THIS SOFTWARE, YOU ARE REQUIRED TO INSTALL THE 
+GENERALLY RELEASED PRODUCT. AT THAT TIME, NO FURTHER USE OF 
+THE PREVIEW SOFTWARE IS AUTHORIZED. 
+
+
+Product versions: 
+
+
+The following eComStation 2.0 versions are available: 
+
+eComStation 2.0 Home & Student 
+
+eComStation 2.0 Business Edition 
+
+eComStation 2.0 Server Edition 
+The Home & Student version can be used by any private or small office user. As a 
+private or small office user, you are allowed to have up to 5 licenses installed for 
+production usage. If you need to install more than 5 licenses, you are required to 
+purchase the Business Edition. 
+
+
+License Grant: 
+
+
+Licensor hereby grants to you, and you accept, a nonexclusive license to use the 
+Program and the computer programs contained therein in machine readable, object code 
+form only (collectively referred to as the "Software", see Information About Your 
+Software, later on this document) and the accompanying User Documentation, only as 
+authorized in this License Agreement. A license for each copy of eComStation is 
+required for each computer owned, leased, or otherwise controlled by you; or in the 
+
+
+46 
+
+
+event of the inoperability of that computer, on a backup computer selected by you. 
+Neither concurrent use on two or more computers nor use in a local area network or 
+other network is permitted without separate authorization and the payment of other 
+license fees. 
+
+
+In addition to your primary computer, eComStation may be stored on secondary 
+machine, such as a home or portable computer, provided that eComStation is not in 
+active use on both machines at the same time. This would expressly prohibit running 
+VNC eComStation on the primary computer from the secondary machine, a home or 
+portable computer. You agree that you will not assign, sublicense, transfer, pledge, 
+lease, rent, or share your rights under this License Agreement without permission from 
+Mensys B.V. You agree that you may not reverse assemble, reverse compile, or 
+otherwise translate the Software. 
+
+
+A program is considered in use when it resides in memory or is otherwise stored in the 
+machine. A program stored on a network server solely for the purpose of being 
+distributed to other machines is not considered to be in use, but your use may not exceed 
+the total number of users authorized. You may transfer all your rights and obligations 
+under this license to another party. To transfer such rights and obligations, you must 
+transfer an unaltered copy of this license agreement. 
+
+
+Upon loading the Software into your computer, you may retain the Program Media for 
+backup purposes. In addition, you may make one copy of the Software on a second set 
+of media for the purpose of backup in the event the Program media is damaged or 
+destroyed. You may make one copy of the User's Manual for backup purposes. Any 
+such copies of the Software or the User's Manual shall include Licensor's copyright and 
+other proprietary notices. Except as authorized under this paragraph, no copies of the 
+Program or any portions thereof may be made by you or any person under your 
+authority or control. 
+
+
+Licensor's Rights: 
+
+
+You acknowledge and agree that the Software and the User's Manual are proprietary 
+products of Licensor protected under European Union copyright law and other countries 
+as appropriate. You further acknowledge and agree that all rights, title and interest in 
+and to the Program, including associated intellectual property rights, are and shall 
+remain with Licensor. This License Agreement does not convey to you an interest in or 
+to the Program, but only a limited right of use revocable in accordance with the terms of 
+this "License Agreement." 
+
+
+47 
+
+
+License Fees: 
+
+
+The license fees paid by you are paid in consideration of the licenses granted under this 
+License Agreement. Payments must be made to Mensys B.V., or designated distributors 
+and resellers from whom you acquired eComStation. You agree to notify Mensys B.V., 
+or its distributors or resellers and pay any applicable charges if you change the number 
+of users. 
+
+
+Term: 
+
+
+This License Agreement is effective upon your installation and use of this package and 
+shall continue until terminated. You may terminate this License Agreement at any time 
+by returning the Program and all copies thereof, save one copy which may be kept for 
+your archive and extracts therefrom to Licensor. Licensor may terminate this License 
+Agreement upon the breach by you of any term hereof. Upon such termination by 
+Licensor, you agree to return to Licensor the Program and all copies and portions 
+thereof. 
+
+
+Limited Warranty: 
+
+
+Licensor warrants, for your benefit alone, for a period of 90 days from the date of 
+commencement of this License Agreement (referred to as the "Warranty Period") that 
+the Program media in which the Software is contained are free from defects in material 
+and workmanship. Licensor further warrants, for your benefit alone, that during the 
+Warranty Period the Program shall operate substantially in accordance with the 
+functional specifications in the User's Manual. Mensys B.V. does not warrant 
+uninterrupted or error-free operation of eComStation. 
+
+
+If during the Warranty Period, a defect in the Program appears, you may return the 
+Program to your distributor for either replacement or, if so elected by distributor, refund 
+of amounts paid by you under this License Agreement. You agree that the foregoing 
+constitutes your sole and exclusive remedy for breach by Licensor of any warranties 
+made under this Agreement. 
+
+
+EXCEPT FOR THE WARRANTIES SET FORTH ABOVE, THE PROGRAM AND 
+THE SOFTWARE CONTAINED THEREIN, ARE LICENSED "AS IS," AND 
+LICENSOR DISCLAIMS ANY AND ALL OTHER WARRANTIES, WHETHER 
+EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED 
+WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR 
+PURPOSE. 
+
+
+48 
+
+
+Limitation of Liability: 
+
+
+Licensor's cumulative liability to you or any other party for any loss or damages 
+resulting from any claims, demands, or actions arising out of or relating to this 
+Agreement shall not exceed the license fee paid to Licensor for the use of the Program. 
+In no event shall Licensor be liable for any indirect, incidental, consequential, special, 
+or exemplary damages or lost profits, even if Licensor has been advised of the 
+possibility of such damages. THE LIMITATION OR EXCLUSION OF LIABILITY 
+FOR INCIDENTAL OR CONSEQUENTIALDAMAGES, MAY BE CONTROLLED 
+BY LOCAL REGULATION, SO THE ABOVE LIMITATION OR EXCLUSION 
+MAY NOT APPLY TO YOU. 
+
+
+Trademark: 
+
+eComStation, eComServer are trademarks of Licensor. No right, license, or interest to 
+such trademark is granted hereunder and you agree that no such right, license, or 
+interest shall be asserted by you with respect to such trademark. 
+
+
+Governing Law: 
+
+
+This License Agreement shall be construed and governed in accordance with the laws of 
+the applicable jurisdiction. 
+
+
+Costs of Litigation: 
+
+If any action is brought by either party to this License Agreement against the other party 
+regarding the subject matter hereof, the prevailing party shall be entitled to recover, in 
+addition to any other relief granted, reasonable attorney fees and expenses of litigation, 
+as appropriate under applicable jurisdiction. 
+
+Severability: 
+
+Should any term of this License Agreement be declared void or unenforceable by any 
+court of competent jurisdiction, such declaration shall have no effect on the remaining 
+terms hereof. 
+
+No Waiver: 
+
+The failure of either party to enforce any rights granted hereunder or to take action 
+against the other party in the event of any breach hereunder shall not be deemed a 
+
+
+waiver by that party as to subsequent enforcement of rights or subsequent actions in the 
+
+
+49 
+
+
+event of future breaches. 
+Information About Your Software: 
+eComStation 2.0 includes a license to use the following products with eComStation: 
+
+
+IBM OS/2 Warp V4, IBM Product Number 31L0480M 
+
+Note: eComStation upgrade product users are required to supply their own valid 
+license for OS/2 V4 
+
+IBM OS/2 Warp Convenience Pak, IBM Product Number AS6YSNA 
+
+eWP - an OEM version of XWorkplace 
+
+eCSCoNet - an OEM version of ISDNPM 
+
+
+Third Party Work: 
+
+
+eComStation contains driver(s) and application(s) belonging to a Third Party, 
+hereinafter referred to as Third Party Work (TPW). TPW is licensed to Mensys B.V. for 
+distribution with eComStation from the following companies and or persons (hereinafter 
+referred to as the licensor): 
+
+
+3Com Corporation 
+
+Abbotsbury Software Ltd. 
+
+Artem GmbH 
+
+AVM GmbH for International Communications Technology 
+Analog Devices 
+
+Broadcom 
+
+Creative Technology Ltd. 
+
+Cirrus Logic Inc. 
+
+Christian Langanke (Internet Assistant). 
+
+DAWICONTROL Computersysteme GmbH 
+
+Eicon Networks Corporation 
+
+Elsa AG 
+
+HST High Soft Tech Gesellschaft fur Telekommunikation GmbH 
+Intel 
+
+Mainconcept 
+
+Marvell Yukon (also covers:Syskonnect(Schneider & Koch) and Galileo 
+Technology Ltd) 
+
+Ralink 
+
+Realtek 
+
+Teles AG TCS 
+
+Network card drivers from Yanagihara Nobuyuki (GOMI NDIS drivers) 
+
+
+50 
+
+
+In accordance with the agreements with HST, and Eicon, we must inform you that: 
+
+
+The HST and Eicon ISDN drivers you receive with eComStation may 
+not be installed on systems without a valid eComStation license. 
+
+
+In accordance with the agreement with Creative Technology Ltd., we must inform you 
+
+that: 
+The supplied SB 16 and SB AWE 32/64 may only be used with Creative 
+products. All copyrights, patents, trademarks belong to the respective 
+licensor(s) of the TPW. The TPW is provided on an "AS IS" basis. No 
+warranty of any kind is offered, and no claim of suitability for use on any 
+system should be assumed. None of the drivers that come with 
+eComStation can be redistributed, and may not be uploaded to FTP 
+servers. 
+
+
+eComStation 2.0 contains the Doodle Screen Saver. 
+
+
+This software has been tested and found stable. However this screen saver should not be 
+used on mission critical systems such as MEDICAL, NUCLEAR, AVIATION, 
+NAVIGATION, MILITARY, OR OTHER HIGH RISK APPLICATIONS. 
+
+
+The screen saver displays animations. These animations may contain certain flashing 
+lights and/or light patterns. A very small percentage of people may experience epileptic 
+seizures when exposed to certain patterns or backgrounds. Certain conditions can trigger 
+previously unnoticed epileptic symptoms even with people who have no history of prior 
+seizures or epilepsy. If any of the people for who this computer is accessible and/or 
+visible and has an epileptic condition, consult your physician prior to using the screen 
+saver. 
+
+
+If you experience any of the following symptoms (after or while looking at the screen 
+saver) - dizziness, eye and/or muscle twitches, altered vision, loss of awareness, being 
+disorientated, or convulsions - IMMEDIATELY switch off the Doodle screen saver and 
+consult your physician. 
+eComStation 2.0 contains Quickmotion 2.0 and the Anpo video codecs. 
+In accordance with the agreement with Andreas Portelo, we must inform you that: 
+
+The Quickmotion 2.0 binaries have been licensed from Andreas Portelo 
+
+by Mensys B.V. for inclusion with eComStation. These Quickmotion 
+
+
+binaries that come with eComStation may only be used on systems with 
+
+
+51 
+
+
+a valid eComStation 2.0 license (or higher). This product is covered by 
+the Mensys B.V. End User License Agreement. This software is 
+Copyright (c) Andreas Portelo. Support is not provided by Andreas 
+Portelo to customers. For support issues customers must contact 
+
+
+http://www.ecomstation.com/support. 
+
+
+eComStation 2.0 contains network card drivers from Intel: 
+Usage of these drivers is under the following conditions: 
+
+
+This Software is licensed for use only in conjunction with Intel component products. 
+Use of the Software in conjunction with non-Intel component products is not licensed 
+hereunder. You may not reverse engineer, decompile, or disassemble the Software. 
+
+
+NO OTHER RIGHTS. No rights or licenses are granted by Intel to You, expressly 
+
+or by implication, with respect to any proprietary information or patent, copyright, 
+mask work, trademark, trade secret, or other intellectual property right owned or 
+controlled by Intel, except as expressly provided in this Agreement. 
+
+
+OWNERSHIP OF SOFTWARE AND COPYRIGHTS. Title to all copies of the 
+Software remains with Intel or its suppliers. The Software is copyrighted and 
+protected by the laws of the United States and other countries, and international treaty 
+provisions. You may not remove any copyright notices from the Software. Intel may 
+make changes to the Software, or to items referenced therein, at any time without notice, 
+but is not obligated to support or update the Software. Except as otherwise expressly 
+provided, Intel grants no express or implied right under Intel patents, copyrights, 
+trademarks, or other intellectual property rights. You may transfer the Software only if 
+the recipient agrees to be fully bound by these terms and if you retain no copies of the 
+Software. 
+
+
+EXCLUSION OF OTHER WARRANTIES. EXCEPT AS PROVIDED ABOVE, THE 
+SOFTWARE IS PROVIDED “AS IS” WITHOUT ANY EXPRESS OR IMPLIED 
+WARRANTY OF ANY KIND INCLUDING WARRANTIES OF 
+MERCHANTABILITY, NONINFRINGEMENT, OR FITNESS FOR A 
+PARTICULAR PURPOSE. 
+
+
+Intel does not warrant or assume responsibility for the accuracy or completeness of any 
+information, text, graphics, links or other items contained within the Software. 
+
+LIMITATION OF LIABILITY. IN NO EVENT SHALL INTEL OR ITS SUPPLIERS 
+BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT 
+LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION, OR LOST 
+
+
+52 
+
+
+INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE 
+SOFTWARE, EVEN IF INTEL HAS BEEN ADVISED OF THE POSSIBILITY OF 
+SUCH DAMAGES. SOME JURISDICTIONS PROHIBIT EXCLUSION OR 
+LIMITATION OF LIABILITY FOR IMPLIED WARRANTIES OR 
+CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE 
+LIMITATION MAY NOT APPLY TO YOU. YOU MAY ALSO HAVE OTHER 
+LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION. 
+
+
+eComStation contains Network drivers from Ralink: 
+
+
+RALINK SOFTWARE END USER LICENSE AGREEMENT 
+Copyright (C) RALINK TECHNOLOGY, CORP. All Rights Reserved. 
+SOFTWARE PRODUCT LICENSE 
+
+
+The SOFTWARE PRODUCT is protected by copyright laws and international 
+copyright treaties, as well as other intellectual property laws and treaties. The 
+SOFTWARE PRODUCT is licensed, not sold. 
+
+
+1.GRANT OF LICENSE. 
+This End-User License Agreement grants you the following rights: 
+
+
+(1)Installation and Use. You may install and use an unlimited number of copies of the 
+SOFTWARE PRODUCT. (2)Reproduction and Distribution. You may reproduce and 
+distribute an unlimited number of copies of the SOFTWARE PRODUCT; provided that 
+each copy shall be a true and complete copy, including all copyright and trademark 
+notices, and shall be accompanied by a copy of this EULA. Copies of the SOFTWARE 
+PRODUCT may be distributed as a standalone product or included with your own 
+product. 
+
+
+2.DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS. 
+
+Limitations on Reverse Engineering, Decompilation, and Disassembly. You may not 
+reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and 
+only to the extent that such activity is expressly permitted by applicable law 
+notwithstanding this limitation. Hardware Requirements: You must have a RALINK 
+
+
+Wireless product. 
+
+
+The Ralink Drivers are provided with eComStation on an AS-IS basis 
+
+
+53 
+
+
+eComStation 2.0 contains network card drivers from Marvell Yukon: 
+
+
+The Proprietary Deliverables are proprietary to Marvell and Mensys B.V. Subject to 
+Mensys B.V. compliance with the terms and conditions of this agreement, Marvell 
+hereby grants Mensys B.V., during the term of this Agreement, a worldwide, non- 
+transferable, non-exclusive, revocable, royalty-free limited license to (i) use and 
+reproduce the Proprietary Deliverables solely for development of Mensys B.V. and/or 
+Mensys B.V.; and (ii) reproduce, have reproduced, display, perform, transmit, license, 
+import, export, rent, lease and distribute through multiple tiers of distribution the 
+Proprietary Deliverables, in binary or executable form, solely as incorporated into 
+Mensys B.V. Product and/or Mensys B.V. Software or distributed solely for use with 
+Mensys B.V. Products. No license is granted in any human readable (source) code of the 
+Marvell network card drivers. The Marvell Drivers are provided with eComStation on 
+an AS-IS basis. All rights remain owned by Marvell. 
+
+
+eComStation 2.0 contains the MMIO FLAC codec (multimedia): 
+
+
+Copyright 2001-2003 by Josh Coalson and Russell O'Connor. This library is free 
+software; you can redistribute it and/or modify it under the terms of the GNU Lesser 
+General Public License as published by the Free Software Foundation; either version 2.1 
+of the License, or (at your option) any later version. This library is distributed in the 
+hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+PURPOSE. See the it under the terms of the GNU Lesser General Public License for 
+more details. 
+
+
+eComStation 2.0 contains the MMIO OGG Vorbis codec (multimedia): 
+
+
+This program is Copyright 2001-2003 by Xiphophorus and Russell O'Connor. 
+Redistribution and use in source and binary forms, with or without modification, are 
+permitted provided that the following conditions are met: 
+
+
+Redistributions of source code must retain the above copyright notice, this list of 
+conditions and the following disclaimer. Redistributions in binary form must reproduce 
+the above copyright notice, this list of conditions and the following disclaimer in the 
+documentation and/or other materials provided with the distribution. Neither the name 
+of the Xiphophorus nor the names of its contributors may be used to endorse or promote 
+products derived from this software without specific prior written permission. 
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND 
+CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+
+
+54 
+
+
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS 
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+CAUSED AND ON AN THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+
+The full source code of the the two above codecs can be downloaded from: 
+
+
+http://math.berkeley.edu/~roconnor/MMAudioPak/ 
+eComStation contains components of the Netscape 4.61 plugin pack. 
+
+
+The components covered by this are the OpenMPEG codec in MMeCS and the browser 
+plugins. These components are not supported by IBM. 
+
+
+55 
+
+
+6.2.Trademarks 
+
+
+The following terms, are trademarks of Mensys B.V. in the United States, or other 
+countries, or both: Managed Client, eComStation, eCS 
+
+
+The following terms, are registered trademarks of International Business Machines 
+Corporation in the United States, or other countries, or both: 
+IBM, LAN Distance, OS/2, WebSphere, WIN-OS/2, Micro Channel, ServeRAID 
+
+
+The following terms are trademarks of other companies: 
+
+Approach, Freelance Graphics, Lotus, Lotus Notes, Lotus Organizer, Lotus SmartSuite, 
+and WordPro are trademarks of Lotus Development Corporation in the United States, 
+other countries, or both. Tivoli is a trademark of Tivoli Systems Inc. in the United 
+States, other countries, or both. 
+
+
+Java and all Java-based trademarks and logos are trademarks of Sun Microsystems, Inc. 
+in the United States, other countries, or both. 
+
+
+Microsoft, Windows, Windows NT, Windows XP,Vista,7 and the Windows logo are 
+trademarks of Microsoft Corporation in the United States, other countries, or both. 
+
+
+Other company, product, and service names may be trademarks or service marks 
+of others. 
+
+
+6.3 Acknowledgments 
+
+
+Abbotsbury Software has been so kind to license their Hauppage drivers so these could 
+be included with eComStation. These drivers allow the use of Hauppage TV boards to 
+function under eComStation. For any commercial request regarding these drivers, please 
+contact: 
+
+Abbotsbury Software Ltd. 
+
+(+44)-(0)1305-871543 
+
+
+web: http://www.abbotsbury.com 
+
+
+MainConcept GmbH has been so kind to license their OS/2 MJPEG codec for inclusion 
+with eComStation. For more info on MainConcept, please have a look on the following 
+
+
+web address: http://www.mainconcept.de 
+
+
+rev 1.1 
+© 2010, Mensys B.V. Printed in the Netherlands 
+
+
+56 
+
+
